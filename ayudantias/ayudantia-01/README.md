@@ -2,6 +2,8 @@
 
 jueves 11 agosto 2022, presencial
 
+repaso matemática y semestre pasado
+
 ## ejercicio-01
 
 a) encontrar la ecuación de la recta $L_1: y = mx + b$ que pasa por los puntos $P_1: (0, -2)$ y $P_2: (5,  0)$.
@@ -30,9 +32,15 @@ $$ E_3: m = \frac{2}{5}$$
 
 con lo que la ecuación de la recta $L_1$ resulta:
 
-$$ L_1: \frac{2}{5}x - 2$$
+$$ L_1: y = \frac{2}{5}x - 2$$
 
 b)
+
+tenemos las dos ecuaciones de las rectas $L_1$ y $L_2$:
+
+$$ L_1: y = \frac{2}{5}x - 2 \brack L_2: y = \frac{-11}{35}x + 3 $$
+
+y estamos buscando el punto $(x_i, y_i)$ de intersección entre ambas.
 
 # ejercicio-02
 
