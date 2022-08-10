@@ -28,6 +28,10 @@ y despejando x:
 
 $$ E_3: x = 2/5$$
 
+con lo que la ecuación de la recta $L_1$ resulta:
+
+$$ L_1: 2/5x - 2$$
+
 $$
 \eqalign{
     5x + 4y = 3 \\
