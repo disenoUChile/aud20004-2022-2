@@ -68,6 +68,52 @@ y simplificando:
 
 $$E6: y_i = \frac{4}{5}$$
 
-# ejercicio-02
+con esto, tenemos el resultado de que el punto de intersección es $(7, \frac{4}{5}).$
 
-dada esta ecuación de recta:
+## ejercicio-02
+
+cuántos litros de agua caben en un cubo de 2m de lado?
+
+## solución ejercicio-02
+
+un cubo de 2m de lado, tiene el siguiente volumen:
+
+$$V = 2m * 2m * 2m = 8 m^3$$
+
+sabemos que un litro de agua es igual a 1 decímetro cúbico $(1 (dm)^3)$, donde el prefijo d significa "deci", equivalente a la décima parte. un litro de agua ocupa un volumen de 1 decímetro cúbico.
+
+otros prefijos que usaremos en esta clase incluyen:
+
+$$
+G = giga = 10^9 \\
+M = mega = 10^6 \\
+k = kilo = 10^3 \\
+d = deci = 10^(-1) \\
+c = centi = 10^(-2) \\
+m = mili = 10^(-3) \\
+m = mili = 10^(-3) \\
+\mu = micro = 10^(-6) \\
+n = nano = 10^(-9)
+$$
+
+si dividimos el volumen $V$ de 8 metros cúbicos por un litro, podemos saber x, cuántos litros caben en él, desarrollemos:
+
+$$E1: x = \frac{V_(cubo de 2m de lado)}{1 litro}$$
+
+$$E1: x = \frac{8 m^3}{1 dm^3}$$
+
+$$E1: x = \frac{8 m^3}{1 (\frac{1}{10}m)^3}$$
+
+$$E1: x = \frac{8 m^3}{1 \frac{1}{1000} m^3}$$
+
+ahora podemos simplificar las unidades:
+
+$$E1: x = \frac{8}{1 \frac{1}{1000}}$$
+
+y si simplificamos:
+
+$$E1: x = 8000$$
+
+y con esto, sabemos que la respuesta es 8 mil litros.
+
+## ejercicio-03
