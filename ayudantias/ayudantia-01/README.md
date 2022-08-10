@@ -4,7 +4,7 @@ jueves 11 agosto 2022, presencial
 
 # ejercicio-01
 
-encontrar la ecuación de la recta $(y = mx + b)$ que pasa por los puntos
+encontrar la ecuación de la recta $(y = mx + b)$ que pasa por los puntos $(0, -2)$ y $(5,  0)$.
 
 $$
 \eqalign{
