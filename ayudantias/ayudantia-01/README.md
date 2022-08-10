@@ -7,8 +7,10 @@ jueves 11 agosto 2022, presencial
 encontrar la ecuación de la recta que pasa por los puntos
 
 $$
-(0, -2) \\
-(5, 0)
+\eqalign{
+    (0, -2) \\
+    (5, 0)
+    }
 $$
 
 $$ 5x + 4y = 3 $$
