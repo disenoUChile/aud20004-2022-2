@@ -6,6 +6,19 @@ jueves 11 agosto 2022, presencial
 
 $$ 5x + 4y = 3 $$
 
+$$ 5x + 4y = 3 \brack 3x + 2y = 3 $$
+
 $$ f(x) = x^2 + 3x +2 $$
 
-$$ $$
+$$ \eq{5x + 4y = 3} $$
+
+$$
+\eqalign{
+    5x + 4y = 3
+    x + 4y = 4
+    }
+$$
+
+# ejercicio-02
+
+dada esta ecuación de recta:
