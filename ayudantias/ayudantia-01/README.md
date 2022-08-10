@@ -2,20 +2,17 @@
 
 jueves 11 agosto 2022, presencial
 
-# ejercicio-01
+## ejercicio-01
 
-encontrar la ecuación de la recta $(y = mx + b)$ que pasa por los puntos $(0, -2)$ y $(5,  0)$.
+a) encontrar la ecuación de la recta $L1: (y = mx + b)$ que pasa por los puntos $P1: (0, -2)$ y $P_2: (5,  0)$.
 
-$$
-\eqalign{
-    (0, -2) \\
-    (5,  0)
-    }
-$$
+b) encontrar el punto de intersección entre la recta anterior y la recta $(y = mx + b)$
 
-$$ 5x + 4y = 3 $$
+solución:
 
-$$ 5x + 4y = 3 \brack 3x + 2y = 3 $$
+a)
+
+tomamos la ecuación $L1: (y = mx + b)$ y reemplazamos con
 
 $$ f(x) = x^2 + 3x +2 $$
 
