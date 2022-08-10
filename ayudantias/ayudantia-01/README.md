@@ -4,6 +4,13 @@ jueves 11 agosto 2022, presencial
 
 # ejercicio-01
 
+encontrar la ecuación de la recta que pasa por los puntos
+
+$$
+(0, -2) \\
+(5, 0)
+$$
+
 $$ 5x + 4y = 3 $$
 
 $$ 5x + 4y = 3 \brack 3x + 2y = 3 $$
