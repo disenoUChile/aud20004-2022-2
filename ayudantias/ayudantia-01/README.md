@@ -30,7 +30,7 @@ $$ E_3: x = 2/5$$
 
 con lo que la ecuación de la recta $L_1$ resulta:
 
-$$ L_1: 2/5x - 2$$
+$$ L_1: \frac{2}{5}x - 2$$
 
 $$
 \eqalign{
