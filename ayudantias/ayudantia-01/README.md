@@ -40,13 +40,33 @@ tenemos las dos ecuaciones de las rectas $L_1$ y $L_2$:
 
 $$ L_1: y = \frac{2}{5}x - 2 \brack L_2: y = \frac{-11}{35}x + 3 $$
 
-y estamos buscando el punto $(x_i, y_i)$ de intersección entre ambas, y como ese punto pertenece a ambas rectas, podemos escribir $y_i de esta manera$
+y estamos buscando el punto $(x_i, y_i)$ de intersección entre ambas, y como ese punto pertenece a ambas rectas, podemos escribir $y_i$ de esta manera$
 
-$$ E_5: $ y_i = \frac{2}{5}x_i - 2 = \frac{-11}{35}x_i + 3 $$
+$$ E_5: y_i = \frac{2}{5}x_i - 2 = \frac{-11}{35}x_i + 3 $$
 
-y de esta ecuación despejar x_i:
+y de esta ecuación despejar x_i al sumar $\frac{11}{35}x_i + 2$ a ambos lados de la ecuación:
 
-$$ E_5: $ \frac{2}{5}x_i + \frac{11}{35}x_i = 3 + 2 $$
+$$E_5: \frac{2}{5}x_i + \frac{11}{35}x_i = 3 + 2$$
+
+y si multiplicamos a ambos lados por 35:
+
+$$E*5: \frac{2 * 35}{5}x*i + \frac{11 * 35}{35}x_i = 35 (3 + 2)$$
+
+y simplificando:
+
+$$E_5: 14x_i + 11 x_i = 35 (5)$$
+
+y diviviendo por 25:
+
+$$E_5: x_i = 7$$
+
+ahora para encontrar $y_i$ reemplazamos $x_i$ en la recta $L_1$:
+
+$$E6: y_i = \frac{2}{5} 7 - 2$$
+
+y simplificando:
+
+$$E6: y_i = \frac{4}{5}$$
 
 # ejercicio-02
 
