@@ -16,7 +16,17 @@ tomamos la ecuación $L1: y = mx + b$ y reemplazamos con los puntos $P_1$ y $P_2
 
 $$ E_1: -2 = m0 + b \brack E_2: 0 = 5x + b $$
 
-$$ f(x) = x^2 + 3x +2 $$
+y si simplificamos
+
+$$ E_1: b = -2 \brack E_2: 0 = 5x + b $$
+
+de la ecuación $E_1$ sabemos que $b=-2$ y reemplazando en $E_2$:
+
+$$ E3: 0 = 5x + -2 $$
+
+y despejando x:
+
+$$ E_3: x = 2/5$$
 
 $$
 \eqalign{
