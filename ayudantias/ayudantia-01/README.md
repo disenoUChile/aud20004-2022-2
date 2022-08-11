@@ -181,6 +181,8 @@ $$x^2 + y^2 = 15^2 $$
 
 y según esa ecuación también tenemos la noción de que $x_f$ e $y_f$ son menores que 15.
 
+otra noción que tenemos, es que el ángulo es menor que $45^{\circ}$
+
 usemos la relación trigonométrica
 
 $$sin(x) = \frac{cateto opuesto}{hipotenusa}$$
@@ -210,3 +212,5 @@ y resulta en el valor aproximado
 $$x_f \approx  13 $$
 
 con esto, la respuesta es que la posición final es aproximadamente $(13, 7.5)$
+
+y eso cumple con nuestra suposiciones!
