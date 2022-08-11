@@ -127,7 +127,7 @@ $$V_{vaso} = A{base} * altura$$
 
 y queremos que ese volumen sea igual a los 8000 litros de agua, que también podemos expresar como 8 metros cúbicos de agua
 
-$$E2: 8 m^3 = \pi * 25 cm^2 * altura$$
+$$8 m^3 = \pi * 25 cm^2 * altura$$
 
 si despejamos altura
 
@@ -152,3 +152,13 @@ $$altura  \approx 1019 m$$
 la columna de agua y el vaso que la contiene mide un poco más de un kilómetro!
 
 ## ejercicio-03
+
+a) cuáles son los ángulos internos de un triángulo rectángulo con catetos de 1 cm y 1cm?
+
+## solución ejercicio-03
+
+a) sabemos que los ángulos internos de un triángulo miden 180 grados o $\pi$ radianes.
+
+como el ángulo recto mide 90 grados o $\frac{\pi}{2}$ radianes, los otros dos ángulos miden en total también 90 grados o $\frac{\pi}{2}$ radianes.
+
+los ángulos son iguales, así que cada uno mide entonces 45 grados o $\frac{\pi}{4}$ radies.
