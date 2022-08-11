@@ -201,7 +201,7 @@ $$x_f^2 + 7.5^2 = 15^2 $$
 
 despejamos
 
-$$x_f^2 =  = 15^2 - 7.5^2$
+$$x_f^2 =  = 15^2 - 7.5^2$$
 
 tomamos raíz cuadrada a ambos lados
 
