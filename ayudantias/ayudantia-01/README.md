@@ -16,11 +16,11 @@ a)
 
 tomamos la ecuación $L1: y = mx + b$ y reemplazamos con los puntos $P_1$ y $P_2$, obteniendo el sistema de ecuaciones:
 
-$$ E_1: -2 = m0 + b \brack E_2: 0 = 5m + b $$
+$$ E_1: -2 = 0 \cdot m + b \brack E_2: 0 = 5 \cdot m + b $$
 
 y si simplificamos
 
-$$ E_1: b = -2 \brack E_2: 0 = 5m + b $$
+$$ E_1: b = -2 \brack E_2: 0 = 5 \cdot m + b $$
 
 de la ecuación $E_1$ sabemos que $b=-2$ y reemplazando en $E_2$:
 
@@ -50,7 +50,7 @@ $$E_5: \frac{2}{5}x_i + \frac{11}{35}x_i = 3 + 2$$
 
 y si multiplicamos a ambos lados por 35:
 
-$$E*5: \frac{2 * 35}{5}x*i + \frac{11 * 35}{35}x_i = 35 (3 + 2)$$
+$$E*5: \frac{2 \cdot 35}{5} \cdot x_i + \frac{11 \cdot 35}{35}x_i = 35 (3 + 2)$$
 
 y simplificando:
 
@@ -80,7 +80,7 @@ b ) si tenemos un vaso cilíndrico con una base 10 cm de diámetro, qué altura 
 
 a ) un cubo de 2m de lado, tiene el siguiente volumen:
 
-$$V = 2m * 2m * 2m = 8 m^3$$
+$$V = 2m \cdot 2m \cdot 2m = 8 m^3$$
 
 sabemos que un litro de agua es igual a 1 decímetro cúbico $(1 dm^3)$, donde el prefijo d significa "deci", equivalente a la décima parte. un litro de agua ocupa un volumen de 1 decímetro cúbico.
 
@@ -119,27 +119,27 @@ b ) si tenemos un vaso cilíndrico con una base 10 cm de diámetro, qué altura 
 
 si el radio diámetro del vaso es 10 cm, entonces sabemos que el radio es 5 cm, y con eso, el área de la base del vaso es:
 
-$$A_{base} =  \pi * r^2 = \pi * (5 cm)^2 $$
+$$A_{base} =  \pi \cdot r^2 = \pi \cdot (5 cm)^2 $$
 
 el volumen del vaso es
 
-$$V_{vaso} = A{base} * altura$$
+$$V_{vaso} = A{base} \cdot altura$$
 
 y queremos que ese volumen sea igual a los 8000 litros de agua, que también podemos expresar como 8 metros cúbicos de agua
 
-$$8 m^3 = \pi * 25 cm^2 * altura$$
+$$8 m^3 = \pi \cdot 25 cm^2 \cdot altura$$
 
 si despejamos altura
 
-$$altura = \frac{8 m^3}{\pi * 25 * cm^2}$$
+$$altura = \frac{8 m^3}{\pi \cdot 25 \cdot cm^2}$$
 
 convertimos centímetros a metros
 
-$$altura = \frac{8 m^3}{\pi * 25 * (\frac{1}{100} m)^2}$$
+$$altura = \frac{8 m^3}{\pi \cdot 25 \cdot (\frac{1}{100} m)^2}$$
 
 y simplificando
 
-$$altura = \frac{8 * 100^2 m}{\pi * 25}$$
+$$altura = \frac{8 \cdot 100^2 m}{\pi \cdot 25}$$
 
 y llegamos exactamente a:
 
