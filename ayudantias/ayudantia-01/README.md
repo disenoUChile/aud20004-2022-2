@@ -203,10 +203,10 @@ $$x_f^2 =  = 15^2 - 7.5^2$
 
 tomamos raíz cuadrada a ambos lados
 
-$$x_f  = \sqrt(15^2 - 7.5^2)$$
+$$x_f  = \sqrt{15^2 - 7.5^2}$$
 
 y resulta en el valor aproximado
 
 $$x_f \approx  13 $$
 
-con esto, la respuesta es que la posición final es aproximadamente $(7.5, 13)$
+con esto, la respuesta es que la posición final es aproximadamente $(13, 7.5)$
