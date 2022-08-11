@@ -163,4 +163,4 @@ como el ángulo interno recto mide 90 grados o $\frac{\pi}{2}$ radianes, los otr
 
 los ángulos internos son iguales, así que cada uno mide entonces 45 grados o $\frac{\pi}{4}$ radianes.
 
-como una ángulo completo es un ángulo de $360 \deg$ grados o
+como una ángulo completo es un ángulo de $360^{\circ}$ grados o
