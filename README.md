@@ -3,9 +3,9 @@
 ## acerca de
 
 - universidad: Universidad de Chile
-- facultad: Facultad de Arquitectura y Urbanimos
+- facultad: Facultad de Arquitectura y Urbanismo
 - departamento: Departamento de Diseño
-- curso: AUD20004 Física aplicada al Diseño
+- curso: AUD20004 Física aplicada al diseño
 - sección: 02
 - créditos: 03
 - semestre: Segundo semestre 2022
