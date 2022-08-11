@@ -50,7 +50,7 @@ $$E_5: \frac{2}{5}x_i + \frac{11}{35}x_i = 3 + 2$$
 
 y si multiplicamos a ambos lados por 35:
 
-$$E*5: \frac{2 \cdot 35}{5} \cdot x_i + \frac{11 \cdot 35}{35}x_i = 35 (3 + 2)$$
+$$E_5: \frac{2 \cdot 35}{5} x_i + \frac{11 \cdot 35}{35} x_i = 35 (3 + 2)$$
 
 y simplificando:
 
