@@ -193,7 +193,7 @@ $$sin(30^{\circ}) = \frac{y_f}{15}$$
 
 despejando y_f
 
-$$y_f = 15 sin(30^{\circ}) = 15 \frac{1}{2} = 7.5$$
+$$y_f = 15 \cdot sin(30^{\circ}) = 15 \frac{1}{2} = 7.5$$
 
 y con esto, podemos volver al teorema de Pitágoras
 
