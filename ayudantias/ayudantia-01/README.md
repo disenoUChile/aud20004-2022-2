@@ -72,15 +72,17 @@ con esto, tenemos el resultado de que el punto de intersección es $(7, \frac{4}
 
 ## ejercicio-02
 
-cuántos litros de agua caben en un cubo de 2m de lado?
+a ) cuántos litros de agua caben en un cubo de 2m de lado?
+
+b ) si tenemos un vaso cilíndrico con una base 10 cm de diámetro, qué altura tiene que tener ese vaso para poder contener todos esos litros de agua?
 
 ## solución ejercicio-02
 
-un cubo de 2m de lado, tiene el siguiente volumen:
+a ) un cubo de 2m de lado, tiene el siguiente volumen:
 
 $$V = 2m * 2m * 2m = 8 m^3$$
 
-sabemos que un litro de agua es igual a 1 decímetro cúbico $(1 (dm)^3)$, donde el prefijo d significa "deci", equivalente a la décima parte. un litro de agua ocupa un volumen de 1 decímetro cúbico.
+sabemos que un litro de agua es igual a 1 decímetro cúbico $(1 dm^3)$, donde el prefijo d significa "deci", equivalente a la décima parte. un litro de agua ocupa un volumen de 1 decímetro cúbico.
 
 otros prefijos que usaremos en esta clase incluyen:
 
@@ -90,13 +92,12 @@ otros prefijos que usaremos en esta clase incluyen:
 - $d = deci = 10^{-1}$
 - $c = centi = 10^{-2}$
 - $m = mili = 10^{-3}$
-- $m = mili = 10^{-3}$
 - $\mu = micro = 10^{-6}$
 - $n = nano = 10^{-9}$
 
 si dividimos el volumen $V$ de 8 metros cúbicos por un litro, podemos saber x, cuántos litros caben en él, desarrollemos:
 
-$$E1: x = \frac{V_{cubo de 2m de lado}}{1 litro}$$
+$$E1: x = \frac{V_{cubo}}{1 litro}$$
 
 $$E1: x = \frac{8 m^3}{1 dm^3}$$
 
@@ -113,5 +114,41 @@ y si simplificamos:
 $$E1: x = 8000$$
 
 y con esto, sabemos que la respuesta es 8 mil litros.
+
+b ) si tenemos un vaso cilíndrico con una base 10 cm de diámetro, qué altura tiene que tener ese vaso para poder contener todos esos litros de agua?
+
+si el radio diámetro del vaso es 10 cm, entonces sabemos que el radio es 5 cm, y con eso, el área de la base del vaso es:
+
+$$A_{base} =  \pi * r^2 = \pi * (5 cm)^2 $$
+
+el volumen del vaso es
+
+$$V_{vaso} = A{base} * altura$$
+
+y queremos que ese volumen sea igual a los 8000 litros de agua, que también podemos expresar como 8 metros cúbicos de agua
+
+$$E2: 8 m^3 = \pi * 25 cm^2 * altura$$
+
+si despejamos altura
+
+$$altura = \frac{8 m^3}{\pi * 25 * cm^2}$$
+
+convertimos centímetros a metros
+
+$$altura = \frac{8 m^3}{\pi * 25 * (\frac{1}{/100} m)^2}$$
+
+y simplifiando
+
+$$altura = \frac{8 * 100^2 m}{\pi * 25}$$
+
+y llegamos exactamente a:
+
+$$altura = \frac{3200}{\pi} m$$
+
+lo que resulta en aproximadamente
+
+$$altura  \approx 1019 m$$
+
+la columna de agua y el vaso que la contiene mide un poco más de un kilómetro!
 
 ## ejercicio-03
