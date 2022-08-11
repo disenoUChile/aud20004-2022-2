@@ -135,9 +135,9 @@ $$altura = \frac{8 m^3}{\pi * 25 * cm^2}$$
 
 convertimos centímetros a metros
 
-$$altura = \frac{8 m^3}{\pi * 25 * (\frac{1}{/100} m)^2}$$
+$$altura = \frac{8 m^3}{\pi * 25 * (\frac{1}{100} m)^2}$$
 
-y simplifiando
+y simplificando
 
 $$altura = \frac{8 * 100^2 m}{\pi * 25}$$
 
@@ -191,9 +191,9 @@ reemplacemos con nuestros valores
 
 $$sin(30^{\circ}) = \frac{y_f}{15}$$
 
-despejando y_f
+despejando $y_f$
 
-$$y_f = 15 \cdot sin(30^{\circ}) = 15 \frac{1}{2} = 7.5$$
+$$y_f = 15 \cdot sin(30^{\circ}) = 15 \cdot \frac{1}{2} = 7.5$$
 
 y con esto, podemos volver al teorema de Pitágoras
 
