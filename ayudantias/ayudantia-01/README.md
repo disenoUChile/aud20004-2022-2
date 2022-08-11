@@ -181,7 +181,7 @@ $$x^2 + y^2 = 15^2 $$
 
 y según esa ecuación también tenemos la noción de que $x_f$ e $y_f$ son menores que 15.
 
-otra noción que tenemos, es que el ángulo es menor que $45^{\circ}$
+otra noción que tenemos, es que el ángulo es menor que $45^{\circ}$, así que la trayectoria es más cercana al eje X que al eye Y, así que se avanzará más en X que en Y, lo que implica que x sea mayor que y, $x_f > y_f$.
 
 usemos la relación trigonométrica
 
