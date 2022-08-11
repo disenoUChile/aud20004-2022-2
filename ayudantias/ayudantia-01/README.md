@@ -163,4 +163,8 @@ como el ángulo interno recto mide $90^{\circ}$ o $\frac{\pi}{2}$ radianes, los 
 
 los ángulos internos son iguales, así que cada uno mide entonces $45^{\circ}$ o $\frac{\pi}{4}$ radianes.
 
-como una ángulo completo es un ángulo de $360^{\circ}$ o
+como una ángulo completo es un ángulo de $360^{\circ}$ o $2\pi$, basta con hacer la resta entre ese valor y el ángulo interior, para tener el ángulo exterior, resultando en:
+
+$$ángulo_{exterior 1} = 360^{\circ} - 90^{\circ} = 270^{\circ}$$
+
+$$ángulo_{exterior 2} = ángulo_{exterior 3} = 360^{\circ} - 45^{\circ} = 315^{\circ}$$
