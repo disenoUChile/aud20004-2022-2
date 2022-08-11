@@ -155,6 +155,8 @@ la columna de agua y el vaso que la contiene mide un poco más de un kilómetro!
 
 a) cuáles son los ángulos internos y externos de un triángulo rectángulo con catetos de 1 cm y 1cm?
 
+b) si partiendo del origen $(0, 0)$, caminamos 15 metros en un ángulo de $30^{\circ}$, contando el eje X como ángulo $0^{\circ}$ y el ángulo aumenta en el sentido contrario a las manecillas del reloj, a qué coordenada $(x, y)$ llegamos?
+
 ## solución ejercicio-03
 
 a) sabemos que los ángulos internos de un triángulo miden $180^{\circ}$ o $\pi$ radianes.
@@ -165,6 +167,46 @@ los ángulos internos son iguales, así que cada uno mide entonces $45^{\circ}$ 
 
 como una ángulo completo es un ángulo de $360^{\circ}$ o $2\pi$, basta con hacer la resta entre ese valor y el ángulo interior, para tener el ángulo exterior, resultando en:
 
-$$ángulo_{exterior 1} = 360^{\circ} - 90^{\circ} = 270^{\circ}$$
+$$ángulo_{ext 1} = 360^{\circ} - 90^{\circ} = 270^{\circ}$$
 
-$$ángulo_{exterior 2} = ángulo_{exterior 3} = 360^{\circ} - 45^{\circ} = 315^{\circ}$$
+$$ángulo_{ext 2} = ángulo_{ext 3} = 360^{\circ} - 45^{\circ} = 315^{\circ}$$
+
+b)
+
+por inspección, tenemos la noción de que las coordenadas finales $x_f$ e $y_F$ son positivas.
+
+considerando el triángulo rectángulo formado por los puntos $(0, 0)$, $(x_f,0)$ y $(0, y_f)$ y por teorema de Pitágoras, tenemos la siguiente igualdad
+
+$$x^2 + y^2 = 15^2 $$
+
+y según esa ecuación también tenemos la noción de que $x_f$ e $y_f$ son menores que 15.
+
+usemos la relación trigonométrica
+
+$$sin(x) = \frac{cateto opuesto}{hipotenusa}$$
+
+reemplacemos con nuestros valores
+
+$$sin(30^{\circ}) = \frac{y_f}{15}$$
+
+despejando y_f
+
+$$y_f = 15 sin(30^{\circ}) = 15 \frac{1}{2} = 7.5$$
+
+y con esto, podemos volver al teorema de Pitágoras
+
+$$x_f^2 + 7.5^2 = 15^2 $$
+
+despejamos
+
+$$x_f^2 =  = 15^2 - 7.5^2$
+
+tomamos raíz cuadrada a ambos lados
+
+$$x_f  = \sqrt(15^2 - 7.5^2)$$
+
+y resulta en el valor aproximado
+
+$$x_f \approx  13 $$
+
+con esto, la respuesta es que la posición final es aproximadamente $(7.5, 13)$
