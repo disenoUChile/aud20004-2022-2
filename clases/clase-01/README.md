@@ -13,7 +13,7 @@ preguntas para estudiantes:
 - qué fue lo más difícil?
 - qué quieren aprender este semestre?
 
-hoy haremos una breve introducción a artistas, diseñadoras y proyectosc como inspiración para este curso de fīsica.
+hoy haremos una breve introducción a artistas, diseñadoras y proyectos como inspiración para este curso de fīsica.
 
 ## fundamentos de matemática
 
@@ -35,7 +35,7 @@ este semestre aprenderemos los fundamentos de física necesarios para su prácti
 
 ## presentación docente
 
-- aarón montoya-moraga https://montoyamoraga.io/
+- aarón montoya-moraga https://montoyamoraga.io/ https://github.com/montoyamoraga/
 - NYU ITP https://tisch.nyu.edu/itp
 - Processing https://processing.org/
 - p5.js https://p5js.org/
