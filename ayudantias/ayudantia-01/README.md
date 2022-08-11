@@ -157,10 +157,10 @@ a) cuáles son los ángulos internos y externos de un triángulo rectángulo con
 
 ## solución ejercicio-03
 
-a) sabemos que los ángulos internos de un triángulo miden 180 grados o $\pi$ radianes.
+a) sabemos que los ángulos internos de un triángulo miden $180^{\circ}$ o $\pi$ radianes.
 
-como el ángulo interno recto mide 90 grados o $\frac{\pi}{2}$ radianes, los otros dos ángulos internos miden en total también 90 grados o $\frac{\pi}{2}$ radianes.
+como el ángulo interno recto mide $90^{\circ}$ o $\frac{\pi}{2}$ radianes, los otros dos ángulos internos miden en total también $90^{\circ}$ o $\frac{\pi}{2}$ radianes.
 
-los ángulos internos son iguales, así que cada uno mide entonces 45 grados o $\frac{\pi}{4}$ radianes.
+los ángulos internos son iguales, así que cada uno mide entonces $45^{\circ}$ o $\frac{\pi}{4}$ radianes.
 
-como una ángulo completo es un ángulo de $360^{\circ}$ grados o
+como una ángulo completo es un ángulo de $360^{\circ}$ o
