@@ -132,4 +132,6 @@ y como el término numérico es aproximadamente igual a 1, podemos aproximar:
 
 $$g \approx 10 \frac{m}{s^2}$$
 
-## ejercicio-03
+## ejercicio-03 (30 min)
+
+## solución ejercicio-03
