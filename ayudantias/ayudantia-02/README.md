@@ -199,3 +199,21 @@ $$\vec{F_{3,1}} = F{3,1} \cdot \hat{r\_{1, 3}}$$
 y reemplazando:
 
 $$\vec{F_{3,1}} = G \cdot \frac{m^2}{r^2} \cdot (\frac{1}{2} \cdot \hat{x} + \frac{\sqrt{3}}{2} \cdot \hat{y})$$
+
+y ahora podemos describir la fuerza total sobre la masa $m_1$ como:
+
+$$\vec{F_1} = \vec{F_{2,1}} + \vec{F_{3,1}}$$
+
+equivalente a:
+
+$$\vec{F_1} = G \cdot \frac{m^2}{r^2} \cdot \hat{x} + G \cdot \frac{m^2}{r^2} \cdot (\frac{1}{2} \cdot \hat{x} + \frac{\sqrt{3}}{2} \cdot \hat{y})$$
+
+y factorizando por $G \cdot \frac{m^2}{r^2}$, resulta en:
+
+$$\vec{F_1} = G \cdot \frac{m^2}{r^2} \cdot (\hat{x} + \frac{1}{2} \cdot \hat{x} + \frac{\sqrt{3}}{2} \cdot \hat{y})$$
+
+y simplificando:
+
+$$\vec{F_1} = G \cdot \frac{m^2}{r^2} \cdot (\frac{3}{2} \cdot \hat{x} + \frac{\sqrt{3}}{2} \cdot \hat{y})$$
+
+notamos que la influencia en $\hat{x}$ es mayor que en $\hat{y}$, lo que tiene sentido, ya que la masa $m_2$ solamente atrae en la dirección $\hat{x}$, mientras que $m_3$ atrae tanto en $\hat{x}$ como en $\hat{y}$
