@@ -53,19 +53,29 @@ ejemplos de vectores en física:
 
 ## aritmética de vectores
 
+### suma y resta de vectores
+
 para sumar y restar vectores, podemos descomponer en distintas coordenadas y tratarlas por separado.
 
 por ejemplo:
 
 $$\vec{A} = 5 \hat{x} + 3 \hat{y} \brack  \vec{B} = 7 \hat{x} - 1 \hat{y}$$
 
-si sumamos $\vec{A}$ con $\vec{B}$, obtenemos:
+si sumamos los vectores $\vec{A}$ y $\vec{B}$, obtenemos:
 
 $$\vec{A} + \vec{B} =  (5 \hat{x} + 3 \hat{y}) + (7 \hat{x} - 1 \hat{y}) = (5 + 7) \hat{x} + (3 - 1) \hat{y} = 12 \hat{x} + 2 \hat{y}$$
 
-y si restamos $\vec{A}$ con $\vec{B}$, obtenemos:
+y si restamos los vectores $\vec{A}$ y $\vec{B}$, obtenemos:
 
 $$\vec{A} - \vec{B} = (5 \hat{x} + 3 \hat{y}) - (7 \hat{x} - 1 \hat{y}) = (5 - 7) \hat{x} + (3 - (-1)) \hat{y} = -2 \hat{x} + 4 \hat{y}$$
+
+### multiplicación y división de vectores por escalares
+
+multiplicar y dividir vectores por un escalar, permite escalar cada una de las componentes del vector.
+
+por ejemplo si multiplicamos el vector $\vec{A}$ por el escalar 5:
+
+$$5 \dot \vec{A} = 5 \dot (5 \hat{x} + 3 \hat{y}) = (5 /dot 5) \hat{x} + (3 \cdot 5) \hat{y}) = 25 \hat{x} + 15 {y}$$
 
 ## fuerzas (15 min)
 
