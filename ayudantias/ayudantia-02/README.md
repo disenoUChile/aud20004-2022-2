@@ -134,4 +134,40 @@ $$g \approx 10 \frac{m}{s^2}$$
 
 ## ejercicio-03 (30 min)
 
+si tenemos 3 cuerpos idénticos de masa $m$, situados equidistantes, formando un triángulo equilátro de lado $r$ con ángulos interiores de 60 grados, encontrar la fuerza gravitacional total ejercida por dos de los cuerpos sobre un tercero.
+
+pista: para simplificar los cálculos, situamos el cuerpo $m_1$ en el origen del sistema cartesiano, el cuerpo $m_2$ sobre el eje X, a distancia $r$ de $m_1$ y el tercer cuerpo $m_3$ completa el triángulo equilátero, con coordenadas x e y positivas.
+
 ## solución ejercicio-03
+
+definimos la fuerza gravitacional total sobre el cuerpo $m_1$ como $F_1$, y sabemos que es el resultado de las otras dos fuerzas presentes: $F_{2,1}$ y $F_{3,1}$, que son la fuerza que ejerce el cuerpo $m_2$ sobre $m_1$, y la que ejerce el cuerpo $m_3$ sobre $m_1$, respectivamente.
+
+$$\vec{F_1} = \vec{F_{2,1}} + \vec{F_{3,1}}$$
+
+calculemos primero la magnitud de $F_{2,1}$:
+
+$$F_{2,1} = G \cdot \frac{m_1 \cdot m_2}{r^2} = G \cdot \frac{m^2}{r^2}$$
+
+sabemos que el cuerpo 2 atrae al cuerpo 1 hacia la derecha, por lo que la dirección es $\hat{x}$. entonces para calcular el vector de la fuerza $\vec{F_{2,1}}$, reemplazamos:
+
+$$\vec{F_{2,1}} = F_{2,1} \cdot \hat{x} = G \cdot \frac{m^2}{r^2} \cdot \hat{x}$$
+
+ahora calculemos la magnitud de $F_{3,1}$:
+
+$$F_{3,1} = G \cdot \frac{m_1 \cdot m_3}{r^2} = G \cdot \frac{m^2}{r^2}$$
+
+notamos que la magnitud $F_{3,1}$ es igual a $F_{2,1}$, lo que tiene sentido, ya que las distancias son las mismas, y las masas son también las mismas!
+
+para calcular el vector $\vec{F_{3,1}}$, notamos que la masa $m_3$ atrae hacia sí la masa $m_1$, por lo que la dirección será en dirección hacia arriba y la derecha en el plano cartesiano.
+
+si hacemos el triángulo rectángulo entre la posición de la masa $m_1$ en el origen (0, 0) y la posición (x, y) de la masa $m_3$, vemos que x e y son los catetos y r es la hipotenusa, y que el ángulo interno es de 60 grados, así que podemos plantear el sistema de 2 ecuaciones y 2 incógnitas:
+
+$$ sin(60 \ang) = \frac{cateto opuesto}{hipotenusa} \brack cos(60 \ang) = \frac{cateto adyacente}{hipotenusa}$$
+
+reemplazando con los datos:
+
+$$ sin(60 \ang) = \frac{y}{r} \brack cos(60 \ang) = \frac{x}{r}$$
+
+despejando x e y:
+
+$$ y = r \cdot sin(60 \ang) \brack x = r \cdot cos(60 \ang)$$
