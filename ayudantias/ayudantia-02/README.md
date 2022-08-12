@@ -72,6 +72,22 @@ ordenando números, potencias de 10 y unidades de medición, tenemos:
 
 $$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot \frac{10^{-11} \cdot 10^{24}}{(10^6)^2} \cdot \frac{N \cdot m^2 \cdot kg}{kg^2 \cdot m^2}$$
 
+simplificando:
+
+$$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot \frac{10^{13}}{10^12} \cdot \frac{N}{kg}$$
+
+seguimos simplificando y reemplazamos N como el producto entre masa y aceleración:
+
+$$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot 10 \cdot \frac{kg \cdot \frac{m}{s^2}}{kg}$$
+
+y simplificando las unidades, tenemos
+
+$$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot 10 \cdot \frac{m}{s^2}}$$
+
+y como el término numérico es aproximadamente igual a 1, podemos aproximar:
+
+$$g \approx 10 \frac{m}{s^2}}$$
+
 ## ejercicio-02
 
 ## ejercicio-03
