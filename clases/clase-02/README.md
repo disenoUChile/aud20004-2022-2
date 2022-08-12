@@ -65,7 +65,9 @@ con ese sistema, podemos describir cualquier posición $\vec{P} = (P_x, P_y)$ en
 
 $$\vec{P} = x \cdot \hat{x} + y \cdot \hat{y}$$
 
-por ejemplo, el punto $\vec{C} = (-11, 3) = -11 \cdot \hat{x} + 3 \cdot \hat{y}$
+por ejemplo, el punto $\vec{C} = (-11, 3)$ puede ser descrito así:
+
+$$\vec{C} = (-11, 3) = -11 \cdot \hat{x} + 3 \cdot \hat{y}$
 
 ## aritmética de vectores (15 min)
 
