@@ -167,7 +167,7 @@ esta concepción del movimiento duró dos mil años, hasta Newton.
 
 Newton, nacido en 1643, publició en 1687 su libro "Principios matemáticos de filosofía natural", donde expone sus ley de gravitación universal, donde si tenemos dos cuerpos de masa $m_1$ y $m_2$ y posiciones $\vec{x_1}$ y $\vec{x_2}$, podemos escribir la fuerza gravitacional que hace el cuerpo 1 sobre el 2 como:
 
-$$\vec{F_{1, 2}} = G \frac{m_1 \cdot m_2}{{\vec{x_1} - \vec{x_2}} \cdot \vec{x_{1,2}}$$
+$$\vec{F_{1, 2}} = G \frac{m_1 \cdot m_2}{\vec{x_1} - \vec{x_2}} \cdot \vec{x_{1,2}}$$
 
 ## videos de repaso
 
