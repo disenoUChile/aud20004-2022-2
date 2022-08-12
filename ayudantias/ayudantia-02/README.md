@@ -23,7 +23,7 @@ $$G = \frac{F \cdot r^2}{m_1 \cdot m_2}$$
 
 y si reemplazamos las unidades, podemos ver que G se mide en:
 
-$$unidades de G: \frac{N \cdot m^2}{kg^2} $$
+$$G_unidades: \frac{N \cdot m^2}{kg^2} $$
 
 notamos que por definición, fuerza $F$ es igual a masa $m$ por aceleración, y con eso podemos definir la equivalencia entre unidades:
 
@@ -33,7 +33,7 @@ $$N = kg \cdot \frac{m}{s^2}$$
 
 y reemplazando esta equivalencia de la unidad de Newton en las unidades de G, tenemos que también podemos expresar sus unidades así:
 
-$$unidades de G: N \cdot \frac{\cdot m^2}{kg^2} = \frac{kg \cdot m}{s^2} \cdot \frac{\cdot m^2}{kg^2} = \frac{m^3}{kg \cdot s^2}$$
+$$G_unidades: N \cdot \frac{m^2}{kg^2} = \frac{kg \cdot m}{s^2} \cdot \frac{\cdot m^2}{kg^2} = \frac{m^3}{kg \cdot s^2}$$
 
 ## ejercicio-02
 
