@@ -66,9 +66,11 @@ donde G es la constante de gravitación universal, M es la masa de la tierra, y 
 
 reemplazando por valores numéricos y respetando las unidades, resulta:
 
-$$g = \frac{6.67 \cdot 10^(-11) \frac{N m^2}{kg^2} \cdot 5.97 \cdot 10^24 kg}{(6.37 \cdot 10^6 m)^2} $$
+$$g = \frac{6.67 \cdot 10^{-11} \frac{N m^2}{kg^2} \cdot 5.97 \cdot 10^{24} kg}{(6.37 \cdot 10^6 m)^2} $$
 
-y calculando:
+ordenando números, potencias de 10 y unidades de medición, tenemos:
+
+$$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot \frac{10^{-11} \cdot 10^{24}}{(10^6)^2} \cdot \frac{N \cdot m^2 \cdot kg}{kg^2 \cdot m^2}$$
 
 ## ejercicio-02
 
