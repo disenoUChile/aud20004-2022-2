@@ -40,7 +40,35 @@ b)
 
 nos dan el dato que:
 
-$$G = 6.67 \cdot 10^{-11} \frac{N \cdot m^2}{s^2}$$
+$$G = 6.67 \cdot 10^{-11} \frac{N \cdot m^2}{kg^2}$$
+
+como queremos calcular la gravedad de la tierra, diremos que la tierra es un cuerpo con masa $M$, y veremos cómo atrae a un cuerpo pequeño con masa $m$, con lo que la ecuación de gravitación universal resulta:
+
+$$F = G \frac{M \cdot m)}{r^2}$$
+
+por la segunda ley de Newton, sabemos que la fuerza sobre un cuerpo es igual a su masa por su aceleración. si nuestro cuerpo pequeño con masa $m$ está en caída libre y solamente le afecta la fuerza de gravitación, sabemos que:
+
+$$F = m \cdot a$$
+
+y esa aceleración le llamamos gravedad $g$, entonces tenemos
+
+$$F = m \cdot g$$
+
+igualando ambas fuerzas, podemos escribir la ecuación
+
+$$G \frac{M \cdot m)}{r^2} =  m \cdot g$$
+
+y si despejamos g, obtenemos
+
+$$g = \frac{G \cdot M}{r^2}$$
+
+donde G es la constante de gravitación universal, M es la masa de la tierra, y r es el radio de la tierra.
+
+reemplazando por valores numéricos y respetando las unidades, resulta:
+
+$$g = \frac{6.67 \cdot 10^{-11} \frac{N \cdot m^2}{kg^2} \cdot 5.97 \cdot 10^24 kg}{(6.37 \cdot 10^6 m)^2}$$
+
+y calculando:
 
 ## ejercicio-02
 
