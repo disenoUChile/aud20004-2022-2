@@ -174,11 +174,11 @@ $$ x = r \cdot cos(60 grados) \brack y = r \cdot sin(60 grados)$$
 
 y reemplazando los valores de seno y coseno:
 
-$$ x = r \cdot \frac{1}{2} \brack y = r \cdot \frac{sqrt{3}}{2}$$
+$$ x = r \cdot \frac{1}{2} \brack y = r \cdot \frac{\sqrt{3}}{2}$$
 
 y con eso tenemos que el vector $\vec{r_{1, 3}}$ que va de $m_1$ a $m_3$ es:
 
-$$\vec{r_{1, 3}} = r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{sqrt{3}}{2} \cdot \hat{y}$$
+$$\vec{r_{1, 3}} = r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{\sqrt{3}}{2} \cdot \hat{y}$$
 
 pero necesitamos el vector unitario de ese vector, que se puede obtener al dividir cualquier vector por su módulo, con esta fórmula:
 
@@ -186,11 +186,11 @@ $$\hat{A} = \frac{\vec{A}}{|\vec{A}|}$$
 
 y con eso, calculemos el vector unitario $\hat{r\_{1, 3}}$
 
-$$\hat{r\_{1, 3}} = \frac{\vec{r_{1, 3}}}{|\vec{r_{1, 3}}}| = \frac{r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{sqrt{3}}{2} \cdot \hat{y}}{r}$$
+$$\hat{r\_{1, 3}} = \frac{\vec{r_{1, 3}}}{|\vec{r_{1, 3}}|} = \frac{r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{\sqrt{3}}{2} \cdot \hat{y}}{r}$$
 
 y despejando, resulta:
 
-$$\hat{r\_{1, 3}} = = \frac{1}{2} \cdot \hat{x} + \frac{sqrt{3}}{2} \cdot \hat{y}$$
+$$\hat{r\_{1, 3}} = = \frac{1}{2} \cdot \hat{x} + \frac{\sqrt{3}}{2} \cdot \hat{y}$$
 
 y ahora sí podemos encontrar el vector $\vec{F_{3, 1}}$:
 
@@ -198,4 +198,4 @@ $$\vec{F_{3,1}} = F{3,1} \cdot \hat{r\_{1, 3}}$$
 
 y reemplazando:
 
-$$\vec{F_{3,1}} = G \cdot \frac{m^2}{r^2} \cdot (\frac{1}{2} \cdot \hat{x} + \frac{sqrt{3}}{2} \cdot \hat{y})$$
+$$\vec{F_{3,1}} = G \cdot \frac{m^2}{r^2} \cdot (\frac{1}{2} \cdot \hat{x} + \frac{\sqrt{3}}{2} \cdot \hat{y})$$
