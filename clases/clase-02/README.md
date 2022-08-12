@@ -69,6 +69,10 @@ por ejemplo, el punto $\vec{C} = (-11, 3)$ puede ser descrito así:
 
 $$\vec{C} = (-11, 3) = -11 \cdot \hat{x} + 3 \cdot \hat{y}$$
 
+notar que podemos describir cualquier punto en el plano XY como la suma ponderada de los vectores unitarios $\hat{x}$ y $\hat{y}$ porque estos vectores son perpendiculares, y permiten movernos a lo largo de todo el plano. pero estos vectores no tienen que ser perpendiculares, basta con que no sean paralelos.
+
+otra manera de representar el plano es de forma radial, con un vector unitario de radio, y un ángulo.
+
 ## aritmética de vectores (15 min)
 
 ### suma y resta de vectores
