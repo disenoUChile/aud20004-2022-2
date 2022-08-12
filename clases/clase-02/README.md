@@ -16,7 +16,7 @@ la clase de hoy es la unidad 0: vectores y fuerzas
 - escalares
 - vectores
 - fuerzas
--
+- 3 leyes de Newton
 
 ## escalares (15 min)
 
@@ -51,7 +51,7 @@ ejemplos de vectores en física:
 - velocidad, medida en $\frac{m}{s}$
 - aceleración, medida en $\frac{m}{s^2}$
 
-## sistemas de referencia de vectores
+## sistemas de referencia de vectores (15 min)
 
 si queremos representar cualquier punto en el plano XY, debemos hacer los siguientes pasos:
 
@@ -148,6 +148,26 @@ estas 2 actúan a corta distancia:
 
 - fuerza nuclear fuerte: mantiene unidos los núcleos atómicos.
 - fuerza nuclear débil: escapa de los contenidos de este curso :)
+
+## antes de Newton (15 min)
+
+Aristóteles (~300 a.C.), postulaba que el estado natural de los cuerpos es el reposo. que para sacarlos del reposo, se le aplica una fuerza, y con esto los cuerpos adquieren velocidad. y que esta relación es directamente proporcional a la masa, resultado en la ecuación ahora desechada por la física:
+
+$$\vec{F} = m \cdot \vec{v}$$
+
+un elemento fundamental que no fue incluido en este modelo, fue la consideración de fuerzas como el roce o fricción. la física de Aristóteles también postulaba que cuando los cuerpos caen en caída libre, los objetos más pesados caen más rápido que los objetos más livianos.
+
+esta observación viene de haber considerado solamente la experiencia de estar dentro de un fluido, en nuestro caso, el aire, la atmósfera. un fluido opone resistencia a la caída libre según la forma o área del cuerpo, y eso ocasiona roce, que se opone a la fuerza de gravedad y hace que distintos objetos caigan a velocidades distintas.
+
+pero en el vacío, todos los cuerpos, independiente de su masa, son solamente afectados por la gravedad, y caen con la misma aceleración.
+
+esta concepción del movimiento duró dos mil años, hasta Newton.
+
+## Leyes de Newton (15 min)
+
+Newton, nacido en 1643, publició en 1687 su libro "Principios matemáticos de filosofía natural", donde expone sus ley de gravitación universal, donde si tenemos dos cuerpos de masa $m_1$ y $m_2$ y posiciones $\vec{x_1}$ y $\vec{x_2}$, podemos escribir la fuerza gravitacional que hace el cuerpo 1 sobre el 2 como:
+
+$$\vec{F_{1, 2}} = G \frac{m_1 \cdot m_2}{{\vec{x_1} - \vec{x_2}} \cdot \vec{x_{1,2}}$$
 
 ## videos de repaso
 
