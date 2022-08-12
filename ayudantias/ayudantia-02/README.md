@@ -5,7 +5,8 @@ jueves 18 agosto 2022, presencial
 ## ejercicio-01
 
 a) cuáles son las unidades de G, la constante de gravitación universal, expresadas en función de Newton, metros y kilogramos? y expresada en función de segundos, metros y kilógramos?
-b) sabiendo la magnitud de G es $6.67 \cdot 10^{-11}$, calcular cuánto mide la gravedad en la tierra.
+
+b) sabiendo la magnitud de G es $6.67 \cdot 10^{-11}$ con las unidades calculadas anteriormente, calcular cuánto mide la gravedad en la tierra.
 
 ## solución ejercicio-01
 
@@ -23,7 +24,7 @@ $$G = \frac{F \cdot r^2}{m_1 \cdot m_2}$$
 
 y si reemplazamos las unidades, podemos ver que G se mide en:
 
-$$G_unidades: \frac{N \cdot m^2}{kg^2} $$
+$$G_{unidades}: \frac{N \cdot m^2}{kg^2} $$
 
 notamos que por definición, fuerza $F$ es igual a masa $m$ por aceleración, y con eso podemos definir la equivalencia entre unidades:
 
@@ -33,7 +34,13 @@ $$N = kg \cdot \frac{m}{s^2}$$
 
 y reemplazando esta equivalencia de la unidad de Newton en las unidades de G, tenemos que también podemos expresar sus unidades así:
 
-$$G_unidades: N \cdot \frac{m^2}{kg^2} = \frac{kg \cdot m}{s^2} \cdot \frac{\cdot m^2}{kg^2} = \frac{m^3}{kg \cdot s^2}$$
+$$G_{unidades}: N \cdot \frac{m^2}{kg^2} = \frac{kg \cdot m}{s^2} \cdot \frac{\cdot m^2}{kg^2} = \frac{m^3}{kg \cdot s^2}$$
+
+b)
+
+nos dan el dato que:
+
+$$G = 6.67 \cdot 10^{-11} \frac{N \cdot m^2}{s^2}$$
 
 ## ejercicio-02
 
