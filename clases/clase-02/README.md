@@ -163,11 +163,52 @@ pero en el vacío, todos los cuerpos, independiente de su masa, son solamente af
 
 esta concepción del movimiento duró dos mil años, hasta Newton.
 
-## Leyes de Newton (15 min)
+## Leyes de movimiento de Newton (15 min)
 
-Newton, nacido en 1643, publició en 1687 su libro "Principios matemáticos de filosofía natural", donde expone su ley de gravitación universal, donde tenemos los siguientes datos:
+Newton, nacido en 1643, publicó en 1687 su libro "Principios matemáticos de filosofía natural", donde expone sus 3 leyes de movimiento.
 
-- tenemos dos cuerpos
+### Primera ley de Newton: inercia
+
+todos los cuerpos permanecen moviéndose en línea recta a velocidad constante, hasta que se le aplica una fuerza externa.
+
+consecuencias:
+
+- si observamos un objeto descansando en una mesa, está moviéndose en línea recta con velocidad constante, lo que pasa es que esta velocidad es cero.
+- si hacemos esta afirmación mientras estamos sin movernos, notamos que estamos asumiendo el planeta como sin moverse, cuando en realidad se está moviendo en torno al sol!
+- es relativo, no existe un standard absoluto de reposo, siempre hay que definir un origen y un sistema de coordenadas.
+
+### Segunda ley de newton: momentum
+
+momentum $\vec{p}$ se define como la cantidad de movimiento, y es el producto entre masa $m$ y velocidad $\vec{p} de un cuerpo$.
+
+$$\vec{p} = m /cdot \vec{v}$$
+
+el cambio de momentum de un objeto es proporcional a la fuerza aplicada y ocurre en la dirección de la fuerza aplicada. eso en matemáticas, implica que la derivada del momentum es la fuerza, esto es.
+
+$$\vec{F} = \frac{d \vec{p}}{dt} = \frac{d (m \cdot \vec{v})}{dt}$$
+
+si la masa $m$ es constante, podemos simplificar así:
+
+$$\vec{F} =  m \frac{d (\vec{v})}{dt} = m \cdot \vec{a}$$
+
+lo que resulta en que la fuerza es igual al producto entre masa y aceleración.
+
+### Tercera ley de newton: acción y reacción
+
+para cada acción siempre hay una opuesta de igual magnitud.
+
+ojo: las fuerzas no se anulan, porque se aplican en cuerpos distintos. ejemplo:
+
+si una pelota está reposando en la superficie de la tierra, la fuerza de gravedad que ejerce la tierra sobre la pelota, tiene su reacción en la fuerza opuesta: la atracción que ejerce la pelota por sobre la tierra.
+
+si la pelota está en reposo, no es porque esas fuerzas se anulen, es porque la fuerza de atracción que ejerce la tierra sobre la pelota, es contrarrestada por la fuerza normal que ejerce la superficie de la tierra sobre la pelota. estas dos fuerzas actuando sobre la pelota se contrarrestan, haciendo que $\vec{F} = 0$, y por lo tanto, aceleración cero, y con eso, velocidad constante.
+
+## ley de gravitación universal de Newton
+
+como ya vimos, existen 4 fuerzas fundamentales de la naturaleza, y en este curso estudiaremos 2: las gravitatoria y la electromagnética.
+
+otro avance que hizo Newton, fue a través de experiencias empíricas, fue definir la ley de gravitación universal, con una ecuación que describe el vector $\vec{F}$ de fuerza entre dos cuerpos, donde:
+
 - sus masas son $m_1$ y $m_2$
 - sus posiciones son $\vec{x_1}$ y $\vec{x_2}$
 - la distancia entre los cuerpos es $r$, que en 2D es: $r = \sqrt((x_1-x_2)^2 + (y_1-y_2)^2)$
