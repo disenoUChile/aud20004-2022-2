@@ -75,7 +75,11 @@ multiplicar y dividir vectores por un escalar, permite escalar cada una de las c
 
 por ejemplo si multiplicamos el vector $\vec{A}$ por el escalar 5:
 
-$$5 \cdot \vec{A} = 5 \cdot (5 \hat{x} + 3 \hat{y}) = (5 \cdot 5) \hat{x} + (3 \cdot 5) \hat{y}) = 25 \hat{x} + 15 {y}$$
+$$5 \cdot \vec{A} = 5 \cdot (5 \hat{x} + 3 \hat{y}) = (5 \cdot 5) \hat{x} + (3 \cdot 5) \hat{y} = 25 \hat{x} + 15 {y}$$
+
+y dividir funciona igual, afectando cada componente, por ejemplo si dividimos el vector B por 2:
+
+$$\frac{1}{2} \cdot  \vec{B} = \frac{1}{2} (7 \hat{x} - 1 \hat{y}) = \frac{7}{2} \hat{x} - frac{1}{2} \hat{y} = 3.5 \hat{x}$ - 0.5 \hat{y}$
 
 ## fuerzas (15 min)
 
