@@ -61,11 +61,11 @@ $$\vec{A} = 5 \hat{x} + 3 \hat{y} \brack  \vec{B} = 7 \hat{x} - 1 \hat{y}$$
 
 si sumamos $\vec{A}$ con $\vec{B}$, obtenemos:
 
-$$\vec{A} + \vec{B} = (5 + 7) \hat{x} + (3 - 1) \hat{y} = 12 \hat{x} + 2 hat{y}$$
+$$\vec{A} + \vec{B} =  (5 \hat{x} + 3 \hat{y}) + (7 \hat{x} - 1 \hat{y}) = (5 + 7) \hat{x} + (3 - 1) \hat{y} = 12 \hat{x} + 2 \hat{y}$$
 
 y si restamos $\vec{A}$ con $\vec{B}$, obtenemos:
 
-$$\vec{A} - \vec{B} = (5 - 7) \hat{x} + (3 - (-1)) \hat{y} = -2 \hat{x} + 4 \hat{y}$$
+$$\vec{A} - \vec{B} = (5 \hat{x} + 3 \hat{y}) + (7 \hat{x} - 1 \hat{y}) = (5 - 7) \hat{x} + (3 - (-1)) \hat{y} = -2 \hat{x} + 4 \hat{y}$$
 
 ## fuerzas (15 min)
 
