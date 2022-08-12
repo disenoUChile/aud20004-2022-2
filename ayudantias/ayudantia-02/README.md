@@ -162,11 +162,11 @@ para calcular el vector $\vec{F_{3,1}}$, notamos que la masa $m_3$ atrae hacia s
 
 si hacemos el triángulo rectángulo entre la posición de la masa $m_1$ en el origen (0, 0) y la posición (x, y) de la masa $m_3$, vemos que x e y son los catetos y r es la hipotenusa, y que el ángulo interno es de 60 grados, así que podemos plantear el sistema de 2 ecuaciones y 2 incógnitas:
 
-$$ sin(60 grados) = \frac{cateto opuesto}{hipotenusa} \brack cos(60 \ang) = \frac{cateto adyacente}{hipotenusa}$$
+$$ sin(60 grados) = \frac{cateto opuesto}{hipotenusa} \brack cos(60 grados) = \frac{cateto adyacente}{hipotenusa}$$
 
 reemplazando con los datos:
 
-$$ sin(60 grados) = \frac{y}{r} \brack cos(60 \ang) = \frac{x}{r}$$
+$$ sin(60 grados) = \frac{y}{r} \brack cos(60 grados) = \frac{x}{r}$$
 
 despejando x e y:
 
