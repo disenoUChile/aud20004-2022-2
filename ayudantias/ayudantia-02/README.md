@@ -38,6 +38,14 @@ $$F = 6.67 \cdot 10^{-11} \frac{N \cdot m^2}{kg^2} \cdot \frac{1000 kg^2}{400 m^
 
 agrupando los números, potencias de 10 y unidades:
 
+$$F = \frac{6.67 \cdot 1000}{400} \cdot 10^{-11} \cdot \frac{N \cdot m^2 kg^2}{kg^2}{m^2}$$
+
+y simplificando, resulta en:
+
+$$F = \frac{6.67}{4} \cdot 10^{-10} N \approx 1.67 \cdot 10^{-10} N$$
+
+como vemos, esta fuerza es muy pequeña, del orden de $10^{-10}$, lo que explica a que su influencia sea muy menor, comparada con la fuerza gravitacional que ejerce la tierra sobre el cuerpo $m_1$. la gravedad nos afecta, porque los planetas son un cuerpo muy masivo, y como sabemos de la ecuación de fuerza gravitacional universal, su efecto decrece rápidamente a mayor distancia entre los cuerpos.
+
 ## ejercicio-02 (30 min)
 
 a) cuáles son las unidades de G, la constante de gravitación universal, expresadas en función de Newton, metros y kilogramos? y expresada en función de segundos, metros y kilógramos?
