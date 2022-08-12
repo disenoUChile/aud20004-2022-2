@@ -59,7 +59,7 @@ para sumar y restar vectores, podemos descomponer en distintas coordenadas y tra
 
 por ejemplo:
 
-$$\vec{A} = 5 \hat{x} + 3 \hat{y} \brack  \vec{B} = 7 \hat{x} - 1 \hat{y}$$
+$$\vec{A} = 5 \hat{x} + 3 \hat{y} \brack \vec{B} = 7 \hat{x} - 1 \hat{y}$$
 
 si sumamos los vectores $\vec{A}$ y $\vec{B}$, obtenemos:
 
@@ -75,7 +75,7 @@ multiplicar y dividir vectores por un escalar, permite escalar cada una de las c
 
 por ejemplo si multiplicamos el vector $\vec{A}$ por el escalar 5:
 
-$$5 \dot \vec{A} = 5 \dot (5 \hat{x} + 3 \hat{y}) = (5 /dot 5) \hat{x} + (3 \cdot 5) \hat{y}) = 25 \hat{x} + 15 {y}$$
+$$5 \cdot \vec{A} = 5 \cdot (5 \hat{x} + 3 \hat{y}) = (5 \cdot 5) \hat{x} + (3 \cdot 5) \hat{y}) = 25 \hat{x} + 15 {y}$$
 
 ## fuerzas (15 min)
 
