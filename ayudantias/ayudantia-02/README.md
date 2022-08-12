@@ -82,11 +82,11 @@ $$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot 10 \cdot \frac{kg \cdot \frac{m}{s^2}
 
 y simplificando las unidades, tenemos
 
-$$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot 10 \cdot \frac{m}{s^2}}$$
+$$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot 10 \cdot \frac{m}{s^2}$$
 
 y como el término numérico es aproximadamente igual a 1, podemos aproximar:
 
-$$g \approx 10 \frac{m}{s^2}}$$
+$$g \approx 10 \frac{m}{s^2}$$
 
 ## ejercicio-02
 
