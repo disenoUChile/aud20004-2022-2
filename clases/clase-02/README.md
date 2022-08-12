@@ -165,9 +165,29 @@ esta concepción del movimiento duró dos mil años, hasta Newton.
 
 ## Leyes de Newton (15 min)
 
-Newton, nacido en 1643, publició en 1687 su libro "Principios matemáticos de filosofía natural", donde expone sus ley de gravitación universal, donde si tenemos dos cuerpos de masa $m_1$ y $m_2$ y posiciones $\vec{x_1}$ y $\vec{x_2}$, podemos escribir la fuerza gravitacional que hace el cuerpo 1 sobre el 2 como:
+Newton, nacido en 1643, publició en 1687 su libro "Principios matemáticos de filosofía natural", donde expone su ley de gravitación universal, donde tenemos los siguientes datos:
 
-$$\vec{F_{1, 2}} = G \frac{m_1 \cdot m_2}{\vec{x_1} - \vec{x_2}} \cdot \vec{x_{1,2}}$$
+- tenemos dos cuerpos
+- sus masas son $m_1$ y $m_2$
+- sus posiciones son $\vec{x_1}$ y $\vec{x_2}$
+- la distancia entre los cuerpos es $r$, que en 2D es: $r = \sqrt((x_1-x_2)^2 + (y_1-y_2)^2)$
+
+esta ley de gravitación universal postula que existe una fuerza gravitacional que hace cada cuerpo contra el otro que cumple con:
+
+- ser directamente proporcional a cada masa $m_1$ y $m_2$
+- ser inversamente proporcional a $r^2$, la distancia entre los cuerpos al cuadrado
+- ser una fuerza atractiva, con $m_1$ atrayendo a $m_2$, y a su vez, $m_2$ atrayendo a $m_1$
+- tener una constante de proporcionalidad universal llamada $G$
+
+la ecuación entonces resulta:
+
+$$F = G \frac{m_1 \cdot m_2}{r^2}$$
+
+esa ecuación es útil para encontrar la magnitud de estas fuerzas ejercidas entre los cuerpos, y si queremos encontrar los vectores fuerza, basta con multiplicar ese escalar $F$ por una dirección.
+
+si notamos $\vec{F_{1,2}}$ como la fuerza que hace la $m_1$ sobre $m_2$, y $\hat{r_{2,1}}$ como el vector unitario que va desde $m_2$ a $m_1$ podemos escribir así la ecuación:
+
+$$\vec{F_{1,2}} = F \cdot \hat{r_{2,1}} = G \frac{m_1 \cdot m_2}{r^2} \cdot \hat{r_{2, 1}}$$
 
 ## videos de repaso
 
