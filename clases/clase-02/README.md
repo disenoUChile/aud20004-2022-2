@@ -59,9 +59,9 @@ si queremos representar cualquier punto en el plano XY, debemos hacer los siguie
 - definir dirección y sentido del eje x, llamada $\hat{x}$
 - definir dirección y sentido del eje y, llamada $\hat{y}$
 
-un vector con gorrito como \hat{x}$ es un vector especial, cuya magnitud es 1.
+un vector con gorrito como \hat{x}$ es un vector especial, llamado vector unitario, porque su magnitud es 1.
 
-con ese sistema, podemos describir cualquier posición $\vec{P} = (P_x, P_y)$ en el plano, como la siguiente suma:
+el sistema cartesiano, en honor a René Descartes, es el que hemos usado hasta hora, donde definimos los vectores unitarios $\hat{x}$ $\hat{y}$ y perpendiculares, con los que podemos describir cualquier posición $\vec{P} = (x, y)$ en el plano, como la siguiente suma:
 
 $$\vec{P} = x \cdot \hat{x} + y \cdot \hat{y}$$
 
@@ -71,7 +71,33 @@ $$\vec{C} = (-11, 3) = -11 \cdot \hat{x} + 3 \cdot \hat{y}$$
 
 notar que podemos describir cualquier punto en el plano XY como la suma ponderada de los vectores unitarios $\hat{x}$ y $\hat{y}$ porque estos vectores son perpendiculares, y permiten movernos a lo largo de todo el plano. pero estos vectores no tienen que ser perpendiculares, basta con que no sean paralelos.
 
-otra manera de representar el plano es de forma radial, con un vector unitario de radio, y un ángulo.
+otra manera de representar el plano es de forma polar, con un vector unitario de radio $\hat{r}$, y un ángulo $\theta$.
+
+para convertir entre coordenadas cartesianas y polares, consideremos el vector $\vec{P}$
+
+$$\vec{P} = (x, y) = x \hat{x} + y \hat{y}$$
+
+si dibujamos la distancia entre el origen y el punto P y le llamamos $r$, podemos notar que r es la hipotenusa, y los valores de $x$ e $y$ los catetos de un triángulo rectángulo. si llamamos $\theta$ al ángulo entre eje X y r, podemos usar las identidades de seno y coseno del triángulo rectángulo.
+
+$$sin(\theta) = \frac{cateto opuesto}{hipotenusa} = \frac{y}{r}$$
+
+$$cos(\theta) = \frac{cateto adyacente}{hipotenusa} = \frac{x}{r}$$
+
+y si despejamos $x$ e $y$ de estas ecucaciones obtenemos las siguientes expresiones para convertir de coordenadas polares a cartesianas:
+
+$$x = r \cdot cos(\theta)$$
+
+$$y = r \cdot sin(\theta)$$
+
+y si queremos hacer lo inverso, convertir de coordenadas a cartesianas, tenemos las ecuaciones:
+
+$$r = \sqrt{x^2 + y^2}$$
+
+$$\theta = atan2(x, y)$$
+
+donde atan2 es una versión especial de la arcotangente
+
+para más info revisar acá: https://es.wikipedia.org/wiki/Coordenadas_polares
 
 ## aritmética de vectores (15 min)
 
