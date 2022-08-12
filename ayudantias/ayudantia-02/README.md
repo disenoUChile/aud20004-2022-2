@@ -182,11 +182,11 @@ $$\vec{r_{1, 3}} = r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{sqrt{3}}{2}
 
 pero necesitamos el vector unitario de ese vector, que se puede obtener al dividir cualquier vector por su módulo, con esta fórmula:
 
-$$\hat{A} = \frac{\vec{A}}{\abs{\vec{A}}}$$
+$$\hat{A} = \frac{\vec{A}}{|\vec{A}|}$$
 
 y con eso, calculemos el vector unitario $\hat{r\_{1, 3}}$
 
-$$\hat{r\_{1, 3}} = \frac{\vec{r_{1, 3}}}{\abs{\vec{r_{1, 3}}}} = \frac{r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{sqrt{3}}{2} \cdot \hat{y}}{r}$$
+$$\hat{r\_{1, 3}} = \frac{\vec{r_{1, 3}}}{|\vec{r_{1, 3}}}| = \frac{r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{sqrt{3}}{2} \cdot \hat{y}}{r}$$
 
 y despejando, resulta:
 
@@ -198,4 +198,4 @@ $$\vec{F_{3,1}} = F{3,1} \cdot \hat{r\_{1, 3}}$$
 
 y reemplazando:
 
-$$\vec{F_{3,1}} = G \cdot \frac{m^2}{r^2} \cdot (\frac{1}{2} \cdot \hat{x} + \frac{sqrt{3}}{2} \cdot \hat{y})}$$
+$$\vec{F_{3,1}} = G \cdot \frac{m^2}{r^2} \cdot (\frac{1}{2} \cdot \hat{x} + \frac{sqrt{3}}{2} \cdot \hat{y})$$
