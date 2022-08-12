@@ -211,7 +211,7 @@ otro avance que hizo Newton, fue a través de experiencias empíricas, fue defin
 
 - sus masas son $m_1$ y $m_2$
 - sus posiciones son $\vec{x_1}$ y $\vec{x_2}$
-- la distancia entre los cuerpos es $r$, que en 2D es: $r = \sqrt((x_1-x_2)^2 + (y_1-y_2)^2)$
+- la distancia entre los cuerpos es $r$, que en 2D es: $r = \sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$
 
 esta ley de gravitación universal postula que existe una fuerza gravitacional que hace cada cuerpo contra el otro que cumple con:
 
