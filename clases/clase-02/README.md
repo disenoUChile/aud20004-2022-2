@@ -56,8 +56,8 @@ ejemplos de vectores en física:
 si queremos representar cualquier punto en el plano XY, debemos hacer los siguientes pasos:
 
 - definir un origen (0, 0)
-- definir dirección y sentido del eje x, llamada \hat{x}$
-- definir dirección y sentido del eje y, llamada \hat{y}$
+- definir dirección y sentido del eje x, llamada $\hat{x}$
+- definir dirección y sentido del eje y, llamada $\hat{y}$
 
 un vector con gorrito como \hat{x}$ es un vector especial, cuya magnitud es 1.
 
