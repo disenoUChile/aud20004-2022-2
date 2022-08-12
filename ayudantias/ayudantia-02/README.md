@@ -2,13 +2,49 @@
 
 jueves 18 agosto 2022, presencial
 
-## ejercicio-01
+## ejercicio-01 (30 min)
+
+a) cuando estamos sosteniendo un cuerpo de 10 kg a 1 metro del suelo, y lo soltamos, qué fuerza le aplica la tierra a ese cuerpo, si sabemos que su aceleración es de $10 \frac{m}{s^2}$
+
+b) si tenemos otro cuerpo de masa $m_2$ 100 kg, ubicado a 20 m del cuerpo original $m_1$, cuánta es la fuerza gravitacional que este que ejerce $m_1$ sobre $m_2$?
+
+## solución ejercicio-01
+
+a)
+
+por la segunda ley de Newton, sabemos que
+
+$$F = m \cdot a$$
+
+reemplazando los valores:
+
+$$F = 10 kg \cdot 10 \frac{m}{s^2} = 100 \frac{kg m}{s^2} = 100 N$$
+
+la fuerza que le aplica la tierra es de 100N. notar que el valor de esta fuerza depende de la masa del cuerpo, y de su aceleración, en este caso la gravedad, pero no de la distancia desde donde se suelta el objeto.
+
+b)
+
+sabemos que por la ecuación de fuerza gravitacional universal:
+
+$$F = G \cdot \frac{m_1 \cdot m_2}{r^2}$$
+
+si reemplazamos con los valores de G, $m_1$, $m_2$ y $r$, obtenemos:
+
+$$F = 6.67 \cdot 10^{-11} \frac{N \cdot m^2}{kg^2} \cdot \frac{10 kg \cdot 100 kg}{(20m)^2}$$
+
+desarrollando las multiplicaciones:
+
+$$F = 6.67 \cdot 10^{-11} \frac{N \cdot m^2}{kg^2} \cdot \frac{1000 kg^2}{400 m^2}$$
+
+agrupando los números, potencias de 10 y unidades:
+
+## ejercicio-02 (30 min)
 
 a) cuáles son las unidades de G, la constante de gravitación universal, expresadas en función de Newton, metros y kilogramos? y expresada en función de segundos, metros y kilógramos?
 
-b) sabiendo la magnitud de G es $6.67 \cdot 10^{-11}$ con las unidades calculadas anteriormente, calcular cuánto mide la gravedad en la tierra.
+b) sabiendo la magnitud de G es $6.67 \cdot 10^{-11}$ con las unidades calculadas anteriormente, calcular aproximadamente cuánto mide la gravedad en la tierra.
 
-## solución ejercicio-01
+## solución ejercicio-02
 
 a)
 
@@ -87,7 +123,5 @@ $$g = \frac{6.67 \cdot 5.97}{6.37^2} \cdot 10 \cdot \frac{m}{s^2}$$
 y como el término numérico es aproximadamente igual a 1, podemos aproximar:
 
 $$g \approx 10 \frac{m}{s^2}$$
-
-## ejercicio-02
 
 ## ejercicio-03
