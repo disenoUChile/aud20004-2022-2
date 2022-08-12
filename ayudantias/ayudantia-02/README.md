@@ -162,12 +162,40 @@ para calcular el vector $\vec{F_{3,1}}$, notamos que la masa $m_3$ atrae hacia s
 
 si hacemos el triángulo rectángulo entre la posición de la masa $m_1$ en el origen (0, 0) y la posición (x, y) de la masa $m_3$, vemos que x e y son los catetos y r es la hipotenusa, y que el ángulo interno es de 60 grados, así que podemos plantear el sistema de 2 ecuaciones y 2 incógnitas:
 
-$$ sin(60 \ang) = \frac{cateto opuesto}{hipotenusa} \brack cos(60 \ang) = \frac{cateto adyacente}{hipotenusa}$$
+$$ sin(60 grados) = \frac{cateto opuesto}{hipotenusa} \brack cos(60 \ang) = \frac{cateto adyacente}{hipotenusa}$$
 
 reemplazando con los datos:
 
-$$ sin(60 \ang) = \frac{y}{r} \brack cos(60 \ang) = \frac{x}{r}$$
+$$ sin(60 grados) = \frac{y}{r} \brack cos(60 \ang) = \frac{x}{r}$$
 
 despejando x e y:
 
-$$ y = r \cdot sin(60 \ang) \brack x = r \cdot cos(60 \ang)$$
+$$ x = r \cdot cos(60 grados) \brack y = r \cdot sin(60 grados)$$
+
+y reemplazando los valores de seno y coseno:
+
+$$ x = r \cdot \frac{1}{2} \brack y = r \cdot \frac{sqrt{3}}{2}$$
+
+y con eso tenemos que el vector $\vec{r_{1, 3}}$ que va de $m_1$ a $m_3$ es:
+
+$$\vec{r_{1, 3}} = r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{sqrt{3}}{2} \cdot \hat{y}$$
+
+pero necesitamos el vector unitario de ese vector, que se puede obtener al dividir cualquier vector por su módulo, con esta fórmula:
+
+$$\hat{A} = \frac{\vec{A}}{\abs{\vec{A}}}$$
+
+y con eso, calculemos el vector unitario $\hat{r\_{1, 3}}$
+
+$$\hat{r\_{1, 3}} = \frac{\vec{r_{1, 3}}}{\abs{\vec{r_{1, 3}}}} = \frac{r \cdot \frac{1}{2} \cdot \hat{x} + r \cdot \frac{sqrt{3}}{2} \cdot \hat{y}}{r}$$
+
+y despejando, resulta:
+
+$$\hat{r\_{1, 3}} = = \frac{1}{2} \cdot \hat{x} + \frac{sqrt{3}}{2} \cdot \hat{y}$$
+
+y ahora sí podemos encontrar el vector $\vec{F_{3, 1}}$:
+
+$$\vec{F_{3,1}} = F{3,1} \cdot \hat{r\_{1, 3}}$$
+
+y reemplazando:
+
+$$\vec{F_{3,1}} = G \cdot \frac{m^2}{r^2} \cdot (\frac{1}{2} \cdot \hat{x} + \frac{sqrt{3}}{2} \cdot \hat{y})}$$
