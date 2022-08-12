@@ -15,8 +15,8 @@ la clase de hoy es la unidad 0: vectores y fuerzas
 
 - escalares
 - vectores
-
-- vector:
+- fuerzas
+-
 
 ## escalares (15 min)
 
@@ -38,12 +38,12 @@ ejemplos de escalares en fīsica:
 
 para hacer aritmética (suma, resta, multiplicación y división) entre vectores, basta con trabajar estas cantidades como si fueran números, y respetar las unidades, teniendo mucho cuidado con las equivalencias entre unidades.
 
-## vectores
+## vectores (15 min)
 
 un vector posee:
 
 - una magnitud, medida en cierta unidad
-- una dirección, medida en cierto sistema de referencia
+- una dirección (y un sentido), medida en cierto sistema de referencia
 
 ejemplos de vectores en física:
 
@@ -51,7 +51,23 @@ ejemplos de vectores en física:
 - velocidad, medida en $\frac{m}{s}$
 - aceleración, medida en $\frac{m}{s^2}$
 
-## aritmética de vectores
+## sistemas de referencia de vectores
+
+si queremos representar cualquier punto en el plano XY, debemos hacer los siguientes pasos:
+
+- definir un origen (0, 0)
+- definir dirección y sentido del eje x, llamada \hat{x}$
+- definir dirección y sentido del eje y, llamada \hat{y}$
+
+un vector con gorrito como \hat{x}$ es un vector especial, cuya magnitud es 1.
+
+con ese sistema, podemos describir cualquier posición $\vec{P} = (P_x, P_y)$ en el plano, como la siguiente suma:
+
+$$\vec{P} = x \cdot \hat{x} + y \cdot \hat{y}$$
+
+por ejemplo, el punto $\vec{C} = (-11, 3) = -11 \cdot \hat{x} + 3 \cdot \hat{y}$
+
+## aritmética de vectores (15 min)
 
 ### suma y resta de vectores
 
@@ -79,13 +95,27 @@ $$5 \cdot \vec{A} = 5 \cdot (5 \hat{x} + 3 \hat{y}) = (5 \cdot 5) \hat{x} + (3 \
 
 y dividir funciona igual, afectando cada componente, por ejemplo si dividimos el vector B por 2:
 
-$$\frac{1}{2} \cdot  \vec{B} = \frac{1}{2} (7 \hat{x} - 1 \hat{y}) = \frac{7}{2} \hat{x} - \frac{1}{2} \hat{y} = 3.5 \hat{x}$ - 0.5 \hat{y}$$
+$$\frac{1}{2} \cdot \vec{B} = \frac{1}{2} (7 \hat{x} - 1 \hat{y}) = \frac{7}{2} \hat{x} - \frac{1}{2} \hat{y} = 3.5 \hat{x}$ - 0.5 \hat{y}$$
 
 ## fuerzas (15 min)
 
-una fuerza
+una fuerza en física es una influencia que puede hacer cambiar el movimiento de un cuerpo.
 
-## fuer
+una fuerza es un vector: tiene una magnitud y una dirección.
+
+las fuerzas se miden en Newton (N), que equivale a $\frac{kg \cdot m}{s^2}$.
+
+en la naturaleza conocemos 4 fuerzas fundamentales:
+
+estas 2 tienen un alcance infinito:
+
+- fuerza gravitatoria: atracción entre entre cuerpos con masa.
+- fuerza electromagnética: atracción o repulsión entre cuerpos con carga.
+
+estas 2 actúan a corta distancia:
+
+- fuerza nuclear fuerte: mantiene unidos los núcleos atómicos.
+- fuerza nuclear débil: escapa de los contenidos de este curso :)
 
 ## videos de repaso
 
