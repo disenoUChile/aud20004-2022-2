@@ -165,7 +165,7 @@ esta concepción del movimiento duró dos mil años, hasta Newton.
 
 Newton, nacido en 1643, publicó en 1687 su libro "Principios matemáticos de filosofía natural", donde expone sus 3 leyes de movimiento y cambió esta percepción.
 
-## Primera ley de Newton: inercia (15 min)
+## primera ley de Newton: inercia (15 min)
 
 todos los cuerpos permanecen moviéndose en línea recta a velocidad constante, hasta que se le aplica una fuerza externa.
 
@@ -175,7 +175,7 @@ consecuencias:
 - si hacemos esta afirmación mientras estamos sin movernos, notamos que estamos asumiendo el planeta como sin moverse, cuando en realidad se está moviendo en torno al sol!
 - es relativo, no existe un standard absoluto de reposo, siempre hay que definir un origen y un sistema de coordenadas.
 
-## Segunda ley de newton: momentum (15 min)
+## segunda ley de newton: momentum (15 min)
 
 momentum $\vec{p}$ se define como la cantidad de movimiento, y es el producto entre masa $m$ y velocidad $\vec{p} de un cuerpo$.
 
@@ -191,7 +191,7 @@ $$\vec{F} =  m \frac{d (\vec{v})}{dt} = m \cdot \vec{a}$$
 
 lo que resulta en que la fuerza es igual al producto entre masa y aceleración.
 
-## Tercera ley de newton: acción y reacción
+## tercera ley de newton: acción y reacción
 
 para cada acción siempre hay una opuesta de igual magnitud.
 
