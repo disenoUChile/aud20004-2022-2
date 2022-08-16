@@ -179,7 +179,7 @@ consecuencias:
 
 momentum $\vec{p}$ se define como la cantidad de movimiento, y es el producto entre masa $m$ y velocidad $\vec{p} de un cuerpo$.
 
-$$\vec{p} = m /cdot \vec{v}$$
+$$\vec{p} = m \cdot \vec{v}$$
 
 el cambio de momentum de un objeto es proporcional a la fuerza aplicada y ocurre en la dirección de la fuerza aplicada. eso en matemáticas, implica que la derivada del momentum es la fuerza, esto es.
 
