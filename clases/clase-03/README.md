@@ -28,4 +28,4 @@ en dos dimensiones (2D) tenemos el sistema:
 
 $$v_{x}(t) = v_{x0} + a_{x} \cdot t \brack v_{y}(t) = v_{y0} + a_{y} \cdot t$$
 
-$$\vec{x}(t) = \vec{x_{0}} + \vec{v_{0} \cdot t + \frac{1/2} \vec{a} t_{2}$$
+$$\vec{x}(t) = \vec{x_{0}} + \vec{v_{0}} \cdot t + \frac{1/2} \vec{a} t_{2}$$
