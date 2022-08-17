@@ -14,4 +14,18 @@ la clase anterior repasamos conceptos básicos de matemática, incluyendo:
 
 la clase de hoy es la unidad 0: cinemática en 1 y 2 dimensiones
 
-$$\vec{x}(t) = x_{0}$$
+## ecuación de velocidad
+
+ecuación de velocidad, en función de aceleración:
+
+$$\vec{v}(t) = \vec{v_{0}} + \vec{a} \cdot t$$
+
+si tenemos una dimensión (1D), podemos simplificar esto y decir:
+
+$$v(t) = v_{0} + a \cdot t$$
+
+en dos dimensiones (2D) tenemos el sistema:
+
+$$v*{x}(t) = v_{x0} + a_{x} \cdot t \brack v*{y}(t) = v\*{y0} + a\*{y} \cdot t$$
+
+$$\vec{x}(t) = \vec{x_{0}} + \vec{v_{0} \cdot t + \frac{1/2} \vec{a} t_{2}$$
