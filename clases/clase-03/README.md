@@ -26,6 +26,6 @@ $$v(t) = v_{0} + a \cdot t$$
 
 en dos dimensiones (2D) tenemos el sistema:
 
-$$v*{x}(t) = v_{x0} + a_{x} \cdot t \brack v*{y}(t) = v\*{y0} + a\*{y} \cdot t$$
+$$v_{x}(t) = v_{x0} + a_{x} \cdot t \brack v_{y}(t) = v_{y0} + a_{y} \cdot t$$
 
 $$\vec{x}(t) = \vec{x_{0}} + \vec{v_{0} \cdot t + \frac{1/2} \vec{a} t_{2}$$
