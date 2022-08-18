@@ -14,7 +14,22 @@ la clase anterior repasamos conceptos básicos de matemática, incluyendo:
 
 la clase de hoy es la unidad 0: cinemática en 1 y 2 dimensiones
 
-## ecuación de velocidad en 1D y 2D
+- definición de cinemática
+- ecuación de velocidad en 1D
+- ecuación de velocidad en 2D
+- ecuación de posición en 1D
+- ecuación de posición en 2D
+
+## definición de cinemática
+
+en cinemática, describiremos y modelaremos el movimiento de cuerpos.
+
+## supuestos y simplificaciones de cinemática
+
+- un cuerpo se puede describir con una posición en un punto
+- en ese punto, está toda la masa del cuerpo
+
+## ecuación de velocidad en 1D
 
 ecuación de velocidad, en función de aceleración:
 
