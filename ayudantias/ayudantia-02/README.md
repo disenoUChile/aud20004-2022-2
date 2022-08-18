@@ -100,7 +100,7 @@ $$F = m \cdot g$$
 
 igualando ambas fuerzas, podemos escribir la ecuación
 
-$$G \frac{M \cdot m)}{r^2} =  m \cdot g$$
+$$G \frac{M \cdot m}{r^2} =  m \cdot g$$
 
 y si despejamos g, obtenemos
 
