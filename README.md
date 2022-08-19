@@ -78,7 +78,7 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 
 - asistencia: inasistencias justificados por sistema u-cursos cuentan como media asistencia.
 - controles en grupo: pequeñas pruebas individuales hechas en horario de ayudantía.
-- tareas individuales: 3 tareas de investigación durante el semestre, la peor nota se borra.
+- tareas individuales: 2 tareas de investigación durante el semestre, se cuenta la mejor nota.
 
 ## metodología
 
