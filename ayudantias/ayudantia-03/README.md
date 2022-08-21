@@ -31,7 +31,7 @@ $$a = \frac{v_{1} - v_{2}}{t_{1} - t{2}}$$
 
 y reemplazando con nuestros datos, obtenemos:
 
-$$a = \frac{4 \frac{m}{s} - 10 {m}{s}}{5s - 7s} = \frac{-6}{-2} \cdot {m}{s^{2}} = 3 \frac{m}{s}$$
+$$a = \frac{4 \frac{m}{s} - 10 \frac{m}{s}}{5s - 7s} = \frac{-6}{-2} \cdot \frac{m}{s^{2}} = 3 \frac{m}{s^{2}}$$
 
 ahora solamente nos falta obtener $v_{0}$, por lo que partiendo de la ecuación de velocidad:
 
