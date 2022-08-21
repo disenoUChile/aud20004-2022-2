@@ -79,6 +79,10 @@ ahora tenemos este sistema de ecuaciones, donde queremos encontrar en qué insta
 
 $$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t \brack v(t) = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
 
+cuando las velocidades son iguales, podemos igualar los lados derechos de las ecuaciones, resultando en:
+
+$$ -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
+
 ## ejercicio-02
 
 veamos ahora en 2 dimensiones, de forma vectorial
