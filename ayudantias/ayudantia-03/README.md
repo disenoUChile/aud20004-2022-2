@@ -17,7 +17,7 @@ b) si tenemos otro cuerpo con la ecuación de velocidad
 
 $$v(t) = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
 
-encontrar el instante $t_{\*}$ en que tienen la misma velocidad $v_{\*}$
+encontrar el instante $t_{\*}$ en que tienen la misma velocidad $v_{\*}$.
 
 ## solución ejercicio-01
 
@@ -72,6 +72,12 @@ el mismo resultado!
 podemos decir entonces que la ecuación de velocidad es:
 
 $$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t$$
+
+b)
+
+ahora tenemos este sistema de ecuaciones, donde queremos encontrar en qué instante $t_{\*}$ los dos cuerpos tienen la misma velocidad $v_{\*}$.
+
+$$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t \brack v(t) = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
 
 ## ejercicio-02
 
