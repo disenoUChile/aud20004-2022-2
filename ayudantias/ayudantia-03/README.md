@@ -13,6 +13,12 @@ y si sabemos los siguientes valores de velocidad en ciertos instantes:
 
 encontrar los valores de $v_{0}$ y $a$ para definir la ecuación.
 
+b) si tenemos otro cuerpo con la ecuación de velocidad
+
+$$v(t) = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
+
+encontrar el instante $t_{*}$ en que tienen la misma velocidad $v_{*}$
+
 ## solución ejercicio-01
 
 a)
@@ -49,7 +55,7 @@ simplificando:
 
 $$v_{0} = 4 \frac{m}{s} - 15 \frac{m}{s} = -11 \frac{m}{s}$$
 
-si queremos comprobar que nuestro resultado de $v_0$ está correcto, podemos comprobar al usar el otro instante y comprobar que llegamos al mismo resultado de $v_0$, veamos:
+para verificar que nuestro resultado de $v_0$ está correcto, podemos usar el otro instante y comprobar que llegamos al mismo resultado de $v_0$, veamos:
 
 $$v(t) = v_{0} + a \cdot t$$
 
@@ -61,12 +67,14 @@ $$v_{0} =  10 \frac{m}{s}  - 21 \frac{m}{s}$$
 
 $$v_{0} =  -11 \frac{m}{s}$$
 
-el mismo resultado, entonces todo bien!
+el mismo resultado!
 
 podemos decir entonces que la ecuación de velocidad es:
 
 $$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t$$
 
 ## ejercicio-02
+
+veamos ahora en 2 dimensiones, de forma vectorial
 
 ## ejercicio-03
