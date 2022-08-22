@@ -160,3 +160,28 @@ a su vez, si analizamos las ecuaciones de posición en 1D y 2D del estilo:
 $$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2$$
 
 podemos ver que
+
+## ecuaciones de cinemática sin tiempo en 1D
+
+otra manera de ver la posición en un determinado momento es:
+
+$$x(t) = x_0 + \overline{v} \cdot t$$
+
+donde tenemos:
+
+- $x(t)$: posición en instante t
+- $x_0$: posición inicial
+- $\overline{v}$: velocidad promedio
+- t: instante t
+
+si queremos eliminar la dependencia en $t$, podemos despejarlo desde la ecuación original de velocidad $v(t)$:
+
+$$v(t) = v_0 + \overline{a} \cdot t$$
+
+y despejando $t$:
+
+$$t = \frac{v(t) - v{0}}{\overline{a}}$$
+
+y reemplazando este t en la ecuación de posición:
+
+$$x(t) = x_0 + \overline{v} \cdot t = x_0 + \overline{v} \cdot \frac{v(t) - v{0}}{\overline{a}}$$
