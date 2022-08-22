@@ -1,6 +1,6 @@
 # ayudantia-03
 
-## ejercicio-01
+## ejercicio-01 (30 min)
 
 a) si tenemos la ecuación de velocidad de un cuerpo es:
 
@@ -105,16 +105,16 @@ $$v(t=\frac{8}{3} \cdot s) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot \frac{8}{
 
 y despejando:
 
-$$v(t=\frac{8}{3}) = -11 \frac{m}{s} + \frac{m}{s} \cdot 8  = -3 \frac{m}{s}$$
+$$v(t=\frac{8}{3} \cdot s) = -11 \frac{m}{s} + \frac{m}{s} \cdot 8  = -3 \frac{m}{s}$$
 
 para verificar que el resultado es correcto, reemplacemos el tiempo en la otra ecuación de velocidad:
 
 $$v(t=\frac{8}{3} \cdot s) = 5 \frac{m}{s} - 3 \frac{m}{s^{2}} \cdot \frac{8}{3} \cdot s = 5 \frac{m}{s} - 8 \frac{m}{s} = -3 \frac{m}{s}$$
 
-con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será $-3 \frac{m}{s}$ y esto ocurrirá en el instante $\frac{8}{3} \cdot s$
+con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será $-3 \frac{m}{s}$ y esto ocurrirá en el instante $\frac{8}{3} \cdot s$.
 
-## ejercicio-02
+## ejercicio-02 (30 min)
 
 veamos ahora en 2 dimensiones, de forma vectorial
 
-## ejercicio-03
+## ejercicio-03 (30 min)
