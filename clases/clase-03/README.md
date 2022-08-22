@@ -52,13 +52,13 @@ adicionales:
 
 - aceleración es cambio de velocidad en el tiempo.
 
-$$a(\Delta t) = \frac{\Delta v}{\Delta t}$$
+$$a(\Delta t) = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1}$$
 
 donde $\Delta$ significa diferencia, y la ecuación anterior se lee como la aceleración en una ventana de tiempo, es igual a la variación de velocidad en esa ventana de tiempo, dividida por la ventana de tiempo.
 
 - velocidad es cambio de posición el tiempo.
 
-$$v(\Delta t) = \frac{\Delta x}{\Delta t}$$
+$$v(\Delta t) = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}$$
 
 ## ecuación de velocidad en una dimensión (1D)
 
@@ -143,3 +143,20 @@ $$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t^2$$
 $$v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t$$
 
 $$v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t$$
+
+## comentarios matemáticos sobre estas ecuaciones físicas:
+
+las ecuaciones de velocidad en 1D y 2D del estilo:
+
+$$v(t) = v_{0} + \overline{a} \cdot t$$
+
+las podemos pensar como ecuaciones con variable independiente $t$, donde v es la variable dependiente de t, y donde:
+
+- $\overline{a}$ es la pendiente de la ecuación, por lo tanto su signo nos dice si la velocidad aumenta, disminuye o es constante con el paso del tiempo
+- $v_0$: intercepto de la recta $v(t)$ con el eje vertical, donde $t=0$, nos dice la velocidad inicial.
+
+a su vez, si analizamos las ecuaciones de posición en 1D y 2D del estilo:
+
+$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2$$
+
+podemos ver que
