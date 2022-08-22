@@ -234,3 +234,7 @@ $$ x(t) = x_0 + -2a \cdot {v\*{0}}^2$$
 ## movimiento circular
 
 si un cuerpo se mueve a lo largo de una circunferencia, con la misma
+
+## referencias
+
+- https://openstax.org/details/books/university-physics-volume-1
