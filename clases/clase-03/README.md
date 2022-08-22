@@ -82,15 +82,15 @@ $$v(t) =  v_0 + \overline{a} \cdot t$$
 
 la posición $x(t)$ en el instante de tiempo t, es igual a la posición inicial $x_0$ más el producto entre la velocidad promedio $\overline{v}$ y el tiempo t.
 
-$$x(t) = x_0 + v_{promedio} \cdot t$$
+$$x(t) = x_0 + \overline{v} \cdot t$$
 
-a su vez, la velocidad promedio $v$ la podemos plantear como:
+a su vez, la velocidad promedio $\overline{v}$ la podemos plantear como:
 
-$$v_{promedio} =  \frac{v(t) + v_0}{2}$$
+$$\overline{v} =  \frac{v(t) + v_0}{2}$$
 
 y a su vez, podemos escribir $v(t)$ en función de $v_0$ y $a$:
 
-$$v_{promedio} =  \frac{(v_0 + a \cdot t) + v_0}{2} = v_0 + \frac{a \cdot t}{2}$$
+$$\overline{v} =  \frac{(v_0 + a \cdot t) + v_0}{2} = v_0 + \frac{a \cdot t}{2}$$
 
 y reemplazando en la ecuación de posición x(t) resulta en:
 
@@ -100,47 +100,30 @@ y desarrollando:
 
 $$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} a \cdot t$$
 
-HASTA AQUI
+## resumen cinemática en 1D
 
-$$v =  \frac{x(t) - x(t_0)}{t - t_0}$$
+con aceleración promedio $\overline{a}$, podemos escribir las ecuaciones de posición y aceleración asi:
 
-y haciendo las mismas simplificaciones anteriores de $t_0 = 0$ y $x(t_0) = x_0$, podemos escribir:
+$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t$$
 
-$v =  \frac{x(t) - x_0}{t}$
+$$v(t) = v_0 + \overline{a} \cdot t$$
 
-y despejando $x(t)$:
+## ecuación de velocidad en 2D
 
-$$x(t) = x_0 + v \cdot t$$
+en 2D basta con tomar la ecuación de 1D y reemplazar por vectores:
 
-y reemplazando con la ecuación de velocidad anterior:
+$$\vec{v}(t) = \vec{v_0} + \vecP{\overline{a}} \cdot t$$
 
-$$x(t) = x_0 + (v_0 + a \cdot t) \cdot t$$
+y descomponiendo en componentes $\hat{x}$ e $\hat{y}$, tenemos el sistema:
 
-y agrupando:
+$$v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t \brack v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t$$
 
-$$x(t) = x_0 + v_0 \cdot t + a \cdot t^2$$
+## ecuación de posición en 1D
 
-## ecuación de velocidad en 1D
+en 2D basta con tomar la ecuación de 1D y reemplazar por vectores:
 
-ecuación de velocidad, en función de aceleración:
+$$\vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} \vec{\overline{a}} \cdot t$$
 
-$$\vec{v}(t) = \vec{v_{0}} + \vec{a} \cdot t$$
+y descomponiendo en componentes $\hat{x}$ e $\hat{y}$, tenemos el sistema:
 
-si tenemos una dimensión (1D), podemos simplificar esto y decir:
-
-$$v(t) = v_{0} + a \cdot t$$
-
-en dos dimensiones (2D) tenemos el sistema:
-
-$$v_{x}(t) = v_{x0} + a_{x} \cdot t \brack v_{y}(t) = v_{y0} + a_{y} \cdot t$$
-
-## ecuación de posición en 1D y 2D
-
-$$\vec{x}(t) = \vec{x_{0}} + \vec{v_{0}} \cdot t + \frac{1}{2} \cdot \vec{a} \cdot t^2$$
-
-en dos dimensiones (2D) tenemos el sistema:
-
-$$x(t) = x_{0} + v_{x0} \cdot t + \frac{1}{2} \cdot a_{x} \cdot t^2 \brack y(t) = y_{0} + v_{y0} \cdot t + \frac{1}{2} \cdot a{y} \cdot t^2$$
-
-$$
-$$
+$$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t \brack y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t$$
