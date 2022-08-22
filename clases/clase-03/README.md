@@ -182,6 +182,18 @@ y despejando $t$:
 
 $$t = \frac{v(t) - v_{0}}{\overline{a}}$$
 
-y reemplazando este t en la ecuación de posición:
+y reemplazando este t en la ecuación de posición $x(t)$:
 
 $$x(t) = x_0 + \overline{v} \cdot t = x_0 + \overline{v} \cdot \frac{v(t) - v_{0}}{\overline{a}}$$
+
+si además reemplazamos la velocidad promedio $\overline{v}$ por su definición:
+
+$$\overline{v} = \frac{v(t) + v_{0}}{2}$$
+
+la ecuación de posición x(t) resulta:
+
+$$x(t) = x_0 + \overline{v} \cdot \frac{v(t) - v_{0}}{\overline{a}} = x_0 + \frac{v(t) + v_{0}}{2} \cdot \frac{v(t) - v_{0}}{\overline{a}}$$
+
+y como $(a + b)(a - b) = a^2 - b^2$, entonces:
+
+$$x(t) = x_0 + \frac{v(t) + v_{0}}{2} \cdot \frac{v(t) - v_{0}}{\overline{a}} = x_0 + \frac{v^2(t) - {v_{0}}^2}{2 \cdot \overline{a}}$$
