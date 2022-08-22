@@ -210,3 +210,27 @@ donde
 - $x(t)$ es la posición en el instante t.
 
 con esto, si tenemos los valores de las constantes, para toda posición $x(t)$ podemos saber la velocidad $v(t)$, y viceversa.
+
+ejemplo:
+
+si un cuerpo se mueve en dirección ascendente con $v_0 > 0$, con una aceleración opuesta y constante $-a$, va a disminuir su velocidad, y en algún momento va a pasar por 0, y va seguir disminuyendo.
+
+cuando su velocidad es 0, es en el instante en que se empieza a devolver en la otra dirección, y sería su máximo punto. veamos este valor en la ecuación que acabamos de plantear:
+
+$$v^2(t) = {v_{0}}^2 + (x(t) - x_{0}) \cdot 2 \overline{a}$$
+
+donde $v(t) = 0$, entonces:
+
+$$0 = {v_{0}}^2 + (x(t) - x_{0}) \cdot 2 \overline{a}$$
+
+y despejando x(t):
+
+$$- {v_{0}}^2 = (x(t) - x_{0}) \cdot 2 \overline{a}$$
+
+$$-2a \cdot {v_0}^2 = x(t) - x_0$$
+
+$$ x(t) = x_0 + -2a \cdot {v\*{0}}^2$$
+
+## movimiento circular
+
+si un cuerpo se mueve a lo largo de una circunferencia, con la misma
