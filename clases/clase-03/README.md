@@ -180,8 +180,8 @@ $$v(t) = v_0 + \overline{a} \cdot t$$
 
 y despejando $t$:
 
-$$t = \frac{v(t) - v{0}}{\overline{a}}$$
+$$t = \frac{v(t) - v_{0}}{\overline{a}}$$
 
 y reemplazando este t en la ecuación de posición:
 
-$$x(t) = x_0 + \overline{v} \cdot t = x_0 + \overline{v} \cdot \frac{v(t) - v{0}}{\overline{a}}$$
+$$x(t) = x_0 + \overline{v} \cdot t = x_0 + \overline{v} \cdot \frac{v(t) - v_{0}}{\overline{a}}$$
