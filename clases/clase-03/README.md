@@ -130,4 +130,16 @@ y descomponiendo en componentes $\hat{x}$ e $\hat{y}$, tenemos el sistema:
 
 $$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2$$
 
-$$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t$$
+$$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t^2$$
+
+## resumen cinemática en 2D
+
+con aceleración promedio $\vec{\overline{a}}$, podemos escribir las ecuaciones de posición y aceleración asi:
+
+$$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2$$
+
+$$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t^2$$
+
+$$v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t$$
+
+$$v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t$$
