@@ -90,15 +90,15 @@ $$\overline{v} =  \frac{v(t) + v_0}{2}$$
 
 y a su vez, podemos escribir $v(t)$ en función de $v_0$ y $a$:
 
-$$\overline{v} =  \frac{(v_0 + a \cdot t) + v_0}{2} = v_0 + \frac{a \cdot t}{2}$$
+$$\overline{v} =  \frac{(v_0 + \overline{a} \cdot t) + v_0}{2} = v_0 + \frac{\overline{a} \cdot t}{2}$$
 
 y reemplazando en la ecuación de posición x(t) resulta en:
 
-$$x(t) = x_0 + (v_0 + \frac{a \cdot t}{2}) \cdot t$$
+$$x(t) = x_0 + (v_0 + \frac{\overline{a} \cdot t}{2}) \cdot t$$
 
 y desarrollando:
 
-$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} a \cdot t$$
+$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t$$
 
 ## resumen cinemática en 1D
 
