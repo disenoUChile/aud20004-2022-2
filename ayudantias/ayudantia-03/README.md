@@ -101,17 +101,17 @@ $$t = \frac{16}{6} s = \frac{8}{3} s \approx 2.66 s$$
 
 para encontrar ahora la velocidad, basta con reemplazar ese instante en cualquiera de las ecuaciones y el resultado de la velocidad será el mismo.
 
-$$v(t=\frac{8}{3} \cdot s) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot \frac{8}{3} \cdot s$$
+$$v(t=\frac{8}{3} s) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot \frac{8}{3} s$$
 
 y despejando:
 
-$$v(t=\frac{8}{3} \cdot s) = -11 \frac{m}{s} + \frac{m}{s} \cdot 8  = -3 \frac{m}{s}$$
+$$v(t=\frac{8}{3} s) = -11 \frac{m}{s} + \frac{m}{s} \cdot 8  = -3 \frac{m}{s}$$
 
 para verificar que el resultado es correcto, reemplacemos el tiempo en la otra ecuación de velocidad:
 
-$$v(t=\frac{8}{3} \cdot s) = 5 \frac{m}{s} - 3 \frac{m}{s^{2}} \cdot \frac{8}{3} \cdot s = 5 \frac{m}{s} - 8 \frac{m}{s} = -3 \frac{m}{s}$$
+$$v(t=\frac{8}{3} s) = 5 \frac{m}{s} - 3 \frac{m}{s^{2}} \cdot \frac{8}{3} s = 5 \frac{m}{s} - 8 \frac{m}{s} = -3 \frac{m}{s}$$
 
-con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será $-3 \frac{m}{s}$ y esto ocurrirá en el instante $\frac{8}{3} \cdot s$.
+con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será $-3 \frac{m}{s}$ y esto ocurrirá en el instante $\frac{8}{3} s$.
 
 ## ejercicio-02 (30 min)
 
