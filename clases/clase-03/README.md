@@ -197,3 +197,16 @@ $$x(t) = x_0 + \overline{v} \cdot \frac{v(t) - v_{0}}{\overline{a}} = x_0 + \fra
 y como $(a + b)(a - b) = a^2 - b^2$, entonces:
 
 $$x(t) = x_0 + \frac{v(t) + v_{0}}{2} \cdot \frac{v(t) - v_{0}}{\overline{a}} = x_0 + \frac{v^2(t) - {v_{0}}^2}{2 \cdot \overline{a}}$$
+
+y podemos despejar la velocidad $v(t)$ en el instante t así:
+
+$$v^2(t) = {v_{0}}^2 + (x(t) - x_{0}) \cdot 2 \overline{a}$$
+
+donde
+
+- $v_{0}$ es la velocidad inicial, una constante.
+- $x_{0}$ es la posición inicial, una constante.
+- $\overline{a}$ es la aceleración promedio, una constante.
+- $x(t)$ es la posición en el instante t.
+
+con esto, si tenemos los valores de las constantes, para toda posición $x(t)$ podemos saber la velocidad $v(t)$, y viceversa.
