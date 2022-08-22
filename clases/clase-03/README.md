@@ -116,7 +116,9 @@ $$\vec{v}(t) = \vec{v_0} + \vec{\overline{a}} \cdot t$$
 
 y descomponiendo en componentes $\hat{x}$ e $\hat{y}$, tenemos el sistema:
 
-$$v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t \brack v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t$$
+$$v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t$$
+
+$$v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t$$
 
 ## ecuación de posición en 1D
 
@@ -126,4 +128,6 @@ $$\vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} \vec{\overline{a}} \c
 
 y descomponiendo en componentes $\hat{x}$ e $\hat{y}$, tenemos el sistema:
 
-$$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2 \brack y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t$$
+$$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2$$
+
+$$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t$$
