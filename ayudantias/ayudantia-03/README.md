@@ -83,6 +83,26 @@ cuando las velocidades son iguales, podemos igualar los lados derechos de las ec
 
 $$ -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
 
+sumamos $3 \frac{m}{s^{2}} \cdot t$ a ambos lados:
+
+$$ -11 \frac{m}{s} + 6 \frac{m}{s^{2}} \cdot t = 5 \frac{m}{s} $$
+
+sumamos $-11 \frac{m}{s}$ a ambos lados:
+
+$$ 6 \frac{m}{s^{2}} \cdot t = 16 \frac{m}{s} $$
+
+dividimos por $\frac{m}{s}$
+
+$$ 6 \frac{1}{s} \cdot t = 16 $$
+
+dividimos por $6$ y multiplicamos por $s$:
+
+$$t = \frac{16}{6} s = \frac{8}{3} s \approx 2.66 s$$
+
+para encontrar ahora la velocidad, basta con reemplazar ese instante en cualquiera de las ecuaciones y el resultado de la velocidad será el mismo.
+
+$$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t$$
+
 ## ejercicio-02
 
 veamos ahora en 2 dimensiones, de forma vectorial
