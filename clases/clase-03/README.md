@@ -62,25 +62,25 @@ $$v(\Delta t) = \frac{\Delta x}{\Delta t}$$
 
 ## ecuación de velocidad en una dimensión (1D)
 
-si conocemos la aceleración promedio $a$ en un instante, podemos usar como ventana de tiempo el tiempo entre origen $t_0 = 0$ y ese instante, y así escribir la aceleración en ese instante de tiempo entre ellos como:
+si conocemos la aceleración promedio $\overline{a}$ en un instante, podemos usar como ventana de tiempo el tiempo entre origen $t_0 = 0$ y ese instante, y así escribir la aceleración en ese instante de tiempo entre ellos como:
 
-$$a =  \frac{v(t) - v(t_0)}{t - t_0}$$
+$$\overline{a} =  \frac{v(t) - v(t_0)}{t - t_0}$$
 
 podemos simplificar ya que sabemos que $t_0 = 0 s$, entonces:
 
-$$a = \frac{v(t) - v(t_0)}{t}$$
+$$\overline{a} = \frac{v(t) - v(t_0)}{t}$$
 
-y sabemos que v(t_0) es la velocidad inicial en instante t=0, y es una constante, que podemos llamar $v_0$, entonces:
+y sabemos que $v(t_0)$ es la velocidad inicial en instante $t=0$, y es una constante, que podemos llamar $v_0$, entonces:
 
-$$a = \frac{v(t) - v_0}{t}$$
+$$\overline{a} = \frac{v(t) - v_0}{t}$$
 
 y despejando la velocidad $v(t)$, tenemos la ecuación de velocidad:
 
-$$v(t) =  v_0 + a \cdot t$$
+$$v(t) =  v_0 + \overline{a} \cdot t$$
 
 ## ecuación de posición en una dimensión (1D)
 
-la posición en el instante de tiempo t, es igual a la posición inicial más el producto entre la velocidad promedio y el tiempo t.
+la posición $x(t)$ en el instante de tiempo t, es igual a la posición inicial $x_0$ más el producto entre la velocidad promedio $\overline{v}$ y el tiempo t.
 
 $$x(t) = x_0 + v_{promedio} \cdot t$$
 
