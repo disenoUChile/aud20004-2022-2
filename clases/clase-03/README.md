@@ -233,7 +233,16 @@ $$ x(t) = x_0 + -2a \cdot {v\*{0}}^2$$
 
 ## movimiento circular
 
-si un cuerpo se mueve a lo largo de una circunferencia, con la misma
+consideración:
+
+- consideramos una superficie en forma de disco
+- se mueve con velocidad angular constante
+- nos centramos en un radio del disco, todo ese radio avanza y pasa por el origen con regularidad (periodo T).
+- pero un cuerpo a $\frac{R}{2}$ del centro, se más lento que un cuerpo en $R$.
+
+la ecuación es:
+
+$$v = \omega \cdot r$$
 
 ## referencias
 
