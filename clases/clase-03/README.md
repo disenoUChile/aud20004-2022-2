@@ -238,3 +238,4 @@ si un cuerpo se mueve a lo largo de una circunferencia, con la misma
 ## referencias
 
 - https://openstax.org/details/books/university-physics-volume-1
+- https://www.cliffsnotes.com/study-guides/physics/classical-mechanics/kinematics-in-one-dimension
