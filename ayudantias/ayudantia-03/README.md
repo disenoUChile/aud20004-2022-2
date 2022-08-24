@@ -392,6 +392,12 @@ entonces en este instante, la velocidad es 0, y por lo tanto, la posición es m�
 
 $$x(t=\frac{-5}{18} s) = \frac{1}{4}m + 5(\frac{-5}{18} s) \frac{m}{s} + \frac{18 \cdot (\frac{-5}{18} s)^2}{2} \frac{m}{s^2}$$
 
-$$x(t=\frac{-5}{18} s) = \frac{1}{4}m - \frac{-25}{18} m + \frac{\frac{25}{18}}{2} m$$
+$$x(t=\frac{-5}{18} s) = \frac{1}{4}m - \frac{25}{18} m + \frac{\frac{25}{18}}{2} m$$
+
+$$x(t=\frac{-5}{18} s) = \frac{9}{36}m - \frac{50}{36} m + \frac{25}{36} m$$
+
+$$x(t=\frac{-5}{18} s) = \frac{9-50+25}{36}m = \frac{-16}{36}m = \frac{-4 \cdot 4}{4 \cdot 9}m = \frac{-4}{9}m$$
+
+con esto, la posición mínima es -4/9 m!
 
 solución en Wolfram Alpha: https://www.wolframalpha.com/input?i=x%28t%29+%3D+9*t%5E2+%2B+5*t+%2B+1%2F4+where+t%3D-5%2F18
