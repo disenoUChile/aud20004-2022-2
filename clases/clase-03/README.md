@@ -40,7 +40,7 @@ en 2D:
 
 adicionales:
 
-- $\Delta$: significa diferencia entre dos cantidades.
+- $\Delta$: significa diferencia entre final e inicial. por ejemplo $\Delta t = t_{final} - t_{inicial}$
 - $algo_{0}$: el subíndice 0 implica en instante t=0, que llamamos inicial.
 
 ## supuestos y simplificaciones de cinemática
@@ -59,6 +59,16 @@ donde $\Delta$ significa diferencia, y la ecuación anterior se lee como la acel
 - velocidad es cambio de posición el tiempo.
 
 $$v(\Delta t) = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}$$
+
+## ecuación de aceleración en una dimensión (1D)
+
+en este curso simplificaremos nuestros cálculos, usando una aceleración promedio, que notaremos $\overline{a}$ que es constante, entonces:
+
+$$a(t) = \overline{a}$$
+
+como ven, nuestra aceleración será un número, y no dependerá del tiempo, o en otras palabras, tendrá el mismo valor para todo instante de tiempo.
+
+nota: aceleración se mide en $\frac{m}{s^2}$
 
 ## ecuación de velocidad en una dimensión (1D)
 
@@ -243,6 +253,22 @@ consideración:
 la ecuación es:
 
 $$v = \omega \cdot r$$
+
+donde
+
+- $v$ es velocidad, se mide en $\frac{m}{s}$
+- $omega$ es velocidad angular, se mide en $\frac{radianes}{s}$
+- $r$ es radio, se mide en $m$
+
+si tenemos una velocidad angular constante, podemos plantear esta ecuación como:
+
+$$\omega = \frac{v}{r}$$
+
+donde $v$ es directamente proporcional a $r$, entonces con velocidad angular constante, a mayor radio, mayor velocidad.
+
+por lo tanto, un cuerpo muy cerca del centro va más lento que uno a mayor distancia.
+
+eso aplica a las canchas para correr, donde a la personas que corren más fuera del centro se les da una ventaja, y después durante la carrera se les permite a todes ir al centro, para que corran la misma distancia.
 
 ## referencias
 
