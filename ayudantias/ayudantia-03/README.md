@@ -316,7 +316,7 @@ y sabemos que:
 
 - posición inicial es (1/4) metro.
 - velocidad inicial es 5 metros / segundo.
-- aceleración es 9 metros / segundos cuadrados.
+- aceleración es 18 metros / segundos cuadrados.
 
 a) determinar la ecuación de posición, y a partir de ella, ver en qué instantes de tiempo la posición es 0m.
 
@@ -328,24 +328,36 @@ a)
 
 reemplazando con los valores del enunciado, la ecuación de posición es:
 
-$$x(t) = \frac{1}{4}m + 5t \frac{m}{s} + \frac{9 \cdot t^2}{2}$$
+$$x(t) = \frac{1}{4}m + 5t \frac{m}{s} + \frac{18 \cdot t^2}{2}$$
 
 podemos ordenar esta ecuación también de esta manera:
 
-$$x(t) = 4.5 \frac{m}{s^2} \cdot t^2 + 5t \frac{m}{s} + \frac{1}{4}m$$
+$$x(t) = 9 \frac{m}{s^2} \cdot t^2 + 5t \frac{m}{s} + \frac{1}{4}m$$
 
 si queremos saber el instante de tiempo donde la posición es 0m, la ecuación resulta:
 
-$$0m = 4.5 \frac{m}{s^2} \cdot t^2 + 5t \frac{m}{s} + \frac{1}{4}m$$
+$$0m = 9 \frac{m}{s^2} \cdot t^2 + 5t \frac{m}{s} + \frac{1}{4}m$$
 
 y si comparamos con la ecuación cuadrática canónica:
 
 $$0 = A t^2 + Bt + C$$,
 
-vemos que nuestro A=4.5, B=5, C=1/4.
+vemos que nuestro A=9, B=5, C=1/4.
 
 también que los valores de t que hacen que esta ecuación sea igual a 0, son:
 
 $$t = \frac{-B \pm \sqrt{B^2 - 4 \cdot A \cdot C}}{2 \cdot A}$$
 
 y reemplazando, obtenemos:
+
+$$t = \frac{-5 \pm \sqrt{5^2 - 4 \cdot 9 \cdot 0.25}}{2 \cdot 9}$$
+
+y despejando:
+
+$$t = \frac{-5 \pm \sqrt{25 - 9}}{18} = \frac{-5 \pm \sqrt{16}}{18} = \frac{-5 \pm 4}{18}$$
+
+y los dos resultados, son uno considerando la suma, y el otro la resta, entonces:
+
+$t_1 = \frac{-5 + 4}{18} = \frac{-1}{18}$$
+
+$t_2 = \frac{-5 - 4}{18} = \frac{-9}{18}$$
