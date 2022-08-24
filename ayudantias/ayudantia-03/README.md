@@ -120,10 +120,37 @@ con esto, tenemos que la respuesta que las velocidades serán iguales, su valor 
 ## ejercicio-02 (30 min)
 
 a)
-si tenemos la ecuación de posición en 2D:
+
+a partir de la ecuación de posición en 2D:
 
 $$\vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} \vec{a} t^2$$
 
-y sabemos que la posición inicial es (5, 0) metros, la velocidad inicial es (-1, 2) metros / segundo, y la aceleración es (3, -1) metros / segundos cuadrados.
+y de los siguientes datos:
+
+- posición inicial es (5, 0) metros
+- velocidad inicial es (-1, 2) metros / segundo
+- aceleración es (3, -1) metros / segundos cuadrados
+
+cuál es la posición del cuerpo en los instantes 0s, 1s, 2s y 60s?
+
+## solución ejercicio-02
+
+partamos de la ecuación de posición en 2D, y descompongamos en las coordenadas x e y:
+
+$$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} a_x \cdot t^2$$
+
+$$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} a_y \cdot t^2$$
+
+y reemplacemos los valores en estas ecuaciones:
+
+$$x(t) = 5m + -1 \frac{m}{s} \cdot t + \frac{1}{2} \cdot 3 \frac{m}{s^2} \cdot t^2$$
+
+$$y(t) = 0m + 2 \frac{m}{s} \cdot t + \frac{1}{2} \cdot (-1) \frac{m}{s^2} \cdot t^2$$
+
+y simplificando:
+
+$$x(t) = 5m -t \frac{m}{s} + \frac{3 \cdot t^2}{2} \frac{m}{s^2}$$
+
+$$y(t) = 2t \frac{m}{s} - \frac{t^2}{2} \frac{m}{s^2}$$
 
 ## ejercicio-03 (30 min)
