@@ -115,10 +115,15 @@ para verificar que el resultado es correcto, reemplacemos el tiempo en la otra e
 
 $$v(t=\frac{8}{3} s) = 5 \frac{m}{s} - 3 \frac{m}{s^{2}} \cdot \frac{8}{3} s = 5 \frac{m}{s} - 8 \frac{m}{s} = -3 \frac{m}{s}$$
 
-con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será -3 metros/ segundos cuadrados, esto ocurrirá en el instante 8/3 segundos$.
+con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será -3 metros / segundos cuadrados, esto ocurrirá en el instante 8/3 segundos.
 
 ## ejercicio-02 (30 min)
 
-veamos ahora en 2 dimensiones, de forma vectorial
+a)
+si tenemos la ecuación de posición en 2D:
+
+$$\vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} a t^2$$
+
+y sabemos que la posición inicial es (5, 0) metros, la velocidad inicial es (-1, 2) metros / segundo, y la aceleración es (3, -1) metros / segundos cuadrados.
 
 ## ejercicio-03 (30 min)
