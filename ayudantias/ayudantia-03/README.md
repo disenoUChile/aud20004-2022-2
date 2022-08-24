@@ -11,39 +11,35 @@ y si sabemos los siguientes valores de velocidad en ciertos instantes:
 - $v(t=5s) = 4 \frac{m}{s}$
 - $v(t=7s) = 10 \frac{m}{s}$
 
-encontrar los valores de $v_{0}$ y $a$ para definir la ecuación.
+encontrar los valores de velocidad inicial y aceleración para definir la ecuación.
 
 b) si tenemos otro cuerpo con la ecuación de velocidad
 
 $$v(t) = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
 
-encontrar el instante $t_{\*}$ en que tienen la misma velocidad $v_{\*}$.
+encontrar el instante en que tienen la misma velocidad.
 
 ## solución ejercicio-01
 
 a)
 
-sabemos que para $t_1$ y $t_2$, podemos escribir el sistema
+sabemos que para por definición, la aceleración es:
 
-$$v_{1} = v_{0} + a \cdot t_1 \brack v_{2} = v_{0} + a \cdot t_2$$
+$$a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{\frac{t_2 - t_1}}$$
 
-si restamos la primera ecuación de la segunda, obtenemos:
+si reemplazamos con los valores que tenemos en los instantes 5s y 7s, podemos escribir:
 
-$$v_{1} - v{2} = a \cdot (t_{1} - t_{2})$$
+$$a = \frac{10 \frac{m}{s} - 4 \frac{m}{s}}{7s - 5s}$$
 
-y con esto podemos despejar la aceleración:
+y desarrollando, encontramos el valor de la aceleración:
 
-$$a = \frac{v_{1} - v_{2}}{t_{1} - t{2}}$$
+$$a = \frac{6 \frac{m}{s}}{2s} = 3 \frac{m}{s^2}$$
 
-y reemplazando con nuestros datos, obtenemos:
-
-$$a = \frac{4 \frac{m}{s} - 10 \frac{m}{s}}{5s - 7s} = \frac{-6}{-2} \cdot \frac{m}{s^{2}} = 3 \frac{m}{s^{2}}$$
-
-ahora solamente nos falta obtener $v_{0}$, por lo que partiendo de la ecuación de velocidad:
+ahora solamente nos falta obtener la velocidad inicial, y si analizamos la ecuación de velocidad, podemos ver que como sabemos la velocidad en ciertos instantes, podemos reemplazar esos valores y despejar la velocidad inicial.
 
 $$v(t) = v_{0} + a \cdot t$$
 
-y reemplazando con la información que tenemos sobre el primer instante $t=5s$:
+reemplacemos con la información que tenemos sobre el primer instante $t=5s$:
 
 $$4 \frac{m}{s} = v_{0} + 3 \frac{m}{s^{2}} \cdot 5s$$
 
@@ -55,7 +51,7 @@ simplificando:
 
 $$v_{0} = 4 \frac{m}{s} - 15 \frac{m}{s} = -11 \frac{m}{s}$$
 
-para verificar que nuestro resultado de $v_0$ está correcto, podemos usar el otro instante y comprobar que llegamos al mismo resultado de $v_0$, veamos:
+podemos verificar que nuestro resultado de velocidad inicial es correcto, al reemplazar en la ecuación de velocidad la información que tenemos del otro instante, y el resultado será el mismo, veamos:
 
 $$v(t) = v_{0} + a \cdot t$$
 
@@ -69,7 +65,7 @@ $$v_{0} =  -11 \frac{m}{s}$$
 
 el mismo resultado!
 
-podemos decir entonces que la ecuación de velocidad es:
+como ahora sabemos la velocidad inicial y la aceleración, podemos construir la ecuación de velocidad para todo instante t, que queda así:
 
 $$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t$$
 
