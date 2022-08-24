@@ -71,7 +71,7 @@ $$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t$$
 
 b)
 
-ahora tenemos este sistema de ecuaciones, donde queremos encontrar en qué instante $t_{\*}$ los dos cuerpos tienen la misma velocidad $v_{\*}$.
+ahora tenemos este sistema de ecuaciones, donde queremos encontrar en qué instante los dos cuerpos tienen la misma velocidad, lo que equivale a encontrar la intersección en esta sistema de dos ecuaciones y dos variables: velocidad y tiempo.
 
 $$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t \brack v(t) = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
 
@@ -79,19 +79,13 @@ cuando las velocidades son iguales, podemos igualar los lados derechos de las ec
 
 $$ -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
 
-sumamos $3 \frac{m}{s^{2}} \cdot t$ a ambos lados:
+ahora tenemos que despejar el tiempo t, para lo que tenemos que hacer operaciones a ambos lados:
 
 $$ -11 \frac{m}{s} + 6 \frac{m}{s^{2}} \cdot t = 5 \frac{m}{s} $$
 
-sumamos $-11 \frac{m}{s}$ a ambos lados:
-
 $$ 6 \frac{m}{s^{2}} \cdot t = 16 \frac{m}{s} $$
 
-dividimos por $\frac{m}{s}$
-
 $$ 6 \frac{1}{s} \cdot t = 16 $$
-
-dividimos por $6$ y multiplicamos por $s$:
 
 $$t = \frac{16}{6} s = \frac{8}{3} s \approx 2.66 s$$
 
