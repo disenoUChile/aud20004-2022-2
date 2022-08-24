@@ -104,7 +104,7 @@ nota: velocidad se mide en $\frac{m}{s}$.
 
 ## ecuación de posición en una dimensión (1D)
 
-la posición $x(t)$ en el instante de tiempo t, es igual a la posición inicial $x_0$ más el producto entre la velocidad promedio $\overline{v}$ y el tiempo t.
+la posición x(t) en el instante de tiempo t, es igual a la posición inicial $x_0$ más el producto entre la velocidad promedio $\overline{v}$ y el tiempo t.
 
 $$
 x(t) = x_0 + \overline{v} \cdot t
