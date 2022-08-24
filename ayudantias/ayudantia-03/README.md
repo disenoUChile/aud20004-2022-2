@@ -340,7 +340,7 @@ $$0m = 9 \frac{m}{s^2} \cdot t^2 + 5t \frac{m}{s} + \frac{1}{4}m$$
 
 y si comparamos con la ecuación cuadrática canónica:
 
-$$0 = A t^2 + Bt + C$$,
+$$0 = A t^2 + Bt + C$$
 
 vemos que nuestro A=9, B=5, C=1/4.
 
@@ -358,6 +358,36 @@ $$t = \frac{-5 \pm \sqrt{25 - 9}}{18} = \frac{-5 \pm \sqrt{16}}{18} = \frac{-5 \
 
 y los dos resultados, son uno considerando la suma, y el otro la resta, entonces:
 
-$t_1 = \frac{-5 + 4}{18} = \frac{-1}{18}$$
+$$t_1 = \frac{-5 + 4}{18} = \frac{-1}{18}$$
 
-$t_2 = \frac{-5 - 4}{18} = \frac{-9}{18}$$
+$$t_2 = \frac{-5 - 4}{18} = \frac{-9}{18} = \frac{-1}{2}$$
+
+entonces existen dos instantes en que la posición es 0m!
+
+gráfico en Wolfram Alpha: https://www.wolframalpha.com/input?i=x%28t%29+%3D+9*t%5E2+%2B+5*t+%2B+1%2F4
+
+b)
+
+la ecuación de velocidad es:
+
+$$v(t) = v_0 + a \cdot t$$
+
+y reemplazando los valores que tenemos:
+
+$$v(t) = 5 \frac{m}{s} + 18t \frac{m}{s^2}$$
+
+nos dicen que queremos la posición mínima o máxima de la posición, y que eso ocurre cuando la velocidad es 0, así que usemos este dato para despejar el instante t en que la velocidad es 0.
+
+$$0 \frac{m}{s} = 5 \frac{m}{s} + 18t \frac{m}{s^2}$$
+
+y despejando t:
+
+$$0 = 5  + 18t \frac{1}{s}$$
+
+$$-5s = 18t$$
+
+$$ t = \frac{-5}{18} s$$
+
+entonces en este instante, la velocidad es 0, y por lo tanto, la posición es máxima o mínima, reemplacemos en la ecuación de posición:
+
+$$x(t=\frac{-5}{18} s) = \frac{1}{4}m + 5(\frac{-5}{18} s) \frac{m}{s} + \frac{18 \cdot (\frac{-5}{18} s)^2}{2}$$
