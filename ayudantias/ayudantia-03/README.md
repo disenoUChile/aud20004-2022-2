@@ -122,7 +122,7 @@ con esto, tenemos que la respuesta que las velocidades serán iguales, su valor 
 a)
 si tenemos la ecuación de posición en 2D:
 
-$$\vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} a t^2$$
+$$\vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} \vec{a} t^2$$
 
 y sabemos que la posición inicial es (5, 0) metros, la velocidad inicial es (-1, 2) metros / segundo, y la aceleración es (3, -1) metros / segundos cuadrados.
 
