@@ -115,7 +115,7 @@ para verificar que el resultado es correcto, reemplacemos el tiempo en la otra e
 
 $$v(t=\frac{8}{3} s) = 5 \frac{m}{s} - 3 \frac{m}{s^{2}} \cdot \frac{8}{3} s = 5 \frac{m}{s} - 8 \frac{m}{s} = -3 \frac{m}{s}$$
 
-con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será -3 metros / segundos cuadrados, esto ocurrirá en el instante 8/3 segundos.
+con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será -3 metros / segundos, esto ocurrirá en el instante 8/3 segundos.
 
 ## ejercicio-02 (30 min)
 
@@ -218,7 +218,7 @@ gráficos en Wolfram Alpha de y(t):
 - y(t=0s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D0
 - y(t=1s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D1
 - y(t=2s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D2
-- y(t=30s):
+- y(t=30s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D30
 
 b)
 
@@ -320,7 +320,7 @@ y sabemos que:
 
 a) determinar la ecuación de posición, y a partir de ella, ver en qué instantes de tiempo la posición es 0m.
 
-b) determinar la posición máxima o mínima de la posición, si sabemos la pista que la posición máxima ocurre cuando la velocidad es cero.
+b) determinar el valor máximo o mínimo de la posición, si sabemos la pista que esa posición máxima o mínica ocurre cuando la velocidad es cero.
 
 ## solución ejercicio-03
 
