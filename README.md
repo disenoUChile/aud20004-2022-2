@@ -10,7 +10,7 @@
 - créditos: 03
 - semestre: Segundo semestre 2022
 - profesor: [aarón montoya-moraga](https://montoyamoraga.io)
-- estudiantes inscritos: 50
+- estudiantes inscritos: 52
 
 ## repositorio
 
