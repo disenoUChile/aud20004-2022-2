@@ -75,6 +75,16 @@ ahora tenemos este sistema de ecuaciones, donde queremos encontrar en qué insta
 
 $$v(t) = -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t \brack v(t) = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
 
+primero analizamos que la primera ecuación parte con una velocidad negativa y como tiene una aceleración positiva, a medida que transcurre el tiempo la velocidad aumenta. en caso contrario, la segunda ecuación tiene una velocidad inicial positiva, y una aceleración negativa, así que a medida que transcurre el tiempo la velocidad disminuye.
+
+así podemos ver que estas rectas tendrán un punto de intersección, de hecho en general dos rectas tienen estas posibilidades:
+
+| intersección | valor inicial (v0) | pendiente (a) | las rectas...          |
+| :----------- | :----------------- | :------------ | :--------------------- |
+| infinitas    | igual              | igual         | son idénticas          |
+| ninguna      | distinto           | igual         | son paralelas          |
+| una          | da lo mismo        | distinta      | se intersectan una vez |
+
 cuando las velocidades son iguales, podemos igualar los lados derechos de las ecuaciones, resultando en:
 
 $$ -11 \frac{m}{s} + 3 \frac{m}{s^{2}} \cdot t = 5 \frac{m}{s} -3 \frac{m}{s^{2}} \cdot t$$
@@ -88,6 +98,10 @@ $$ 6 \frac{m}{s^{2}} \cdot t = 16 \frac{m}{s} $$
 $$ 6 \frac{1}{s} \cdot t = 16 $$
 
 $$t = \frac{16}{6} s = \frac{8}{3} s \approx 2.66 s$$
+
+listo tenemos el instante en que las velocidades son iguales!
+
+ahora podemos reemplazar ese valor de tiempo en cualquiera de las ecuaciones de velocidad, y resultarán en la velocidad.
 
 para encontrar ahora la velocidad, basta con reemplazar ese instante en cualquiera de las ecuaciones y el resultado de la velocidad será el mismo.
 
