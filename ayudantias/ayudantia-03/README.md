@@ -391,3 +391,7 @@ $$ t = \frac{-5}{18} s$$
 entonces en este instante, la velocidad es 0, y por lo tanto, la posición es máxima o mínima, reemplacemos en la ecuación de posición:
 
 $$x(t=\frac{-5}{18} s) = \frac{1}{4}m + 5(\frac{-5}{18} s) \frac{m}{s} + \frac{18 \cdot (\frac{-5}{18} s)^2}{2}$$
+
+$$x(t=\frac{-5}{18} s) = \frac{1}{4}m - \frac{-25}{18} m + \frac{18 \cdot (\frac{-5}{18} s)^2}{2}$$
+
+solución en Wolfram Alpha: https://www.wolframalpha.com/input?i=x%28t%29+%3D+9*t%5E2+%2B+5*t+%2B+1%2F4+where+t%3D-5%2F18
