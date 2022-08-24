@@ -143,9 +143,9 @@ $$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} a_y \cdot t^2$$
 
 y reemplacemos los valores en estas ecuaciones:
 
-$$x(t) = 5m + -1 \frac{m}{s} \cdot t + \frac{1}{2} \cdot 3 \frac{m}{s^2} \cdot t^2$$
+$$x(t) = 5m + (-1 \frac{m}{s}) \cdot t + \frac{1}{2} \cdot (3 \frac{m}{s^2}) \cdot t^2$$
 
-$$y(t) = 0m + 2 \frac{m}{s} \cdot t + \frac{1}{2} \cdot (-1) \frac{m}{s^2} \cdot t^2$$
+$$y(t) = 0m + (2 \frac{m}{s}) \cdot t + \frac{1}{2} \cdot (-1 \frac{m}{s^2}) \cdot t^2$$
 
 y simplificando:
 
