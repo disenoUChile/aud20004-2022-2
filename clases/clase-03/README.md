@@ -308,7 +308,7 @@ $$
 y despejando x(t):
 
 $$
-- {v_{0}}^2 = (x(t) - x_{0}) \cdot 2 \overline{a}
+-{v_0}^2 = (x(t) - x_0) \cdot 2 \overline{a}
 $$
 
 $$
