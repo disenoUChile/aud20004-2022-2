@@ -238,7 +238,7 @@ donde tenemos:
 - $\overline{v}$: velocidad promedio
 - t: instante t
 
-si queremos eliminar la dependencia en $t$, podemos despejarlo desde la ecuación original de velocidad v(t):
+si queremos eliminar la dependencia en t, podemos despejarlo desde la ecuación original de velocidad v(t):
 
 $$
 v(t) = v_0 + \overline{a} \cdot t
