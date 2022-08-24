@@ -88,7 +88,7 @@ $$
 \overline{a} = \frac{v(t) - v(t_0)}{t}
 $$
 
-y sabemos que $v(t_0)$ es la velocidad inicial en instante $t=0$, y es una constante, que podemos llamar $v_0$, entonces:
+y sabemos que $v(t_0)$ es la velocidad inicial en instante t=0, y es una constante, que podemos llamar $v_0$, entonces:
 
 $$
 \overline{a} = \frac{v(t) - v_0}{t}
