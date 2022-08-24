@@ -153,4 +153,32 @@ $$x(t) = 5m -t \frac{m}{s} + \frac{3 \cdot t^2}{2} \frac{m}{s^2}$$
 
 $$y(t) = 2t \frac{m}{s} - \frac{t^2}{2} \frac{m}{s^2}$$
 
+reemplacemos para los tiempos pedidos en el enunciado, empezamos por 0s:
+
+$$x(t=0s) = 5m -0s \frac{m}{s} + \frac{3 \cdot (0s)^2}{2} \frac{m}{s^2}$$
+
+$$y(t=0s) = 2(0s) \frac{m}{s} - \frac{(0s)^2}{2} \frac{m}{s^2}$$
+
+y despejando:
+
+$$x(t=0s) = 5m$$
+
+$$y(t=0s) = 0m$$
+
+ahora para 1s:
+
+$$x(t=1s) = 5m -(1s) \frac{m}{s} + \frac{3 \cdot (1s)^2}{2} \frac{m}{s^2}$$
+
+$$y(t=1s) = 2(1s) \frac{m}{s} - \frac{(1s)^2}{2} \frac{m}{s^2}$$
+
+y despejando:
+
+$$x(t=1s) = 5m - 1m + \frac{3}{2} m = 4m + 1.5m = 5.5 m$$
+
+$$y(t=1s) = 2m - \frac{1}{2} m = 2m = 0.5m  = 1.5m$$
+
+ahora para 2s:
+
+ahora para 60s:
+
 ## ejercicio-03 (30 min)
