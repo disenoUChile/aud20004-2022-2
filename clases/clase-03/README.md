@@ -126,7 +126,7 @@ en 2D basta con tomar la ecuación de 1D y reemplazar por vectores:
 
 $$\vec{v}(t) = \vec{v_0} + \vec{\overline{a}} \cdot t$$
 
-y descomponiendo en componentes $\hat{x}$ e $\hat{y}$, tenemos el sistema:
+y descomponiendo en componentes x e y, tenemos el sistema:
 
 $$v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t$$
 
@@ -146,7 +146,7 @@ $$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t^2$$
 
 ## resumen cinemática en 2D
 
-con aceleración promedio $\vec{\overline{a}}$, podemos escribir las ecuaciones de posición y aceleración asi:
+podemos escribir las ecuaciones de posición y aceleración asi:
 
 $$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2$$
 
@@ -164,8 +164,8 @@ $$v(t) = v_{0} + \overline{a} \cdot t$$
 
 las podemos pensar como ecuaciones con variable independiente $t$, donde v es la variable dependiente de t, y donde:
 
-- $\overline{a}$ es la pendiente de la ecuación, por lo tanto su signo nos dice si la velocidad aumenta, disminuye o es constante con el paso del tiempo
-- $v_0$: intercepto de la recta $v(t)$ con el eje vertical, donde $t=0$, nos dice la velocidad inicial.
+- la aceleración es la pendiente de la ecuación, por lo tanto su signo nos dice si la velocidad aumenta, disminuye o es constante con el paso del tiempo
+- la velocidad inicial: intercepto de la recta v(t) con el eje vertical, donde t=0, nos dice la velocidad inicial.
 
 a su vez, si analizamos las ecuaciones de posición en 1D y 2D del estilo:
 
@@ -186,7 +186,7 @@ donde tenemos:
 - $\overline{v}$: velocidad promedio
 - t: instante t
 
-si queremos eliminar la dependencia en $t$, podemos despejarlo desde la ecuación original de velocidad $v(t)$:
+si queremos eliminar la dependencia en $t$, podemos despejarlo desde la ecuación original de velocidad v(t):
 
 $$v(t) = v_0 + \overline{a} \cdot t$$
 
