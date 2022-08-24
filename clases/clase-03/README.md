@@ -28,9 +28,9 @@ en cinemática, describiremos y modelaremos los vectores de posición $\vec{x}$,
 
 en 1D:
 
-- posición: $x(t)$
-- velocidad: $v(t)$
-- aceleración: $a(t)$
+- posición: $x(t)$, medida en $m$
+- velocidad: $v(t)$, medida en $\frac{m}{s}$
+- aceleración: $a(t)$, medida en $\frac{m}{s^2}$
 
 en 2D:
 
@@ -41,7 +41,7 @@ en 2D:
 adicionales:
 
 - $\Delta$: significa diferencia entre final e inicial. por ejemplo $\Delta t = t_{final} - t_{inicial}$
-- $algo_{0}$: el subíndice 0 implica en instante t=0, que llamamos inicial.
+- $algo_{0}$: el subíndice 0 implica en instante $t=0$, que llamamos instante inicial.
 
 ## supuestos y simplificaciones de cinemática
 
@@ -62,13 +62,13 @@ $$v(\Delta t) = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}$$
 
 ## ecuación de aceleración en una dimensión (1D)
 
-en este curso simplificaremos nuestros cálculos, usando una aceleración promedio, que notaremos $\overline{a}$ que es constante, entonces:
+en este curso simplificaremos nuestros cálculos, usando una aceleración promedio, que notaremos $\overline{a}$ y es una constante, entonces:
 
 $$a(t) = \overline{a}$$
 
-como ven, nuestra aceleración será un número, y no dependerá del tiempo, o en otras palabras, tendrá el mismo valor para todo instante de tiempo.
+nuestra aceleración será un número constante, y no dependerá del tiempo, o en otras palabras, tendrá el mismo valor para todo instante de tiempo.
 
-nota: aceleración se mide en $\frac{m}{s^2}$
+nota: aceleración se mide en $\frac{m}{s^2}$.
 
 ## ecuación de velocidad en una dimensión (1D)
 
@@ -87,6 +87,8 @@ $$\overline{a} = \frac{v(t) - v_0}{t}$$
 y despejando la velocidad $v(t)$, tenemos la ecuación de velocidad:
 
 $$v(t) =  v_0 + \overline{a} \cdot t$$
+
+nota: velocidad se mide en $\frac{m}{s}$.
 
 ## ecuación de posición en una dimensión (1D)
 
