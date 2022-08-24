@@ -115,7 +115,7 @@ para verificar que el resultado es correcto, reemplacemos el tiempo en la otra e
 
 $$v(t=\frac{8}{3} s) = 5 \frac{m}{s} - 3 \frac{m}{s^{2}} \cdot \frac{8}{3} s = 5 \frac{m}{s} - 8 \frac{m}{s} = -3 \frac{m}{s}$$
 
-con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será $-3 \frac{m}{s}$ y esto ocurrirá en el instante $\frac{8}{3} s$.
+con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será -3 metros/ segundos cuadrados, esto ocurrirá en el instante 8/3 segundos$.
 
 ## ejercicio-02 (30 min)
 
