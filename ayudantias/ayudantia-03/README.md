@@ -133,6 +133,9 @@ y de los siguientes datos:
 
 cuál es la posición del cuerpo en los instantes 0s, 1s, 2s y 30s?
 
+b) cuál es la ecuación de velocidad en 2D de este cuerpo?
+qué velocidad tiene en los instantes 0s, 1s, 2s, 3s?
+
 ## solución ejercicio-02
 
 partamos de la ecuación de posición en 2D, y descompongamos en las coordenadas x e y:
@@ -216,5 +219,26 @@ gráficos en Wolfram Alpha de y(t):
 - y(t=1s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D1
 - y(t=2s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D2
 - y(t=30s):
+
+b)
+
+en general la ecuación de velocidad en 2D es:
+
+$$\vec{v}(t) = \vec{v_0} + \vec{a} \cdot t$$
+
+y si descomponemos en el eje x y en el eje y tenemos:
+
+$$v_{x}(t) = v_{x0} + a_{x} \cdot t$$
+
+$$v_{y}(t) = v_{y0} + a_{y} \cdot t$$
+
+y conocemos los parámetros que necesitamos, que son las velocidades inicial y las aceleraciones, así que reemplazamos esos valores y tenemos las ecuaciones pedidas.
+
+$$v_{x}(t) = (-1 \frac{m}{s}) + (3\frac{m}{s^2}) \cdot t$$
+
+$$v_{y}(t) = (2 \frac{m}{s}) + (-1\frac{m}{s^2}) \cdot t$$
+
+cuál es la ecuación de velocidad en 2D de este cuerpo?
+qué velocidad tiene en los instantes 0s, 1s, 2s, 3s?
 
 ## ejercicio-03 (30 min)
