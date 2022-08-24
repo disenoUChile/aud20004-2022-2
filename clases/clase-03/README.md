@@ -257,7 +257,7 @@ $$v = \omega \cdot r$$
 donde
 
 - $v$ es velocidad, se mide en $\frac{m}{s}$
-- $omega$ es velocidad angular, se mide en $\frac{radianes}{s}$
+- $\omega$ es velocidad angular, se mide en $\frac{radianes}{s}$
 - $r$ es radio, se mide en $m$
 
 si tenemos una velocidad angular constante, podemos plantear esta ecuación como:
