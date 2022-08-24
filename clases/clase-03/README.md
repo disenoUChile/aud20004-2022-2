@@ -52,25 +52,25 @@ adicionales:
 
 aceleración es cambio de velocidad en el tiempo, entonces por definición:
 
-```math
+$$
 a(\Delta t) = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1}
-```
+$$
 
 donde Delta significa diferencia, y la ecuación anterior se lee como la aceleración en una ventana de tiempo, es igual a la variación de velocidad en esa ventana de tiempo, dividida por la ventana de tiempo.
 
 velocidad es cambio de posición el tiempo, entonces por definición:
 
-```math
+$$
 v(\Delta t) = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}
-```
+$$
 
 ## ecuación de aceleración en una dimensión (1D)
 
 en este curso simplificaremos nuestros cálculos, usando una aceleración promedio, que notaremos $\overline{a}$ y es una constante, entonces:
 
-```math
+$$
 a(t) = \overline{a}
-```
+$$
 
 nuestra aceleración será un número constante, y no dependerá del tiempo, o en otras palabras, tendrá el mismo valor para todo instante de tiempo.
 
@@ -78,27 +78,27 @@ nuestra aceleración será un número constante, y no dependerá del tiempo, o e
 
 si conocemos la aceleración promedio $\overline{a}$ en un instante, podemos usar como ventana de tiempo el tiempo entre origen $t_0 = 0$ y ese instante, y así escribir la aceleración en ese instante de tiempo entre ellos como:
 
-```math
+$$
 \overline{a} =  \frac{v(t) - v(t_0)}{t - t_0}
-```
+$$
 
 podemos simplificar ya que sabemos que $t_0 = 0 s$, entonces:
 
-```math
+$$
 \overline{a} = \frac{v(t) - v(t_0)}{t}
-```
+$$
 
 y sabemos que $v(t_0)$ es la velocidad inicial en instante $t=0$, y es una constante, que podemos llamar $v_0$, entonces:
 
-```math
+$$
 \overline{a} = \frac{v(t) - v_0}{t}
-```
+$$
 
 y despejando la velocidad $v(t)$, tenemos la ecuación de velocidad:
 
-```math
+$$
 v(t) =  v_0 + \overline{a} \cdot t
-```
+$$
 
 nota: velocidad se mide en $\frac{m}{s}$.
 
@@ -106,109 +106,109 @@ nota: velocidad se mide en $\frac{m}{s}$.
 
 la posición $x(t)$ en el instante de tiempo t, es igual a la posición inicial $x_0$ más el producto entre la velocidad promedio $\overline{v}$ y el tiempo t.
 
-```math
+$$
 x(t) = x_0 + \overline{v} \cdot t
-```
+$$
 
 a su vez, la velocidad promedio $\overline{v}$ la podemos plantear como:
 
-```math
+$$
 \overline{v} =  \frac{v(t) + v_0}{2}
-```
+$$
 
 y a su vez, podemos escribir $v(t)$ en función de $v_0$ y $a$:
 
-```math
+$$
 \overline{v} =  \frac{(v_0 + \overline{a} \cdot t) + v_0}{2} = v_0 + \frac{\overline{a} \cdot t}{2}
-```
+$$
 
 y reemplazando en la ecuación de posición x(t) resulta en:
 
-```math
+$$
 x(t) = x_0 + (v_0 + \frac{\overline{a} \cdot t}{2}) \cdot t
-```
+$$
 
 y desarrollando:
 
-```math
+$$
 x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2
-```
+$$
 
 ## resumen cinemática en 1D
 
 con aceleración promedio $\overline{a}$, podemos escribir las ecuaciones de posición y aceleración asi:
 
-```math
+$$
 x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2
-```
+$$
 
-```math
+$$
 v(t) = v_0 + \overline{a} \cdot t
-```
+$$
 
 ## ecuación de velocidad en 2D
 
 en 2D basta con tomar la ecuación de 1D y reemplazar por vectores:
 
-```math
+$$
 \vec{v}(t) = \vec{v_0} + \vec{\overline{a}} \cdot t
-```
+$$
 
 y descomponiendo en componentes x e y, tenemos el sistema:
 
-```math
+$$
 v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t
-```
+$$
 
-```math
+$$
 v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t
-```
+$$
 
 ## ecuación de posición en 1D
 
 en 2D basta con tomar la ecuación de 1D y reemplazar por vectores:
 
-```math
+$$
 \vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} \vec{\overline{a}} \cdot t^2
-```
+$$
 
 y descomponiendo en componentes $\hat{x}$ e $\hat{y}$, tenemos el sistema:
 
-```math
+$$
 x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2
-```
+$$
 
-```math
+$$
 y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t^2
-```
+$$
 
 ## resumen cinemática en 2D
 
 podemos escribir las ecuaciones de posición y aceleración asi:
 
-```math
+$$
 x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2
-```
+$$
 
-```math
+$$
 y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t^2
-```
+$$
 
-```math
+$$
 v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t
-```
+$$
 
-```math
+$$
 v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t
-```
+$$
 
 ## comentarios matemáticos sobre estas ecuaciones físicas:
 
 las ecuaciones de velocidad en 1D y 2D del estilo:
 
-```math
+$$
 v(t) = v_{0} + \overline{a} \cdot t
-```
+$$
 
 las podemos pensar como ecuaciones con variable independiente $t$, donde v es la variable dependiente de t, y donde:
 
@@ -217,9 +217,9 @@ las podemos pensar como ecuaciones con variable independiente $t$, donde v es la
 
 a su vez, si analizamos las ecuaciones de posición en 1D y 2D del estilo:
 
-```math
+$$
 x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2
-```
+$$
 
 podemos ver que
 
@@ -227,9 +227,9 @@ podemos ver que
 
 otra manera de ver la posición en un determinado momento es:
 
-```math
+$$
 x(t) = x_0 + \overline{v} \cdot t
-```
+$$
 
 donde tenemos:
 
@@ -240,45 +240,45 @@ donde tenemos:
 
 si queremos eliminar la dependencia en $t$, podemos despejarlo desde la ecuación original de velocidad v(t):
 
-```math
+$$
 v(t) = v_0 + \overline{a} \cdot t
-```
+$$
 
 y despejando $t$:
 
-```math
+$$
 t = \frac{v(t) - v_{0}}{\overline{a}}
-```
+$$
 
 y reemplazando este t en la ecuación de posición $x(t)$:
 
-```math
+$$
 x(t) = x_0 + \overline{v} \cdot t = x_0 + \overline{v} \cdot \frac{v(t) - v_{0}}{\overline{a}}
-```
+$$
 
 si además reemplazamos la velocidad promedio $\overline{v}$ por su definición:
 
-```math
+$$
 \overline{v} = \frac{v(t) + v_{0}}{2}
-```
+$$
 
 la ecuación de posición x(t) resulta:
 
-```math
+$$
 x(t) = x_0 + \overline{v} \cdot \frac{v(t) - v_{0}}{\overline{a}} = x_0 + \frac{v(t) + v_{0}}{2} \cdot \frac{v(t) - v_{0}}{\overline{a}}
-```
+$$
 
 y como $(a + b)(a - b) = a^2 - b^2$, entonces:
 
-```math
+$$
 x(t) = x_0 + \frac{v(t) + v_{0}}{2} \cdot \frac{v(t) - v_{0}}{\overline{a}} = x_0 + \frac{v^2(t) - {v_{0}}^2}{2 \cdot \overline{a}}
-```
+$$
 
 y podemos despejar la velocidad $v(t)$ en el instante t así:
 
-```math
+$$
 v^2(t) = {v_{0}}^2 + (x(t) - x_{0}) \cdot 2 \overline{a}
-```
+$$
 
 donde
 
@@ -295,29 +295,29 @@ si un cuerpo se mueve en dirección ascendente con $v_0 > 0$, con una aceleraci�
 
 cuando su velocidad es 0, es en el instante en que se empieza a devolver en la otra dirección, y sería su máximo punto. veamos este valor en la ecuación que acabamos de plantear:
 
-```math
+$$
 v^2(t) = {v_{0}}^2 + (x(t) - x_{0}) \cdot 2 \overline{a}
-```
+$$
 
 donde $v(t) = 0$, entonces:
 
-```math
+$$
 0 = {v*{0}}^2 + (x(t) - x*{0}) \cdot 2 \overline{a}
-```
+$$
 
 y despejando x(t):
 
-```math
+$$
 - {v_{0}}^2 = (x(t) - x_{0}) \cdot 2 \overline{a}
-```
+$$
 
-```math
+$$
 -2a \cdot {v_0}^2 = x(t) - x_0
-```
+$$
 
-```math
+$$
 x(t) = x_0 + -2a \cdot {v\*{0}}^2
-```
+$$
 
 ## movimiento circular
 
@@ -330,9 +330,9 @@ consideración:
 
 la ecuación es:
 
-```math
+$$
 v = \omega \cdot r
-```
+$$
 
 donde
 
@@ -342,9 +342,9 @@ donde
 
 si tenemos una velocidad angular constante, podemos plantear esta ecuación como:
 
-```math
+$$
 \omega = \frac{v}{r}
-```
+$$
 
 donde $v$ es directamente proporcional a $r$, entonces con velocidad angular constante, a mayor radio, mayor velocidad.
 
