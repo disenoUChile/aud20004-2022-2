@@ -234,11 +234,118 @@ $$v_{y}(t) = v_{y0} + a_{y} \cdot t$$
 
 y conocemos los parámetros que necesitamos, que son las velocidades inicial y las aceleraciones, así que reemplazamos esos valores y tenemos las ecuaciones pedidas.
 
-$$v_{x}(t) = (-1 \frac{m}{s}) + (3\frac{m}{s^2}) \cdot t$$
+$$v_{x}(t) = -1 \frac{m}{s} + (3\frac{m}{s^2}) \cdot t$$
 
-$$v_{y}(t) = (2 \frac{m}{s}) + (-1\frac{m}{s^2}) \cdot t$$
+$$v_{y}(t) = 2 \frac{m}{s} + (-1\frac{m}{s^2}) \cdot t$$
 
-cuál es la ecuación de velocidad en 2D de este cuerpo?
-qué velocidad tiene en los instantes 0s, 1s, 2s, 3s?
+notamos que las ecuaciones de la velocidad del cuerpo en eje X y eye Y son rectas, donde la aceleración es la pendiente de esa recta.
+
+ahora reemplazamos en cada instante y obtenemos los valores, empezando por 0s:
+
+$$v_{x}(t=0s) = -1 \frac{m}{s} + (3\frac{m}{s^2}) \cdot (0s)$$
+
+$$v_{y}(t=0s) = 2 \frac{m}{s} + (-1\frac{m}{s^2}) \cdot (0s)$$
+
+y despejando:
+
+$$v_{x}(t=0s) = -1 \frac{m}{s}$$
+
+$$v_{y}(t=0s) = 2 \frac{m}{s}$$
+
+ahora para 1s:
+
+$$v_{x}(t=1s) = (-1 \frac{m}{s}) + (3\frac{m}{s^2}) \cdot (1s)$$
+
+$$v_{y}(t=1s) = (2 \frac{m}{s}) + (-1\frac{m}{s^2}) \cdot (1s)$$
+
+y despejando:
+
+$$v_{x}(t=1s) = -1 \frac{m}{s} + 3\frac{m}{s} = 2 \frac{m}{s}$$
+
+$$v_{y}(t=1s) = 2 \frac{m}{s} - 1\frac{m}{s} = 1 \frac{m}{s}$$
+
+ahora para 2s:
+
+$$v_{x}(t=2s) = -1 \frac{m}{s} + (3\frac{m}{s^2}) \cdot (2s)$$
+
+$$v_{y}(t=2s) = 2 \frac{m}{s} + (-1\frac{m}{s^2}) \cdot (2s)$$
+
+y despejando:
+
+$$v_{x}(t=2s) = -1 \frac{m}{s} + 6\frac{m}{s} = 5 \frac{m}{s}$$
+
+$$v_{y}(t=2s) = 2 \frac{m}{s} -2\frac{m}{s} = 0 \frac{m}{s}$$
+
+ahora para 3s:
+
+$$v_{x}(t=3s) = -1 \frac{m}{s} + (3\frac{m}{s^2}) \cdot (3s)$$
+
+$$v_{y}(t=3s) = 2 \frac{m}{s} + (-1\frac{m}{s^2}) \cdot (3s)$$
+
+y despejando:
+
+$$v_{x}(t=3s) = -1 \frac{m}{s} + 9\frac{m}{s} = 8 \frac{m}{s}$$
+
+$$v_{y}(t=3s) = 2 \frac{m}{s} - 3 \frac{m}{s} = -1 \frac{m}{s}$$
+
+gráficos en Wolfram Alpha de v(t) para eje x:
+
+- ecuación v(t): https://www.wolframalpha.com/input?i=v%28t%29+%3D+-1+%2B+3*t
+- v(t=0s): https://www.wolframalpha.com/input?i=v%28t%29+%3D+-1+%2B+3*t+where+t%3D0
+- v(t=1s): https://www.wolframalpha.com/input?i=v%28t%29+%3D+-1+%2B+3*t+where+t%3D1
+- v(t=2s): https://www.wolframalpha.com/input?i=v%28t%29+%3D+-1+%2B+3*t+where+t%3D2
+- v(t=3s): https://www.wolframalpha.com/input?i=v%28t%29+%3D+-1+%2B+3*t+where+t%3D3
+
+gráficos en Wolfram Alpha de v(t) para eje y:
+
+- ecuación v(t): https://www.wolframalpha.com/input?i=v%28t%29+%3D+2+-+t
+- v(t=0s): https://www.wolframalpha.com/input?i=v%28t%29+%3D+2+-+t+where+t%3D0
+- v(t=1s): https://www.wolframalpha.com/input?i=v%28t%29+%3D+2+-+t+where+t%3D1
+- v(t=2s): https://www.wolframalpha.com/input?i=v%28t%29+%3D+2+-+t+where+t%3D2
+- v(t=3s): https://www.wolframalpha.com/input?i=v%28t%29+%3D+2+-+t+where+t%3D3
+
+gráficos en Wolfram Alpha de vy(t):
 
 ## ejercicio-03 (30 min)
+
+a) si tenemos esta ecuación de posición de un cuerpo en 1D:
+
+$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} a \cdot t^2$$
+
+y sabemos que:
+
+- posición inicial es (1/4) metro.
+- velocidad inicial es 5 metros / segundo.
+- aceleración es 9 metros / segundos cuadrados.
+
+a) determinar la ecuación de posición, y a partir de ella, ver en qué instantes de tiempo la posición es 0m.
+
+b) determinar la posición máxima o mínima de la posición, si sabemos la pista que la posición máxima ocurre cuando la velocidad es cero.
+
+## solución ejercicio-03
+
+a)
+
+reemplazando con los valores del enunciado, la ecuación de posición es:
+
+$$x(t) = \frac{1}{4}m + 5t \frac{m}{s} + \frac{9 \cdot t^2}{2}$$
+
+podemos ordenar esta ecuación también de esta manera:
+
+$$x(t) = 4.5 \frac{m}{s^2} \cdot t^2 + 5t \frac{m}{s} + \frac{1}{4}m$$
+
+si queremos saber el instante de tiempo donde la posición es 0m, la ecuación resulta:
+
+$$0m = 4.5 \frac{m}{s^2} \cdot t^2 + 5t \frac{m}{s} + \frac{1}{4}m$$
+
+y si comparamos con la ecuación cuadrática canónica:
+
+$$0 = A t^2 + Bt + C$$,
+
+vemos que nuestro A=4.5, B=5, C=1/4.
+
+también que los valores de t que hacen que esta ecuación sea igual a 0, son:
+
+$$t = \frac{-B \pm \sqrt{B^2 - 4 \cdot A \cdot C}}{2 \cdot A}$$
+
+y reemplazando, obtenemos:
