@@ -131,7 +131,7 @@ y de los siguientes datos:
 - velocidad inicial es (-1, 2) metros / segundo
 - aceleración es (3, -1) metros / segundos cuadrados
 
-cuál es la posición del cuerpo en los instantes 0s, 1s, 2s y 60s?
+cuál es la posición del cuerpo en los instantes 0s, 1s, 2s y 30s?
 
 ## solución ejercicio-02
 
@@ -179,6 +179,42 @@ $$y(t=1s) = 2m - \frac{1}{2} m = 2m = 0.5m  = 1.5m$$
 
 ahora para 2s:
 
-ahora para 60s:
+$$x(t=2s) = 5m -(2s) \frac{m}{s} + \frac{3 \cdot (2s)^2}{2} \frac{m}{s^2}$$
+
+$$y(t=2s) = 2(2s) \frac{m}{s} - \frac{(2s)^2}{2} \frac{m}{s^2}$$
+
+y despejando:
+
+$$x(t=2s) = 5m - 2m + \frac{3 \cdot 4}{2}m = 3m + 6m = 9m$$
+
+$$y(t=2s) = 4m - \frac{4}{2}m = 2m$$
+
+ahora para 30s:
+
+$$x(t=30s) = 5m -(30s) \frac{m}{s} + \frac{3 \cdot (30s)^2}{2} \frac{m}{s^2}$$
+
+$$y(t=30s) = 2(30s) \frac{m}{s} - \frac{(30s)^2}{2} \frac{m}{s^2}$$
+
+y despejando:
+
+$$x(t=30s) = 5m - 30m + \frac{3 \cdot 900}{2}m = -25m + 1350m = 1325m$$
+
+$$y(t=30s) = 60m - \frac{900}{2}m = 60m - 450m = -390m$$
+
+gráficos en Wolfram Alpha de x(t):
+
+- ecuación x(t): https://www.wolframalpha.com/input?i=x%28t%29+%3D+5+-t+%2B+%283*t%5E2%2F2%29+
+- x(t=0s): https://www.wolframalpha.com/input?i=x%28t%29+%3D+5+-t+%2B+%283*t%5E2%2F2%29+where+t%3D0
+- x(t=1s): https://www.wolframalpha.com/input?i=x%28t%29+%3D+5+-t+%2B+%283*t%5E2%2F2%29+where+t%3D1
+- x(t=2s): https://www.wolframalpha.com/input?i=x%28t%29+%3D+5+-t+%2B+%283*t%5E2%2F2%29+where+t%3D2
+- x(t=30s): https://www.wolframalpha.com/input?i=x%28t%29+%3D+5+-t+%2B+%283*t%5E2%2F2%29+where+t%3D30
+
+gráficos en Wolfram Alpha de y(t):
+
+- ecuación y(t): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+
+- y(t=0s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D0
+- y(t=1s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D1
+- y(t=2s): https://www.wolframalpha.com/input?i=y%28t%29+%3D+2*t+-+%28t%5E2%2F2%29+where+t%3D2
+- y(t=30s):
 
 ## ejercicio-03 (30 min)
