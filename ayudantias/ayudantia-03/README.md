@@ -25,7 +25,7 @@ a)
 
 sabemos que para por definición, la aceleración es:
 
-$$a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{\frac{t_2 - t_1}}$$
+$$a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1}$$
 
 si reemplazamos con los valores que tenemos en los instantes 5s y 7s, podemos escribir:
 
