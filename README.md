@@ -85,8 +85,9 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 ## metodología
 
 - discusiones en clase de los conceptos fundamentales
+- resolución de problemas en ayudantía
+- controles grupales en ayudantía
 - tareas de investigación
-- reforzamiento de ejercicios
 
 ## bibliografía
 
