@@ -34,9 +34,9 @@
 
 la nota final de la clase será el promedio simple de estas evaluaciones:
 
-- asistencia: inasistencias justificados por sistema u-cursos cuentan como media asistencia.
-- controles en grupo: pruebas grupales hechas en horario de ayudantía.
-- trabajos de investigación: 2 trabajos de investigación individuales durante el semestre, se cuenta la mejor nota.
+- asistencia: inasistencias justificados por sistema u-cursos cuentan como media asistencia. la nota máxima se logra con al menos un 80% de asistencia.
+- controles en grupo: 4 controles grupales hechos en horario de ayudantía, uno al final de cada mes. cada control tiene 3 ejercicios, el peor se borra. de los 4 controles, el peor también se borra.
+- trabajos de investigación: 2 trabajos de investigación individuales, se cuenta solamente la mejor nota.
 
 ## clases (martes 3pm-6:15pm)
 
