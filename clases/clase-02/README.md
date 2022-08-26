@@ -56,34 +56,38 @@ ejemplos de vectores en física:
 si queremos representar cualquier punto en el plano XY, debemos hacer los siguientes pasos:
 
 - definir un origen (0, 0)
-- definir dirección y sentido del eje x, llamada $\hat{x}$
-- definir dirección y sentido del eje y, llamada $\hat{y}$
+- definir dirección y sentido del eje x, llamado vector unitario en x.
+- definir dirección y sentido del eje y, llamado vector unitario en y.
 
-un vector con gorrito como \hat{x}$ es un vector especial, llamado vector unitario, porque su magnitud es 1.
+$$\hat{x} = vector unitario en x$$
 
-el sistema cartesiano, en honor a René Descartes, es el que hemos usado hasta hora, donde definimos los vectores unitarios $\hat{x}$ $\hat{y}$ y perpendiculares, con los que podemos describir cualquier posición $\vec{P} = (x, y)$ en el plano, como la siguiente suma:
+$$\hat{x} = vector unitario en y$$
+
+se llaman vectores unitarios porque su magnitud es 1.
+
+con el sistema cartesiano que hemos usado hasta ahora, en honor a René Descartes, usamos los vectores unitarios x e y, que son perpendiculares entre sí. con ellos podemos describir cualquier posición en el plano, como la siguiente suma:
 
 $$\vec{P} = x \cdot \hat{x} + y \cdot \hat{y}$$
 
-por ejemplo, el punto $\vec{C} = (-11, 3)$ puede ser descrito así:
+por ejemplo, el punto C en (-11, 3) puede ser descrito así:
 
 $$\vec{C} = (-11, 3) = -11 \cdot \hat{x} + 3 \cdot \hat{y}$$
 
-notar que podemos describir cualquier punto en el plano XY como la suma ponderada de los vectores unitarios $\hat{x}$ y $\hat{y}$ porque estos vectores son perpendiculares, y permiten movernos a lo largo de todo el plano. pero estos vectores no tienen que ser perpendiculares, basta con que no sean paralelos.
+notar que podemos describir cualquier punto en el plano XY como la suma ponderada de los vectores unitarios x e y porque estos vectores son perpendiculares, y permiten movernos a lo largo de todo el plano.
 
 otra manera de representar el plano es de forma polar, con un vector unitario de radio $\hat{r}$, y un ángulo $\theta$.
 
-para convertir entre coordenadas cartesianas y polares, consideremos el vector $\vec{P}$
+para convertir entre coordenadas cartesianas y polares, consideremos el vector P:
 
 $$\vec{P} = (x, y) = x \hat{x} + y \hat{y}$$
 
-si dibujamos la distancia entre el origen y el punto P y le llamamos $r$, podemos notar que r es la hipotenusa, y los valores de $x$ e $y$ los catetos de un triángulo rectángulo. si llamamos $\theta$ al ángulo entre eje X y r, podemos usar las identidades de seno y coseno del triángulo rectángulo.
+si dibujamos la distancia entre el origen y el punto P y le llamamos r, podemos notar que r es la hipotenusa, y los valores de x e y los catetos de un triángulo rectángulo. si llamamos theta al ángulo entre eje X y r, podemos usar las identidades de seno y coseno del triángulo rectángulo.
 
 $$sin(\theta) = \frac{cateto opuesto}{hipotenusa} = \frac{y}{r}$$
 
 $$cos(\theta) = \frac{cateto adyacente}{hipotenusa} = \frac{x}{r}$$
 
-y si despejamos $x$ e $y$ de estas ecucaciones obtenemos las siguientes expresiones para convertir de coordenadas polares a cartesianas:
+y si despejamos x e y de estas ecucaciones obtenemos las siguientes expresiones para convertir de coordenadas polares a cartesianas:
 
 $$x = r \cdot cos(\theta)$$
 
@@ -109,11 +113,11 @@ por ejemplo:
 
 $$\vec{A} = 5 \hat{x} + 3 \hat{y} \brack \vec{B} = 7 \hat{x} - 1 \hat{y}$$
 
-si sumamos los vectores $\vec{A}$ y $\vec{B}$, obtenemos:
+si sumamos los vectores A y B obtenemos:
 
 $$\vec{A} + \vec{B} =  (5 \hat{x} + 3 \hat{y}) + (7 \hat{x} - 1 \hat{y}) = (5 + 7) \hat{x} + (3 - 1) \hat{y} = 12 \hat{x} + 2 \hat{y}$$
 
-y si restamos los vectores $\vec{A}$ y $\vec{B}$, obtenemos:
+y si restamos los vectores A y B obtenemos:
 
 $$\vec{A} - \vec{B} = (5 \hat{x} + 3 \hat{y}) - (7 \hat{x} - 1 \hat{y}) = (5 - 7) \hat{x} + (3 - (-1)) \hat{y} = -2 \hat{x} + 4 \hat{y}$$
 
@@ -121,7 +125,7 @@ $$\vec{A} - \vec{B} = (5 \hat{x} + 3 \hat{y}) - (7 \hat{x} - 1 \hat{y}) = (5 - 7
 
 multiplicar y dividir vectores por un escalar, permite escalar cada una de las componentes del vector.
 
-por ejemplo si multiplicamos el vector $\vec{A}$ por el escalar 5:
+por ejemplo si multiplicamos el vector A por el escalar 5:
 
 $$5 \cdot \vec{A} = 5 \cdot (5 \hat{x} + 3 \hat{y}) = (5 \cdot 5) \hat{x} + (3 \cdot 5) \hat{y} = 25 \hat{x} + 15 {y}$$
 
@@ -135,7 +139,9 @@ una fuerza en física es una influencia que puede hacer cambiar el movimiento de
 
 una fuerza es un vector: tiene una magnitud y una dirección.
 
-las fuerzas se miden en Newton (N), que equivale a $\frac{kg \cdot m}{s^2}$.
+las fuerzas se miden en Newton (N), que equivale a:
+
+$$1N = 1\frac{kg \cdot m}{s^2}$$
 
 en la naturaleza conocemos 4 fuerzas fundamentales:
 
@@ -177,7 +183,7 @@ consecuencias:
 
 ## segunda ley de newton: momentum (15 min)
 
-momentum $\vec{p}$ se define como la cantidad de movimiento, y es el producto entre masa $m$ y velocidad $\vec{p} de un cuerpo$.
+momentum (vector p) se define como la cantidad de movimiento, y es el producto entre masa m y velocidad de un cuerpo.
 
 $$\vec{p} = m \cdot \vec{v}$$
 
@@ -185,7 +191,7 @@ el cambio de momentum de un objeto es proporcional a la fuerza aplicada y ocurre
 
 $$\vec{F} = \frac{d \vec{p}}{dt} = \frac{d (m \cdot \vec{v})}{dt}$$
 
-si la masa $m$ es constante, podemos simplificar así:
+si la masa m es constante, podemos simplificar así:
 
 $$\vec{F} =  m \frac{d (\vec{v})}{dt} = m \cdot \vec{a}$$
 
@@ -199,24 +205,26 @@ ojo: las fuerzas no se anulan, porque se aplican en cuerpos distintos. ejemplo:
 
 si una pelota está reposando en la superficie de la tierra, la fuerza de gravedad que ejerce la tierra sobre la pelota, tiene su reacción en la fuerza opuesta: la atracción que ejerce la pelota por sobre la tierra.
 
-si la pelota está en reposo, no es porque esas fuerzas se anulen, es porque la fuerza de atracción que ejerce la tierra sobre la pelota, es contrarrestada por la fuerza normal que ejerce la superficie de la tierra sobre la pelota. estas dos fuerzas actuando sobre la pelota se contrarrestan, haciendo que $\vec{F} = 0$, y por lo tanto, aceleración cero, y con eso, velocidad constante.
+si la pelota está en reposo, no es porque esas fuerzas se anulen, es porque la fuerza de atracción que ejerce la tierra sobre la pelota, es contrarrestada por la fuerza normal que ejerce la superficie de la tierra sobre la pelota. estas dos fuerzas actuando sobre la pelota se contrarrestan, haciendo que el vector F sea 0, y por lo tanto, aceleración cero, y con eso, velocidad constante.
 
 ## ley de gravitación universal de Newton (15 min)
 
 como ya vimos, existen 4 fuerzas fundamentales de la naturaleza, y en este curso estudiaremos 2: las gravitatoria y la electromagnética.
 
-otro avance que hizo Newton, fue a través de experiencias empíricas, fue definir la ley de gravitación universal, con una ecuación que describe el vector $\vec{F}$ de fuerza entre dos cuerpos, donde:
+otro avance que hizo Newton, fue a través de experiencias empíricas, fue definir la ley de gravitación universal, con una ecuación que describe el vector F de fuerza entre dos cuerpos, donde:
 
-- sus masas son $m_1$ y $m_2$
-- sus posiciones son $\vec{x_1}$ y $\vec{x_2}$
-- la distancia entre los cuerpos es $r$, que en 2D es: $r = \sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$
+- sus masas son m1 y m2
+- sus posiciones son los vectores x1 y x2.
+- la distancia entre los cuerpos es r, que en 2D es:
+
+$$r = \sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$$
 
 esta ley de gravitación universal postula que existe una fuerza gravitacional que hace cada cuerpo contra el otro que cumple con:
 
-- ser directamente proporcional a cada masa $m_1$ y $m_2$
-- ser inversamente proporcional a $r^2$, la distancia entre los cuerpos al cuadrado
-- ser una fuerza atractiva, con $m_1$ atrayendo a $m_2$, y a su vez, $m_2$ atrayendo a $m_1$
-- tener una constante de proporcionalidad universal llamada $G$
+- ser directamente proporcional a cada masa m1 y m2
+- ser inversamente proporcional a radio al cuadrado, la distancia entre los cuerpos al cuadrado
+- ser una fuerza atractiva, con m1 atrayendo a m2, y a su vez, m2 atrayendo a m1
+- tener una constante de proporcionalidad universal llamada G
 
 la ecuación entonces resulta:
 
@@ -224,7 +232,7 @@ $$F = G \frac{m_1 \cdot m_2}{r^2}$$
 
 esa ecuación es útil para encontrar la magnitud de estas fuerzas ejercidas entre los cuerpos, y si queremos encontrar los vectores fuerza, basta con multiplicar ese escalar $F$ por una dirección.
 
-si notamos $\vec{F_{1,2}}$ como la fuerza que hace la $m_1$ sobre $m_2$, y $\hat{r_{2,1}}$ como el vector unitario que va desde $m_2$ a $m_1$ podemos escribir así la ecuación:
+si notamos el vector F(1,2) como la fuerza que hace el cuerpo m1 sobre m2, y el vector unitario r(1,2) como el vector unitario que va desde m2 a m1 podemos escribir así la ecuación:
 
 $$\vec{F_{1,2}} = F \cdot \hat{r_{2,1}} = G \frac{m_1 \cdot m_2}{r^2} \cdot \hat{r_{2, 1}}$$
 
