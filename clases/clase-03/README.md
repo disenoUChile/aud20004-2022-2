@@ -22,26 +22,25 @@ la clase de hoy es la unidad 0: cinemática en 1 y 2 dimensiones
 
 ## definición de cinemática
 
-en cinemática, describiremos y modelaremos los vectores de posición $\vec{x}$, velocidad $\vec{v}$ y de aceleración $\vec{a}$ de cuerpos, sin importar las fuerzas ni las causas de estos movimientos.
+en cinemática, describiremos y modelaremos los vectores de posición x, velocidad v y de aceleración a de cuerpos, sin importar las fuerzas ni las causas de estos movimientos.
 
 ## notación en cinemática
 
 en 1D:
 
-- posición: $x(t)$, medida en $m$
-- velocidad: $v(t)$, medida en $\frac{m}{s}$
-- aceleración: $a(t)$, medida en $\frac{m}{s^2}$
+- posición: x(t), medida en m
+- velocidad: v(t), medida en m/s
+- aceleración: a(t), medida en m/s^2
 
 en 2D:
 
-- posición: $\vec{x}(t)$, descomponemos en $x(t)$, $y(t)$.
-- velocidad: $\vec{v}(t)$, descomponemos en $v_{x}(t)$, $v_{y}(t)$.
-- aceleración: $\vec{a}(t)$, descomponemos en $a_{x}(t)$, $a_{y}(t)$.
+- posición: vector x(t), descomponemos en x(t), y(t).
+- velocidad: vector v(t), descomponemos en vx(t), vy(t).
+- aceleración: vector a(t), descomponemos en ax(t), ay(t).
 
 adicionales:
 
-- $\Delta$: delta, significa diferencia entre final e inicial. por ejemplo $\Delta t = t_{final} - t_{inicial}$
-- $algo_{0}$: el subíndice 0 implica en instante $t=0$, que llamamos instante inicial.
+$$\Delta = Delta = final - inicial$$
 
 ## supuestos y simplificaciones de cinemática
 
@@ -52,163 +51,127 @@ adicionales:
 
 aceleración es cambio de velocidad en el tiempo, entonces por definición:
 
-$$
-a(\Delta t) = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1}
-$$
+$$a(\Delta t) = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1}$$
 
 donde Delta significa diferencia, y la ecuación anterior se lee como la aceleración en una ventana de tiempo, es igual a la variación de velocidad en esa ventana de tiempo, dividida por la ventana de tiempo.
 
 velocidad es cambio de posición el tiempo, entonces por definición:
 
-$$
-v(\Delta t) = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}
-$$
+$$v(\Delta t) = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}$$
 
 ## ecuación de aceleración en una dimensión (1D)
 
-en este curso simplificaremos nuestros cálculos, usando una aceleración promedio, que notaremos $\overline{a}$ y es una constante, entonces:
+en este curso simplificaremos nuestros cálculos, usando una aceleración promedio, que notaremos como a y es una constante, entonces:
 
 $$
-a(t) = \overline{a}
+a(t) = a
 $$
 
 nuestra aceleración será un número constante, y no dependerá del tiempo, o en otras palabras, tendrá el mismo valor para todo instante de tiempo.
 
 ## ecuación de velocidad en una dimensión (1D)
 
-si conocemos la aceleración promedio $\overline{a}$ en un instante, podemos usar como ventana de tiempo el tiempo entre origen $t_0 = 0$ y ese instante, y así escribir la aceleración en ese instante de tiempo entre ellos como:
+si conocemos la aceleración promedio a en un instante, podemos usar como ventana de tiempo el tiempo entre origen t=0s y ese instante, y así escribir la aceleración en ese instante de tiempo entre ellos como:
 
-$$
-\overline{a} =  \frac{v(t) - v(t_0)}{t - t_0}
-$$
+$$a =  \frac{v(t) - v(t_0)}{t - t_0}$$
 
-podemos simplificar ya que sabemos que $t_0 = 0 s$, entonces:
+podemos simplificar ya que sabemos que el instante inicial es 0s:
 
-$$
-\overline{a} = \frac{v(t) - v(t_0)}{t}
-$$
+$$a = \frac{v(t) - v(t_0)}{t}$$
 
-y sabemos que $v(t_0)$ es la velocidad inicial en instante t=0, y es una constante, que podemos llamar $v_0$, entonces:
+y sabemos que la velocidad inicial en el instante t=0, es una constante, que podemos llamar v sub 0, entonces:
 
 $$
 \overline{a} = \frac{v(t) - v_0}{t}
 $$
 
-y despejando la velocidad $v(t)$, tenemos la ecuación de velocidad:
+y despejando la velocidad v(t), tenemos la ecuación de velocidad:
 
-$$
-v(t) =  v_0 + \overline{a} \cdot t
-$$
+$$v(t) =  v_0 + \overline{a} \cdot t$$
 
-nota: velocidad se mide en $\frac{m}{s}$.
+nota: velocidad se mide en metros / segundo.
 
 ## ecuación de posición en una dimensión (1D)
 
-la posición x(t) en el instante de tiempo t, es igual a la posición inicial $x_0$ más el producto entre la velocidad promedio $\overline{v}$ y el tiempo t.
+la posición x(t) en el instante de tiempo t, es igual a la posición inicial $x_0$ más el producto entre la velocidad promedio v y el tiempo t.
 
 $$
-x(t) = x_0 + \overline{v} \cdot t
+x(t) = x_0 + v_{promedio} \cdot t
 $$
 
-a su vez, la velocidad promedio $\overline{v}$ la podemos plantear como:
+a su vez, la velocidad promedio la podemos plantear como:
 
 $$
-\overline{v} =  \frac{v(t) + v_0}{2}
+v_{promedio} =  \frac{v(t) + v_0}{2}
 $$
 
-y a su vez, podemos escribir $v(t)$ en función de $v_0$ y $a$:
+y a su vez, podemos escribir $v(t)$ en función de de la velocidad inicial y la acelearción:
 
 $$
-\overline{v} =  \frac{(v_0 + \overline{a} \cdot t) + v_0}{2} = v_0 + \frac{\overline{a} \cdot t}{2}
+v_promedio =  \frac{(v_0 + a \cdot t) + v_0}{2} = v_0 + \frac{a \cdot t}{2}
 $$
 
 y reemplazando en la ecuación de posición x(t) resulta en:
 
 $$
-x(t) = x_0 + (v_0 + \frac{\overline{a} \cdot t}{2}) \cdot t
+x(t) = x_0 + (v_0 + \frac{a \cdot t}{2}) \cdot t
 $$
 
 y desarrollando:
 
 $$
-x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2
+x(t) = x_0 + v_0 \cdot t + \frac{1}{2} a \cdot t^2
 $$
 
 ## resumen cinemática en 1D
 
-con aceleración promedio $\overline{a}$, podemos escribir las ecuaciones de posición y aceleración asi:
+con aceleración promedio a, podemos escribir las ecuaciones de posición y aceleración asi:
 
-$$
-x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2
-$$
+$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2$$
 
-$$
-v(t) = v_0 + \overline{a} \cdot t
-$$
+$$v(t) = v_0 + a \cdot t$$
 
 ## ecuación de velocidad en 2D
 
 en 2D basta con tomar la ecuación de 1D y reemplazar por vectores:
 
-$$
-\vec{v}(t) = \vec{v_0} + \vec{\overline{a}} \cdot t
-$$
+$$\vec{v}(t) = \vec{v_0} + \vec{a} \cdot t$$
 
 y descomponiendo en componentes x e y, tenemos el sistema:
 
-$$
-v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t
-$$
+$$v_{x}(t) = v_{x0} + a_{x} \cdot t$$
 
-$$
-v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t
-$$
+$$v_{y}(t) = v_{y0} + a_{y} \cdot t$$
 
 ## ecuación de posición en 1D
 
 en 2D basta con tomar la ecuación de 1D y reemplazar por vectores:
 
-$$
-\vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} \vec{\overline{a}} \cdot t^2
-$$
+$$\vec{x}(t) = \vec{x_0} + \vec{v_0} \cdot t + \frac{1}{2} \vec{a} \cdot t^2$$
 
-y descomponiendo en componentes $\hat{x}$ e $\hat{y}$, tenemos el sistema:
+y descomponiendo en los ejes x e y:
 
-$$
-x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2
-$$
+$$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} a_{x} \cdot t^2$$
 
-$$
-y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t^2
-$$
+$$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} a_{y} \cdot t^2$$
 
 ## resumen cinemática en 2D
 
 podemos escribir las ecuaciones de posición y aceleración asi:
 
-$$
-x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} \overline{a}_{x} \cdot t^2
-$$
+$$x(t) = x_0 + v_{x0} \cdot t + \frac{1}{2} a_{x} \cdot t^2$$
 
-$$
-y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} \overline{a}_{y} \cdot t^2
-$$
+$$y(t) = y_0 + v_{y0} \cdot t + \frac{1}{2} a_{y} \cdot t^2$$
 
-$$
-v_{x}(t) = v_{x0} + \overline{a}_{x} \cdot t
-$$
+$$v_{x}(t) = v_{x0} + a_{x} \cdot t$$
 
-$$
-v_{y}(t) = v_{y0} + \overline{a}_{y} \cdot t
-$$
+$$v_{y}(t) = v_{y0} + a_{y} \cdot t$$
 
-## comentarios matemáticos sobre estas ecuaciones físicas:
+## comentarios matemáticos sobre estas ecuaciones físicas
 
 las ecuaciones de velocidad en 1D y 2D del estilo:
 
-$$
-v(t) = v_{0} + \overline{a} \cdot t
-$$
+$$v(t) = v_{0} + a \cdot t$$
 
 las podemos pensar como ecuaciones con variable independiente $t$, donde v es la variable dependiente de t, y donde:
 
@@ -217,9 +180,7 @@ las podemos pensar como ecuaciones con variable independiente $t$, donde v es la
 
 a su vez, si analizamos las ecuaciones de posición en 1D y 2D del estilo:
 
-$$
-x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2
-$$
+$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} a \cdot t^2$$
 
 podemos ver que
 
