@@ -15,3 +15,9 @@ la clase anterior vimos la unidad 1: cinemática en 1 y 2 dimensiones
 la clase de hoy es la unidad 2: dinámica
 
 - definición de dinámica
+
+## definición de dinámica
+
+acordémonos que en cinemática tratamos de encontrar expresiones matemáticas para describir la posición, velocidad y aceleración de cuerpos, sin importar la causa de sus cambios en posición, velocidad y aceleración.
+
+en dinámica, por el contrario, tomaremos en cuenta las fuerzas.

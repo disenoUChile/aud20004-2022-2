@@ -2,8 +2,14 @@
 
 unidades 2: dinámica y 3: energía y cantidad de movimiento
 
-## ejercicio-01
+## ejercicio-01 (30 minutos)
 
-## ejercicio-02
+dinámica
 
-## ejercicio-03
+## ejercicio-02 (30 minutos)
+
+dinámica
+
+## ejercicio-03 (30 minutos)
+
+energía y cantidad de moviento

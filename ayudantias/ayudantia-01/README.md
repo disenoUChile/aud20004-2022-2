@@ -4,7 +4,7 @@ jueves 11 agosto 2022, presencial
 
 repaso matemática y semestre pasado
 
-## ejercicio-01
+## ejercicio-01: ecuaciones de recta e intersecciones (30 minutos)
 
 a) encontrar la ecuación de la recta $L_1: y = mx + b$ que pasa por los puntos $P_1: (0, -2)$ y $P_2: (5,  0)$.
 
@@ -70,7 +70,7 @@ $$E6: y_i = \frac{4}{5}$$
 
 con esto, tenemos el resultado de que el punto de intersección es $(7, \frac{4}{5}).$
 
-## ejercicio-02
+## ejercicio-02: conversión de unidades físicas (30 minutos)
 
 a ) cuántos litros de agua caben en un cubo de 2m de lado?
 
@@ -151,7 +151,7 @@ $$altura  \approx 1019 m$$
 
 la columna de agua y el vaso que la contiene mide un poco más de un kilómetro!
 
-## ejercicio-03
+## ejercicio-03: trigonometría (30 minutos)
 
 a) cuáles son los ángulos internos y externos de un triángulo rectángulo con catetos de 1 cm y 1cm?
 
