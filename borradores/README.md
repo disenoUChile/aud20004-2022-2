@@ -1,11 +1,5 @@
 #
 
-cada ayudantía es una de estas dos opciones:
-
-- 3 ejercicios con ayudante, cada ejercicio de 30 minutos.
-- control de 3 ejercicios, cada ejercicio pensado para ser realizado en 20 minutos.
-  en grupos de 2 a 3.
-
 la pauta entonces para cada control es:
 
 - 1 punto base
