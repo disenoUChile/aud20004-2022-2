@@ -8,7 +8,7 @@
 - curso: AUD20004 Física aplicada al diseño
 - sección: 02
 - créditos: 03
-- semestre: Segundo semestre 2022
+- semestre: segundo semestre 2022
 - profesor: [aarón montoya-moraga](https://montoyamoraga.io)
 - estudiantes inscritos: 52
 
