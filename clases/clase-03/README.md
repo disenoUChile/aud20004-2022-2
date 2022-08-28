@@ -12,7 +12,7 @@ la clase anterior repasamos conceptos básicos de matemática, incluyendo:
 - 3 leyes de Newton
 - ley de gravitación universal
 
-la clase de hoy es la unidad 0: cinemática en 1 y 2 dimensiones
+la clase de hoy es la unidad 1: cinemática en 1 y 2 dimensiones
 
 - definición de cinemática
 - ecuación de velocidad en 1D
