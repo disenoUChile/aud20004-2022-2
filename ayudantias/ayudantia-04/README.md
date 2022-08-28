@@ -8,24 +8,8 @@ $$\vec{v}(t) = \vec{x_0} + \vec{a} \cdot t$$
 
 $$\vec{F} = m \cdot \vec{a}$$
 
-## ejercicio-01 ((3 puntos))
+## ejercicio-01: vectores (3 puntos)
 
-ejercicio de vectores
+## ejercicio-02: posición y velocidad en 1D (3 puntos)
 
-si tenemos los vectores A y B:
-
-## ejercicio-02 (3 puntos)
-
-ejercicio de cinemática 1D
-
-si tenemos la ecuación de posición de un cuerpo x(t)
-
-a) calcular la velocidad inicial si sabemos
-
-b)
-
-## ejercicio-03 (3 puntos)
-
-ejercicio de cinemática 2D
-
-si tenemos l
+## ejercicio-03: velocidad en 2D (3 puntos)
