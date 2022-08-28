@@ -21,6 +21,7 @@
 
 ## unidades
 
+- unidad 0: vectores y fuerzas
 - unidad 1: cinemática en 1 y 2 dimensiones
 - unidad 2: dinámica
 - unidad 3: energía y cantidad de movimiento

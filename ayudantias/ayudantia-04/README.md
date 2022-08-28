@@ -2,11 +2,11 @@
 
 evaluación 01
 
-ecuaciones importantes:
+$$\vec{x}(t) = x_0 + \vec{v_0} \cdot t + \frac{1}{2} \cdot \vec{a} \cdot t^2$$
 
-$$v(t) = x_0 + v_0 \cdot t$$
+$$\vec{v}(t) = \vec{x_0} + \vec{a} \cdot t$$
 
-$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \cdot a \cdot t^2$$
+$$\vec{F} = m \cdot \vec{a}$$
 
 ## ejercicio-01 ((3 puntos))
 
