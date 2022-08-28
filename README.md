@@ -90,13 +90,6 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 | [14](ayudantias/ayudantia-14/) | 2022-11-24 | evaluación: control 4, unidades 7, 8                       |
 | cierre acta                    | 2022-12-16 | plazo máximo envío actas                                   |
 
-## metodología
-
-- discusiones en clase de los conceptos fundamentales
-- resolución de problemas en ayudantía
-- controles grupales en ayudantía
-- tareas de investigación
-
 ## bibliografía
 
 - https://www.khanacademy.org/science/physics/
