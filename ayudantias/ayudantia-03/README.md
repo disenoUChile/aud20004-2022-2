@@ -1,6 +1,6 @@
 # ayudantia-03
 
-## ejercicio-01 (30 min)
+## ejercicio-01: velocidad en 1D (30 min)
 
 a) si tenemos la ecuación de velocidad de un cuerpo es:
 
@@ -117,7 +117,7 @@ $$v(t=\frac{8}{3} s) = 5 \frac{m}{s} - 3 \frac{m}{s^{2}} \cdot \frac{8}{3} s = 5
 
 con esto, tenemos que la respuesta que las velocidades serán iguales, su valor será -3 metros / segundos, esto ocurrirá en el instante 8/3 segundos.
 
-## ejercicio-02 (30 min)
+## ejercicio-02: posición y velocidad en 2D (30 min)
 
 a)
 
@@ -306,7 +306,7 @@ gráficos en Wolfram Alpha de v(t) para eje y:
 
 gráficos en Wolfram Alpha de vy(t):
 
-## ejercicio-03 (30 min)
+## ejercicio-03: posición en 1D y su valor máximo o mínimo (30 min)
 
 a) si tenemos esta ecuación de posición de un cuerpo en 1D:
 
