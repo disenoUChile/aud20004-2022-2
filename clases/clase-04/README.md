@@ -199,6 +199,10 @@ y resulta una tensión que depende de las masas m1 y m2.
 
 $$T = g \cdot \frac{m_1 \cdot m_2}{m_1 + m_2}$$
 
+notamos que si m_1 y m_2 son iguales, entonces la aceleración se hace cero, independiente del largo de la cuerda o la posición de las masas.
+
+como siempre, aceleración cero no implica velocidad cero, solamente implica velocidad constante.
+
 ## referencias
 
 - https://www.khanacademy.org/science/physics/forces-newtons-laws/normal-contact-force/v/normal-force-and-contact-force
