@@ -47,13 +47,13 @@ la masa es inherente al cuerpo y constante, el peso depende de la gravedad, que 
 
 ## fuerza normal
 
-![fuerza normal](./imagemes/Incline.png)
+![fuerza normal](./imagenes/Incline.png)
 
 fuente: https://en.wikipedia.org/wiki/Normal_force#/media/File:Incline.svg
 
 ## roce estático y dinámico
 
-![fuerza de roce](<./Friction_relative_to_normal_force_(diagram).png>)
+![fuerza de roce](./imagenes/Friction_relative_to_normal_force.png)
 
 fuente:https://en.wikipedia.org/wiki/Normal_force#/media/File:Friction_relative_to_normal_force_(diagram).png
 
@@ -61,7 +61,7 @@ fuente:https://en.wikipedia.org/wiki/Normal_force#/media/File:Friction_relative_
 
 ## máquina de Atwood
 
-![Máquina de Atwood](./imagemes/Atwood.png)
+![Máquina de Atwood](./imagenes/Atwood.png)
 
 fuente de la imagen: https://en.wikipedia.org/wiki/Atwood_machine#/media/File:Atwood.svg
 
