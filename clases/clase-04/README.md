@@ -15,6 +15,7 @@ la clase anterior vimos la unidad 1: cinemática en 1 y 2 dimensiones
 la clase de hoy es la unidad 2: dinámica
 
 - definición de dinámica
+- diagrama de cuerpo libre
 - fuerza de peso
 - fuerzas de contacto: fuerza normal y fuerzas de roce
 - fuerza de tensión, cuerdas ideales y poleas
@@ -27,6 +28,19 @@ acordémonos que en cinemática tratamos de encontrar expresiones matemáticas p
 en dinámica, por el contrario, tomaremos en cuenta las fuerzas y la segunda ecuación de Newton, que dice:
 
 $$\vec{F} = m \cdot \vec{a}$$
+
+## diagrama de cuerpo libre (DCL)
+
+cuando resolvamos problemos de dinámica, crearemos diagramas de cuerpo libre, donde aislaremos cada cuerpo, y dibujaremos todas las fuerzas que le afectan, sin importar su origen.
+
+esto nos permitirá escribir la segunda ecuación de Newton para cada cuerpo, donde la suma de todas las fuerzas sobre un cuerpo es igual a su masa multiplicada por su aceleración.
+
+referencias:
+
+- https://es.wikipedia.org/wiki/Diagrama_de_cuerpo_libre
+- https://en.wikipedia.org/wiki/Free_body_diagram
+
+a continuación veremos las fuerzas típicas que usaremos en nuestros diagramas de cuerpos libres.
 
 ## fuerza de peso
 
@@ -88,7 +102,35 @@ cuando el cuerpo ya se está moviendo, deja de ser estático, ahora tiene una fo
 
 en general, el coeficiente de roce estático es mayor que dinámico, por lo que se necesita aplicar una fuerza para vencer el roce estático, y tras ser vencido, se necesita menos fuerza para mantenerlo en movimiento.
 
+video con experimento: https://www.youtube.com/watch?v=lzm0aSsSx8E
+
 ## fuerza de tensión, cuerdas ideales y poleas
+
+fuerza de tensión es una fuerza transmitida por una cuerda ideal:
+
+- la cuerda ideal no tiene masa
+- la cuerda ideal es inextensible / su largo es constante.
+
+la fuerza de tensión se anota como T, por tensión.
+
+la tensión se mide en Newton, es una fuerza.
+
+el caso más simple para entender tensión, es de un cuerpo de masa m, sin acelerar, colgando de una cuerda anclada al techo.
+
+el diagrama de cuerpo libre sobre este cuerpo presenta dos fuerzas:
+
+- la fuerza de peso, ejercida por la tierra atrayendo el cuerpo hacia el suelo.
+- la fuerza de tensión, ejercida por el techo y transmitiendo a través de la cuerda, atrayendo el cuerpo hacia el techo.
+
+en el eje Y podemos escribir la ecuación:
+
+$$T - m \cdot g = m \cdot a$$
+
+y si no acelera, entonces:
+
+$$T = m \cdot g$$
+
+este es un caso similar al de un cuerpo sin acelerar en el suelo, donde el peso es contrarrestado por la fuerza normal, pero en este caso no hay fuerza normal, sino que hay fuerza de tensión.
 
 ## máquina de Atwood
 
@@ -103,7 +145,59 @@ con los supuestos:
 - la masa de la cuerda es 0 (en comparación con los cuerpos)
 - la cuerda es inextensible, su largo siempre es constante.
 
-consideramos dos cuerpos, con masas m1 y m2.
+consideramos dos cuerpos, con masas m1 y m2 conectados por una cuerda ideal a la misma polea.
+
+nos damos cuenta que si uno acelera, el otro acelera con la misma magnitud y en dirección contraria, porque la cuerda es ideal e inextensible.
+
+entonces si decimos que el cuerpo m1 acelera hacia abajo, escribimos su ecuación según su diagrama de cuerpo libre:
+
+$$T - m_1 \cdot g = m_1 \cdot (-a)$$
+
+y el otro cuerpo, entonces acelera hacia arriba y su ecuación es:
+
+$$T - m_2 \cdot g = m_2 \cdot a$$
+
+si despejamos la tensión de la primera ecuación, resulta:
+
+$$T = m_1 \cdot (g - a)$$
+
+y si reemplazamos esa tensión en la segunda ecuación, resulta:
+
+$$(m_1 \cdot (g - a)) - m_2 \cdot g = m_2 \cdot a$$
+
+expandiendo los términos:
+
+$$m_1 \cdot g - m_1 \cdot a - m_2 \cdot g = m_2 \cdot a$$
+
+agrupando a:
+
+$$m_1 \cdot g - m_2 \cdot g = m_1 \cdot a + m_2 \cdot a$$
+
+y despejando a:
+
+$$a = g \cdot \frac{m1 - m2}{m1+ m2}$$
+
+la aceleración es un múltiplo de la gravedad, y depende de la relación entre las masas, vemos que la aceleración que definimos será positiva cuando m1 sea mayor que m2, y que invertirá su signo cuando m2 sea mayor que m1.
+
+como tenemos a, podemos ahora despejar T:
+
+$$T = m_1 \cdot (g - a) = m_1 \cdot (g - g \cdot \frac{m1 - m2}{m1+ m2})$$
+
+y desarrollando:
+
+$$T = m_1 \cdot g \cdot (1 - frac{m_1 - m_2}{m_1 + m_2})$$
+
+expresamos 1 como la suma de m1 y m2 dividida por sí misma:
+
+$$T = m_1 \cdot g \cdot (\frac{m_1 + m_2}{m_1 + m_2} - frac{m_1 - m_2}{m_1 + m_2})$$
+
+y con eso simplificamos:
+
+$$T = m_1 \cdot g \cdot (\frac{2 \cdot m_2}{m_1 + m_2})$$
+
+y resulta una tensión que depende de las masas m1 y m2.
+
+$$T = g \cdot \frac{m_1 \cdot m_2}{m_1 + m_2}$$
 
 ## referencias
 
