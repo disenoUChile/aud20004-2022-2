@@ -49,7 +49,7 @@ la masa es inherente al cuerpo y constante, el peso depende de la gravedad, que 
 
 ## máquina de Atwood
 
-![Máquina de Atwood](./Atwood.svg)
+![Máquina de Atwood](./Atwood.png)
 
 fuente de la imagen: https://en.wikipedia.org/wiki/Atwood_machine#/media/File:Atwood.svg
 
