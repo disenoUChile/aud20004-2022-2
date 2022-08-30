@@ -185,11 +185,11 @@ $$T = m_1 \cdot (g - a) = m_1 \cdot (g - g \cdot \frac{m1 - m2}{m1+ m2})$$
 
 y desarrollando:
 
-$$T = m_1 \cdot g \cdot (1 - frac{m_1 - m_2}{m_1 + m_2})$$
+$$T = m_1 \cdot g \cdot (1 - \frac{m_1 - m_2}{m_1 + m_2})$$
 
 expresamos 1 como la suma de m1 y m2 dividida por sí misma:
 
-$$T = m_1 \cdot g \cdot (\frac{m_1 + m_2}{m_1 + m_2} - frac{m_1 - m_2}{m_1 + m_2})$$
+$$T = m_1 \cdot g \cdot (\frac{m_1 + m_2}{m_1 + m_2} - \frac{m_1 - m_2}{m_1 + m_2})$$
 
 y con eso simplificamos:
 
