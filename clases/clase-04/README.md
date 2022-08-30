@@ -31,7 +31,7 @@ $$\vec{F} = m \cdot \vec{a}$$
 
 ## fuerza de peso
 
-![fuerza de peso](./imagemes/WeightNormal.png)
+![fuerza de peso](./imagenes/WeightNormal.png)
 
 fuente: https://en.wikipedia.org/wiki/Weight#/media/File:WeightNormal.svg
 
@@ -53,7 +53,7 @@ fuente: https://en.wikipedia.org/wiki/Normal_force#/media/File:Incline.svg
 
 ## roce estático y dinámico
 
-![fuerza de roce](./imagenes/Friction_relative_to_normal_force.png)
+![fuerza de roce](./imagenes/Friction_relative_to_normal_force_fondo_blanco.png)
 
 fuente:https://en.wikipedia.org/wiki/Normal_force#/media/File:Friction_relative_to_normal_force_(diagram).png
 
