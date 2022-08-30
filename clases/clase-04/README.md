@@ -31,6 +31,10 @@ $$\vec{F} = m \cdot \vec{a}$$
 
 ## fuerza de peso
 
+![fuerza de peso](./WeightNormal.png)
+
+fuente: https://en.wikipedia.org/wiki/Weight#/media/File:WeightNormal.svg
+
 el peso se anota como (W, por inglés "weight").
 
 se mide en Newton, es una fuerza.
@@ -43,7 +47,7 @@ la masa es inherente al cuerpo y constante, el peso depende de la gravedad, que 
 
 ## fuerza normal
 
-![Fuerza normal](./Incline.png)
+![fuerza normal](./Incline.png)
 
 fuente: https://en.wikipedia.org/wiki/Normal_force#/media/File:Incline.svg
 
