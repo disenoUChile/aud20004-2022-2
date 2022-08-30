@@ -31,7 +31,7 @@ $$\vec{F} = m \cdot \vec{a}$$
 
 ## fuerza de peso
 
-![fuerza de peso](./WeightNormal.png)
+![fuerza de peso](./imagemes/WeightNormal.png)
 
 fuente: https://en.wikipedia.org/wiki/Weight#/media/File:WeightNormal.svg
 
@@ -47,17 +47,21 @@ la masa es inherente al cuerpo y constante, el peso depende de la gravedad, que 
 
 ## fuerza normal
 
-![fuerza normal](./Incline.png)
+![fuerza normal](./imagemes/Incline.png)
 
 fuente: https://en.wikipedia.org/wiki/Normal_force#/media/File:Incline.svg
 
 ## roce estático y dinámico
 
+![fuerza de roce](<./Friction_relative_to_normal_force_(diagram).png>)
+
+fuente:https://en.wikipedia.org/wiki/Normal_force#/media/File:Friction_relative_to_normal_force_(diagram).png
+
 ## fuerza de tensión, cuerdas ideales y poleas
 
 ## máquina de Atwood
 
-![Máquina de Atwood](./Atwood.png)
+![Máquina de Atwood](./imagemes/Atwood.png)
 
 fuente de la imagen: https://en.wikipedia.org/wiki/Atwood_machine#/media/File:Atwood.svg
 
