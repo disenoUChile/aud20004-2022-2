@@ -43,6 +43,10 @@ la masa es inherente al cuerpo y constante, el peso depende de la gravedad, que 
 
 ## fuerza normal
 
+![Fuerza normal](./Incline.png)
+
+fuente: https://en.wikipedia.org/wiki/Normal_force#/media/File:Incline.svg
+
 ## roce estático y dinámico
 
 ## fuerza de tensión, cuerdas ideales y poleas
