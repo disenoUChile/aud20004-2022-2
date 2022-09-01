@@ -2,9 +2,9 @@
 
 ## ejercicio-01 (30 minutos)
 
-a) nombrar todas las fuerzas que afectan a un cuerpo de masa m, en un plano inclinado, en el planeta tierra y dibujar el diagrama del cuerpo libre.
+a) nombrar todas las fuerzas que afectan a un cuerpo de masa m, en un plano inclinado, con aceleración cero, en el planeta tierra y dibujar el diagrama del cuerpo libre.
 
-b) nombrar todas las fuerzas
+b) nombrar cuáles son los causantes de las fuerzas sobre la masa m.
 
 ## solución ejercicio-01
 
@@ -12,11 +12,15 @@ a) un cuerpo en un plano inclinado presenta 3 fuerzas:
 
 - fuerza de peso, y en dirección hacia abajo.
 - fuerza normal, en dirección perpendicular al plano inclinado.
-- fuerza de roce, paralela al plano inclinado, oponiéndose al deslizamiento del cuerpo.
+- fuerza de roce estático, paralela al plano inclinado, que se opone al deslizamiento o movimiento del cuerpo.
 
 ![diagrama de cuerpo libre](./Friction_relative_to_normal_force_fondo_blanco.png)
 
 b)
+
+- la fuerza de peso existe porque nuestro cuerpo de masa m está sobre el planeta tierra, y la tierra ejerce una fuerza gravitacional sobre este cuerpo.
+- la fuerza normal existe porque nuestro cuerpo de masa m está en contacto con una superficie, y por la tercera ley de Newton: como el cuerpo de masa m empuja a la superficie, la respuesta del plano es empujar al cuerpo de masa m, en la misma magnitud y en sentido contrario.
+- la fuerza de roce estático existe porque nuestro cuerpo de masa m está en contacto con una superficie inclinada y en reposo. esta fuerza se opone al movimiento del cuerpo.
 
 ## ejercicio-02 (30 minutos)
 
