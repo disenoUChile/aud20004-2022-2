@@ -84,20 +84,66 @@ y vemos que en el eje X el lado izquierdo es 0, por lo tanto la aceleración en 
 
 ## ejercicio-03 (30 minutos)
 
-con la siguiente máquina de Atwood:
+con la siguiente máquina de Atwood con cuerdas ideales:
 
 ![máquina de Atwood](./Atwood.png)
 
-a) hacer supuestos de coordenadas y encontrar la aceleración en función de la gravedad y las masas, para demostrar que las distancias no afectan a la aceleración.
+a) hacer supuestos de coordenadas y encontrar la aceleración en función de la gravedad y las masas.
+
+b) demostrar que la aceleración no depende del largo de la cuerda ideal, ni de la altura de la máquina de Atwood.
 
 ## solución ejercicio-03
 
 a)
 
-en una máquina de Atwood, tenemos que la aceleración de las masas m1 y m2 conectadas por una cuerda ideal son de igual magnitud, y dirección contraria. si asumimos que a es positiva hacia arriba, y que m1 acelera hacia arriba, y que m2 acelera hacia abajo, tenemos esta ecuación:
+con el sistema de coordenadas propuesto en la ilustración, vemos que la aceleración a es positiva hacia arriba, así que podemos escribir en 1D, respetando los signos, la segunda ley de Newton para ambas masas:
 
-$$a = g \cdot \frac{m1 - m2}{m1+ m2}$$
+$$T - W_1 = m_1 \cdot (-a)$$
+
+$$T - W_2 = m_2 \cdot (a)$$
+
+este es un sistema de 2 ecuaciones (1 por cada cuerpo) y 2 incógnitas (T y a), así que lo podemos resolver!
+
+como queremos despejar la aceleración, una estrategia es encontrar una manera de eliminar T al hacer aritmética entre estas dos ecuaciones.
+
+una opción es entonces tomar la primera ecuación, y restarle la segunda, entonces a cada lado resulta:
+
+(lado izquierdo ecuación 1) - (lado izquierdo ecuación 2) = (lado derecho ecuación 1) - (lado derecho ecuación 2)
+
+y reemplazando:
+
+$$(T - W_1) - (T - W_2) = (m_1 \cdot (-a)) - (m_2 \cdot (a))$$
+
+acordándonos que -1 por -1 es 1, podemos simplificar:
+
+$$W_2 - W_1 = -a \cdot (m_1 + m_2)$$
+
+y despejando a:
+
+$$a = \frac{-(W_2 - W_1)}{m_1 + m_2} = \frac{W_1 - W_2}{m_1 + m_2}$$
+
+y reemplazando los pesos por el producto entre la masa y la gravedad:
+
+$$a = \frac{m_1 \cdot g - m_2 \cdot g}{m_1 + m_2}$$
+
+y factorizando por g:
+
+$$a = \frac{g \cdot (m_1 \cdot - m_2)}{m_1 + m_2}$$
 
 nos damos cuenta que la aceleración es el múltiplo de 3 factores: g que es un valor positivo, la suma de las masas que también es positivo, y la resta entre m1 y m2, que definirá el signo de la aceleración así:
 
-- si m1 > m2, entonces m1 - m2 > 0, y por lo tanto, a también es positivo, lo que tiene
+- si m1 > m2, entonces m1 - m2 > 0, y por lo tanto, a también es positivo, lo que tiene sentido, ya que si la masa m1 es mayor, m1 caerá y arrastra a m2 hacia arriba a través de tensión de la cuerda ideal.
+
+- en caso contrario, m2 > m1, entonces m1 - m2 < 0, y por lo tanto, a es negativo, y occure lo contrario, la masa m2 cae por la gravedad y arrastra a m1 hacia arriba a través de la tensión de la cuerda ideal.
+
+- caso límite: las masas son iguales, entonces m1 - m2 = 0, y por lo tanto, la aceleración es cero, o sea que la velocidad de los cuerpos es constante y no cambia.
+
+b)
+
+como la ecuación de aceleración es:
+
+$$a = \frac{g \cdot (m_1 \cdot - m_2)}{m_1 + m_2}$$
+
+por inspección, vemos que solamente depende de la gravedad y de las masas, y no depende de factores como el largo de la cuerda ideal o de la altura con respecto a la tierra de la máquina de Atwood.
+
+la cuerda ideal permite que los cuerpos influyan entre sí, y como no tiene masa, no influye gravitacionalmente en los cálculos. además, como su largo es constante, eso fuerza a que las aceleraciones de los cuerpos sean de igual magnitud, y dirección distinta según la polea. otro resultado de usar una cuerda ideal es que la magnitud de la tensión que ven ambos cuerpos es la misma.
