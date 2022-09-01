@@ -72,7 +72,7 @@ $$ T \cdot sin(theta) = m \cdot a_x$$
 
 $$ T \cdot cos(theta) - W = m \cdot a_y$$
 
-vemos que el cuerpo tiene aceleración en ambos ejes X e Y.
+vemos que el cuerpo tiene aceleración en ambos ejes X e Y, ya que el ángulo es distinto de cero.
 
 si la cuerda estuviera perpendicular, el ángulo sería 0, y entonces en ese caso, las ecuaciones resultarían:
 
@@ -84,7 +84,11 @@ y vemos que en el eje X el lado izquierdo es 0, por lo tanto la aceleración en 
 
 ## ejercicio-03 (30 minutos)
 
+con la siguiente máquina de Atwood:
+
 ![máquina de Atwood](./Atwood.png)
+
+a) hacer supuestos de coordenadas y encontrar la aceleración en función de la gravedad y las masas, para demostrar que las distancias no afectan a la aceleración.
 
 ## solución ejercicio-03
 
