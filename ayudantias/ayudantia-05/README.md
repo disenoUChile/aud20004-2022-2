@@ -1,15 +1,15 @@
 # ayudantia-05
 
-unidades 2: dinámica y 3: energía y cantidad de movimiento
+evaluación 01
 
-## ejercicio-01 (30 minutos)
+$$\vec{x}(t) = x_0 + \vec{v_0} \cdot t + \frac{1}{2} \cdot \vec{a} \cdot t^2$$
 
-dinámica
+$$\vec{v}(t) = \vec{x_0} + \vec{a} \cdot t$$
 
-## ejercicio-02 (30 minutos)
+$$\vec{F} = m \cdot \vec{a}$$
 
-dinámica
+## ejercicio-01: vectores (3 puntos)
 
-## ejercicio-03 (30 minutos)
+## ejercicio-02: posición y velocidad en 1D (3 puntos)
 
-energía y cantidad de moviento
+## ejercicio-03: velocidad en 2D (3 puntos)

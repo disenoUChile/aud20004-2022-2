@@ -1,15 +1,33 @@
 # ayudantia-04
 
-evaluación 01
+## ejercicio-01 (30 minutos)
 
-$$\vec{x}(t) = x_0 + \vec{v_0} \cdot t + \frac{1}{2} \cdot \vec{a} \cdot t^2$$
+a) nombrar todas las fuerzas que afectan a un cuerpo de masa m, en un plano inclinado, en el planeta tierra y dibujar el diagrama del cuerpo libre.
 
-$$\vec{v}(t) = \vec{x_0} + \vec{a} \cdot t$$
+b)
 
-$$\vec{F} = m \cdot \vec{a}$$
+## solución ejercicio-01
 
-## ejercicio-01: vectores (3 puntos)
+a) un cuerpo en un plano inclinado presenta 3 fuerzas:
 
-## ejercicio-02: posición y velocidad en 1D (3 puntos)
+- fuerza de peso, y en dirección hacia abajo.
+- fuerza normal, en dirección perpendicular al plano inclinado.
+- fuerza de roce, paralela al plano inclinado, oponiéndose al deslizamiento del cuerpo.
 
-## ejercicio-03: velocidad en 2D (3 puntos)
+![diagrama de cuerpo libre](./Friction_relative_to_normal_force.png)
+
+b)
+
+## ejercicio-02 (30 minutos)
+
+describir
+
+a)
+
+b)
+
+## solución ejercicio-02
+
+## ejercicio-03 (30 minutos)
+
+## solución ejercicio-03
