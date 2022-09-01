@@ -24,17 +24,67 @@ b)
 
 ## ejercicio-02 (30 minutos)
 
-a)
+a) dibujar el diagrama de cuerpo libre de un cuerpo de masa m, que está sostenido por una cuerda ideal desde el techo. la cuerda no está perpendicular al techo, sino que está en un ángulo theta.
 
-b)
+b) aplicar la segunda ley de Newton y demostrar con ecuaciones que en esa posición, el cuerpo de masa m tiene una aceleración distinta de cero. demostrar que si la cuerda estuviera perpendicular, el cuerpo no estaría acelerando en el eje X.
 
 ## solución ejercicio-02
 
 a)
 
+![solución ejercicio 2a](./ej02a.jpg)
+
 b)
 
+como tenemos la fuerza de tensión T en una diagonal, la descomponemos según el ángulo theta, usando primero la función seno y luego coseno:
+
+$$sin(theta) = \frac{cateto opuesto}{hipotenusa} = \frac{T_x}{T}$$
+
+y despejamos de esta ecuación T en eje X:
+
+$$T_x = T \cdot sin(theta)$$
+
+ahora con coseno, planteamos:
+
+$$cos(theta) = \frac{cateto adyacente}{hipotenusa} = \frac{T_y}{T}$$
+
+y despejamos de esta ecuación T en eje Y:
+
+$$T_y = T \cdot cos(theta)$$
+
+entonces ahora sabemos que el vector de tensión T es:
+
+$$T = T_x \hat{x} + T_y \hat{y} = T \cdot sin(theta) \cdot \hat{x} + T \cdot cos(theta) \cdot \hat{y}$$
+
+y ahora sí podemos usar la segunda ley de Newton:
+
+$$\vec{F} = m \cdot \vec{a}$$
+
+donde descomponemos en ejes X e Y:
+
+$$ F_x = m \cdot a_x$$
+
+$$ F_y = m \cdot a_y$$
+
+y luego reemplazamos para cada eje:
+
+$$ T \cdot sin(theta) = m \cdot a_x$$
+
+$$ T \cdot cos(theta) - W = m \cdot a_y$$
+
+vemos que el cuerpo tiene aceleración en ambos ejes X e Y.
+
+si la cuerda estuviera perpendicular, el ángulo sería 0, y entonces en ese caso, las ecuaciones resultarían:
+
+$$ T \cdot 0 = m \cdot a_x$$
+
+$$ T \cdot 1 - W = m \cdot a_y$$
+
+y vemos que en el eje X el lado izquierdo es 0, por lo tanto la aceleración en el eje X es cero.
+
 ## ejercicio-03 (30 minutos)
+
+![máquina de Atwood](./Atwood.png)
 
 ## solución ejercicio-03
 
