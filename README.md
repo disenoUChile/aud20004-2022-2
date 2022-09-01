@@ -38,9 +38,9 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 - asistencia: inasistencias justificados por sistema u-cursos cuentan como media asistencia. la nota máxima se logra con al menos un 80% de asistencia.
 - trabajos de investigación: 2 trabajos de investigación individuales, se cuenta solamente la mejor nota.
 - controles en grupo:
-  - 4 controles grupales hechos en horario de ayudantía, uno al final de cada mes.
+  - 3 controles grupales hechos en horario de ayudantía, uno al final de cada mes septiembre, octubre y noviembre..
   - cada control tiene 3 ejercicios, el peor se borra
-  - de los 4 controles, el peor también se borra.
+  - de los 3 controles, el peor también se borra.
   - pauta: cada control tiene 1 punto base, más 3 puntos por cada ejercicio, así:
     - 3 por el ejercicio todo bien.
     - 2 puntos por errores pequeños de aritmética
