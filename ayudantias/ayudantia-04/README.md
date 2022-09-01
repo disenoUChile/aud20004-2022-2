@@ -14,7 +14,7 @@ a) un cuerpo en un plano inclinado presenta 3 fuerzas:
 - fuerza normal, en dirección perpendicular al plano inclinado.
 - fuerza de roce, paralela al plano inclinado, oponiéndose al deslizamiento del cuerpo.
 
-![diagrama de cuerpo libre](./Friction_relative_to_normal_force.png)
+![diagrama de cuerpo libre](./Friction_relative_to_normal_force_fondo_blanco.png)
 
 b)
 
