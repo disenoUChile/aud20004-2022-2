@@ -38,23 +38,23 @@ b)
 
 como tenemos la fuerza de tensión T en una diagonal, la descomponemos según el ángulo theta, usando primero la función seno y luego coseno:
 
-$$sin(theta) = \frac{cateto opuesto}{hipotenusa} = \frac{T_x}{T}$$
+$$sin(\theta) = \frac{cateto opuesto}{hipotenusa} = \frac{T_x}{T}$$
 
 y despejamos de esta ecuación T en eje X:
 
-$$T_x = T \cdot sin(theta)$$
+$$T_x = T \cdot sin(\theta)$$
 
 ahora con coseno, planteamos:
 
-$$cos(theta) = \frac{cateto adyacente}{hipotenusa} = \frac{T_y}{T}$$
+$$cos(\theta) = \frac{cateto adyacente}{hipotenusa} = \frac{T_y}{T}$$
 
 y despejamos de esta ecuación T en eje Y:
 
-$$T_y = T \cdot cos(theta)$$
+$$T_y = T \cdot cos(\theta)$$
 
 entonces ahora sabemos que el vector de tensión T es:
 
-$$T = T_x \hat{x} + T_y \hat{y} = T \cdot sin(theta) \cdot \hat{x} + T \cdot cos(theta) \cdot \hat{y}$$
+$$T = T_x \cdot \hat{x} + T_y \cdot\hat{y} = T \cdot sin(\theta) \cdot \hat{x} + T \cdot cos(\theta) \cdot \hat{y}$$
 
 y ahora sí podemos usar la segunda ley de Newton:
 
