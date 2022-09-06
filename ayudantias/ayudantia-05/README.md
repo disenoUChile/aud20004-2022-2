@@ -175,12 +175,126 @@ y con respecto a los trabajos y energías:
 
 ## ejercicio-03 (30 minutos)
 
-a)
+a) cuánta energía gastamos si subimos el monte Everest? si una manzana tiene 100 kcal, cuántas manzanas necesitas comer para subir el monte Everest.
 
-b)
+b) cuál es la potencia asociada a esta energía, si subimos el monte Everest en 1 hora? y si lo subimos en 1 día?
 
 ## solución ejercicio-03
 
 a)
 
+primero, encontremos los datos en el enunciado o internet:
+
+- altura del Monte Everest = 8849 metros sobre el nivel del mar.
+- energía en una manzana = 100 kcal
+
+segundo, hagamos los supuestos:
+
+- peso de una persona promedio = 80 kilos
+- energía solamente gastada en subir en línea recta con velocidad constante.
+
+con esto, podemos decir que la fuerza de subida se contrapone a nuestro peso, para así lograr subir con velocidad constante y por lo tanto aceleración cero:
+
+$$fuerzas = masa \cdot aceleración$$
+
+y reemplazando:
+
+$$subida - peso = masa \cdot 0$$
+
+y con esto, despejamos la fuerza de subida:
+
+$$subida = peso = masa \cdot gravedad$$
+
+y con esto, podemos plantear el trabajo que realizamos como:
+
+$$trabajo = fuerza \cdot desplazamiento \cdot cos(theta)$$
+
+donde:
+
+- fuerza = subida = masa por aceleración
+- desplazamiento = altura monte Everest
+- ángulo es 0, porque la fuerza y el desplazamiento son paralelos.
+
+y reemplazando:
+
+$$trabajo = m \cdot g \cdot altura_{Everest} \cdot cos(0)$$
+
+y desarrollando:
+
+$$trabajo = 80 kg \cdot 10 \frac{m}{s^2} \cdot 8849 m \cdot 1$$
+
+y agrupando números y unidades:
+
+$$trabajo = 800 \cdot 8849 \cdot \frac{kg \cdot m^2}{s^2}$$
+
+y como masa por aceleración es Newton, y Newton por metro es Joule, podemos resumir las unidades como Joule, entonces:
+
+$$trabajo = 800 \cdot 8849 \cdot J = 7079200 \cdot J$$
+
+la energía necesaria es aproxidamante 7 millones de Joule!
+
+y eso expresado en kilocalorías:
+
+$$trabajo = 7,079,200 \cdot J = 7,079,200 \cdot 2.39 \cdot 10^{-4} \cdot kcal = 16,919,288 \cdot 10^{-4} \cdot kcal$$
+
+y si aproximamos:
+
+$$trabajo = 16,919,288 \cdot 10^{-4} \cdot kcal \approx 17 \cdot 10^{6} \cdot 10^{-4} \cdot kcal \approx 1700 kcal$$
+
+el trabajo ejercido en subir el monte Everest es aproximadamente 1700 kcal.
+
+y si una manzana tiene 100 kcal, entonces el número de manzanas es:
+
+$$manzanas = \frac{trabajo}{energía_{manzana}} = \frac{1700 kcal}\frac{100 kcal} = 17$$
+
+se necesitan el equivalente a 17 manzanas para subir el monte Everest.
+
+este ejercicio nos muestra conversiones entre Joule y kcal, y también el resultado de condiciones ideales, por ejemplo, aquí asumimos que la escalada es hacia arriba y no hay fuerza de fricción al caminar y rodear la montaña.
+
 b)
+
+si la energía que calculamos es aproximadamente 7 millones de Joule, entonces la potencia de hacer esto en una unidad de tiempo es:
+
+$$potencia(t) = \frac{trabajo}{t}$$
+
+y si reemplazamos tiempo por 1 hora, tenemos que la potencia asociada es:
+
+$$potencia_{t=1 hora} = \frac{7 \cdot 10^6 \cdot J}{1 hora}$$
+
+convertimos la hora a segundos:
+
+$$potencia_{t=1 hora} = \frac{7 \cdot 10^6 \cdot J}{60 \cdot 60 s}$$
+
+y como 1 W = 1 J / 1 s, entonces:
+
+$$potencia_{t=1 hora} = \frac{7 \cdot 10^4}{36} W$$
+
+y desarollando:
+
+$$potencia_{t=1 hora} = \frac{7 \cdot 100 \cdot 10^2}{36} W = \frac{7 \cdot 25 \cdot 10^2}{9} W$$
+
+y entonces el resultado es:
+
+$$potencia_{t=1 hora} = \frac{175 \cdot 10^2}{9} W \approx 1750 W$$
+
+el resultado de la potencia en una hora es aproxidamente 1750 W.
+
+si ahora queremos ver la potencia en un día, podemos plantearla:
+
+$$potencia_{t=1 día} = \frac{7 \cdot 10^6 \cdot J}{1 día}$$
+
+y si expresamos 1 día por su equivalente 24 horas:
+
+$$potencia_{t=1 día} = \frac{7 \cdot 10^6 \cdot J}{24 horas}$$
+
+y con esto, podemos expresar la potencia con un día como la potencia con una hora, dividida en 24:
+
+$$potencia_{t=1 día} = \frac{7 \cdot 10^6 \cdot J}{1 hora} \cdot {1}{24}$$
+
+y entonces:
+
+$$potencia_{t=1 día} \approx \frac{1750 W}{24} \approx 73 W$$
+
+entonces, con esto vemos que la misma energía de subir el monte Everest, la podemos distribuir en distintos tiempos, para obtener distintas potencias, y los resultados son muy distintos.
+
+porque la potencia es una medida de cuánta energía se transfiere por unidad de tiempo, entonces hacer un trabajo en menos tiempo consume más potencia, que hacer el mismo trabajo en más tiempo!
