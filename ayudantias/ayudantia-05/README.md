@@ -143,9 +143,35 @@ el cuerpo no ve trabajo ni cambios de energía en él mismo, su energía no camb
 
 convirtamos ahora estos trabajos encontrados a kilocalorías:
 
-$$trabajo_1 = 4000 J = 4000 \cdot 2.39 \cdot 10^{-4} kcal = 9.56 \cdot 10^(-1) kcal \approx 1 kcal $$
+$$trabajo_1 = 4000 \cdot J = 4000 \cdot 2.39 \cdot 10^{-4} \cdot kcal = 9.56 \cdot 10^{-1} \cdot kcal \approx 1 \cdot kcal$$
+
+$$trabajo_1 = 0 \cdot J = 0 \cdot kcal$$
 
 b)
+
+en el primer caso, cuando estamos levantando el cuerpo, estos son los roles con respecto a las fuerzas:
+
+- la tierra ejerce la fuerza de peso sobre el objeto y nosotros
+- nosotros ejercemos una fuerza de levante, contraria al peso
+- el cuerpo recibe la aplicación de ambas fuerzas que se anulan y su velocidad es constante.
+
+y con respecto a los trabajos y energías:
+
+- nosotros ejercemos un trabajo, y perdemos energía
+- el cuerpo recibe un trabajo y gana energía, ya que su altura aumenta, y con esto su energía potencial.
+- la tierra no ve un cambio en energía, ya que no hace ni recibe trabajo.
+
+veamos ahora el segundo caso, cuando estamos caminando con el cuerpo, estos son los roles con respecto a las fuerzas:
+
+- la tierra ejerce una fuerza de peso sobre nosotros y el cuerpo, y también fuerzas de contacto como roce, al caminar.
+- nosotros ejercemos una fuerza de levante, contraria al peso
+- el cuerpo recibe la aplicación de ambas fuerzas que se anulan y su velocidad es constante.
+
+y con respecto a los trabajos y energías:
+
+- la fuerza ejercida sobre el cuerpo es perpendicula a su desplazamiento, por lo que el trabajo sobre el cuerpo es 0 y no cambia su energía.
+- nosotros al caminar ejercemos una fuerza sobre la tierra que es paralela a nuestro desplazamiento, por lo tanto hacemos trabajo sobre la tierra y perdemos energía al caminar.
+- la tierra recibe el trabajo ejercido sobre ella, y gana energía.
 
 ## ejercicio-03 (30 minutos)
 
