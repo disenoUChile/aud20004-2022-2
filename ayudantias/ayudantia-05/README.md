@@ -145,7 +145,7 @@ convirtamos ahora estos trabajos encontrados a kilocalorías:
 
 $$trabajo_1 = 4000 \cdot J = 4000 \cdot 2.39 \cdot 10^{-4} \cdot kcal = 9.56 \cdot 10^{-1} \cdot kcal \approx 1 \cdot kcal$$
 
-$$trabajo_1 = 0 \cdot J = 0 \cdot kcal$$
+$$trabajo_2 = 0 \cdot J = 0 \cdot kcal$$
 
 b)
 
