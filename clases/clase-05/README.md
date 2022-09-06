@@ -86,8 +86,8 @@ a veces nuestro sistema solamente analizará un cuerpo, por ejemplo un cuerpo en
 
 estudiaremos dos tipos de energía asociadas a la posición y movimiento de cuerpos puntuales de masa m:
 
-- energía potencial: la energía en un cuerpo sólido, dependiente de su posición y la gravedad.
-- energía cinética: la energía de un cuerpo sólido
+- energía potencial: la energía en un cuerpo sólido por su posición, dependiente también de la masa y la gravedad.
+- energía cinética: la energía de un cuerpo sólido por su velocidad, dependiente también de la masa.
 
 ## energía potencial
 
