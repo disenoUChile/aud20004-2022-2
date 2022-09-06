@@ -17,8 +17,10 @@ la clase anterior vimos la unidad 2: dinámica en 1 y 2 dimensiones
 
 la clase de hoy es la unidad unidad 3: energía y cantidad de movimiento
 
-- definición de energía
 - definición de trabajo
+- cálculo de trabajo
+- definición de energía
+
 - definición de potencia
 - conservación de energía
 
@@ -50,13 +52,15 @@ de la ecuación de trabajo, primero revisemos en qué casos el trabajo es cero:
 
 - si no hay fuerza, no hay trabajo
 - si no hay desplazamiento, no hay trabajo
-- si el ángulo entre fuerza y desplazamiento es múltiplo de 90 grados, no hay trabajo.
+- si el ángulo entre fuerza y desplazamiento es múltiplo de 90 grados (perpendicular), no hay trabajo.
 
 por efecto del ángulo, tenemos que trabajo es máximo cuando el ángulo entre fuerza y desplazamiento es 0 grados, y con eso coseno de 0 grados es 1.
 
 pensemos en la fuerza que ve todo cuerpo m en la tierra, su peso:
 
 $$peso = m \cdot g$$
+
+en este curso, evaluaremos la fuerza que haremos para empujar o levantar objetos en la tierra, su relación con la fuerza peso, y evaluaremos el desplazamiento que producimos y el ángulo entre fuerza y desplazamiento, para calcular el trabajo.
 
 ## definición de potencia
 
@@ -68,13 +72,17 @@ la potencia se mide en Watts (W).
 
 $$1 W = \frac{J}{s} = \frac{kg \cdot m^2}{s^3}$$
 
+entonces para un trabajo, mientras es realizado en menos tiempo su potencia es mayor, y viceversa.
+
 ## definición de energía
 
 la palabra energía viene del griego enérgeia, que se traduce como actividad.
 
 la energía es una propiedad que tiene un cuerpo o sistema físico, que se reconoce al efectuar trabajo o como luz o calor.
 
-la energía siempre se conserva, no se puede crear ni destruir.
+la energía en un sistema, siempre se conserva, no se puede crear ni destruir.
+
+a veces nuestro sistema solamente analizará un cuerpo, por ejemplo un cuerpo en caída libre. a veces considerará un cuerpo, la tierra, y a nosotros que estamos ejerciendo una fuerza sobre ese objeto, por ejemplo cuando empujamos un cuerpo.
 
 estudiaremos dos tipos de energía asociadas a la posición y movimiento de cuerpos puntuales de masa m:
 
@@ -85,31 +93,48 @@ estudiaremos dos tipos de energía asociadas a la posición y movimiento de cuer
 
 la energía potencial de un cuerpo depende de su masa, la gravedad a la que está expuesto, y la altura que se encuentra, con respecto a una referencia.
 
+la energía potencial es energía, se mide en Joule (J).
+
 la ecuación de energía potencial es:
 
 $$E_p = m \cdot g \cdot h$$
 
-donde m es la masa del cuerpo, g es la aceleración de gravedad, y h es la altura (por height, en inglés) con respecto a un sistema de referencia.
+donde:
 
-pensaremos la energía potencial como energía almacenada en un cuerpo, que se puede liberar y así ejercer trabajo.
+- m = masa del cuerpo, en kg
+- g = aceleración de gravedad, medida en metros / segundos cuadrados
+- h = altura ("height" en inglés), con respecto a un sistema de referencia.
+
+pensaremos la energía potencial como energía asociada a la posición de un cuerpo.
 
 ## energía cinética
+
+la energía cinética de un cuerpo depende de su masa y la velocidad que tiene.
+
+la energía potencial es energía, se mide en Joule (J).
 
 la ecuación de energía cinética es:
 
 $$E_c = \frac{1}{2} \cdot m \cdot v^2$$
 
+donde:
+
+- m = masa del cuerpo, en kg.
+- v = velocidad del cuerpo, en metros / segundo
+
+pensaremos la energía cinética como energía asociada a la velocidad de un cuerpo.
+
 ## conservación de energía
 
 la energía en un sistema no se crea ni se destruye, solamente se transforma.
 
-por ejemplo, si tenemos un cuerpo a nivel del suelo, y definimos al suelo como altura = 0, podemos decir que su energía total es:
+por ejemplo, si tenemos un cuerpo a nivel del suelo, y definimos al suelo como altura = 0, podemos decir que la energía total en un sistema que solamente observa a ese cuerpo es:
 
 $$E_{cuerpo} = E_{potencial} + E_{cinética} = m \cdot g \cdot h + \frac{1}{2} \cdot m \cdot v^2$$
 
 ## conservación de energía en un cuerpo en caída libre
 
-si tenemos que en todo momento, la ecuación de energía de un cuerpo de masa m, altura h y velocidad v:
+si tomamos el sistema que solamente tiene este cuerpo, y asumimos que no hay fuerzas que estén sobre ese cuerpo, sabemos que la ecuación de energía de este cuerpo de masa m, altura h y velocidad v:
 
 $$E = E_{p} + E_{c} = m \cdot g \cdot h + \frac{1}{2} \cdot m \cdot v^2$$
 
@@ -142,6 +167,20 @@ y aplicando raíz cuadrada a ambos lados para despejar la velocidad:
 $$ v = \sqrt(2 \cdot g \cdot h)$$
 
 y con esto podemos darnos cuenta que a mayor altura inicial o mayor gravedad, la velocidad final cuando se llega al suelo es mayor, y que no depende de la masa del cuerpo!
+
+## caloría como medida de energía
+
+en física calcularemos trabajo y energías potencial y cinética en Joule, que equivale a Newton multiplicado por metro.
+
+una unidad de energía alternativa es una caloría (cal), que se define como la cantidad de energía necesaria para elevar en 1 grado Celsius (o Kelvin) la temperatura de un gramo de agua.
+
+como esta cantidad es muy chica, en las tablas nutricionales de alimentos, se usa el múltiplo kilocaloría (kcal), que equivale a la energía necesaria para elevar en 1 grado Celsius (o Kelvin) la temperatura de un kilogramo de agua.
+
+la equivalencia entre Joule y caloría está dada por:
+
+$$1 \cdot cal = 4.184 \cdot J \approx 4 J$$
+
+$$1 \cdot J = 0.239 \cdot cal \approx \frac{1}{4} cal$$
 
 ## referencias
 
