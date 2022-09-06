@@ -64,11 +64,17 @@ $$v^2 = 400 \frac{N \cdot m}{kg}$$
 
 como Newton es kg multiplicado por metros y dividido en segundos cuadrados ( F = m \* a):
 
-$$v^2 = 180 \frac{kg \cdot m^2}{kg \cdot s^2}$$
+$$v^2 = 400 \frac{kg \cdot m^2}{kg \cdot s^2}$$
 
 y simplificando:
 
-$$v^2 = 180 \frac{m^2}{s^2}$$
+$$v^2 = 400 \frac{m^2}{s^2}$$
+
+y aplicando raíz cuadrada a ambos lados:
+
+$$v = 20 \frac{m}{s}$$
+
+con lo que la respuesta es que al tocar el suelo, la velocidad del cuerpo es de 20 metros / segundo.
 
 ## ejercicio-02 (30 minutos)
 
