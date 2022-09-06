@@ -23,7 +23,7 @@
 
 - unidad 0: vectores y fuerzas
 - unidad 1: cinemática en 1 y 2 dimensiones
-- unidad 2: dinámica
+- unidad 2: dinámica en 1 y 2 dimensiones
 - unidad 3: energía y cantidad de movimiento
 - unidad 4: dinámica y cinemática del cuerpo rígido
 - unidad 5: calor y temperatura
@@ -78,7 +78,7 @@ evaluación: control 1, unidades 0, 1, 2
 | [01](ayudantias/ayudantia-01/) | 2022-08-11 | clase de repaso y diagnóstico de matemáticas     |
 | [02](ayudantias/ayudantia-02/) | 2022-08-20 | unidad 0: vectores y fuerzas                     |
 | [03](ayudantias/ayudantia-03/) | 2022-08-25 | unidad 1: cinemática en 1D y 2D                  |
-| [04](ayudantias/ayudantia-04/) | 2022-09-01 | unidad 2: dinámica                               |
+| [04](ayudantias/ayudantia-04/) | 2022-09-01 | unidad 2: dinámica en 1D y 2D                    |
 | [05](ayudantias/ayudantia-05/) | 2022-09-08 | unidad 3: energía y cantidad de movimiento       |
 | semana receso                  | 2022-09-15 | sin clases, sin evaluaciones                     |
 | [06](ayudantias/ayudantia-06/) | 2022-09-22 | unidad 4: dinámica y cinemática cuerpo rígido    |
