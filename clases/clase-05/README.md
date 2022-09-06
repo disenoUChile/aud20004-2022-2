@@ -186,6 +186,16 @@ $$1 \cdot J = 0.239 \cdot cal \approx \frac{1}{4} cal$$
 
 podemos medir la energía de cualquier fuente como un barril de petróleo, electricidad, alimentos, y usarlo para comparar entre distintos trabajos que podemos realizar, como mover cuerpos en distancias.
 
+por ejemplo, si decimos que una manzana tiene 100 kcal, entonces su energía expresada en Joule es aproximadamante:
+
+$$E_{manzana} = 100 kcal = 100 \cdot 1000 \cdot cal = 100,000 \cdot 4 \cdot J = 400,000 J$$
+
+y en palabras, la energía de una manzana es de cuatrocientos mil Joules, lo que equivale cuatrocientos mil Newton \* metro, y podemos crear estas equivalencias.
+
+$$400,000 \cdot J = 400,000 N \cdot m = (400 N) \cdot (1,000 m) = (1 N) \cdot (400,000 m) = (400,000 N) \cdot (1 m)$$
+
+lo que en palabras significa que podemos tomar la cantidad de energía cuatrocientos mil Joule, y podemos expresarla como el trabajo realizado por una fuerza de X de Newton, desplazando a un cuerpo por Y metros, siempre y cuando X por Y sea igual a la constante cuatrocientos mil.
+
 ## referencias
 
 - https://www.cliffsnotes.com/study-guides/physics/classical-mechanics/work-and-energy
