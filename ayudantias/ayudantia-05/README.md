@@ -72,9 +72,9 @@ $$v^2 = 180 \frac{m^2}{s^2}$$
 
 ## ejercicio-02 (30 minutos)
 
-a)
+a) si levantamos una masa de 4 kg desde el suelo y la levantamos 2 metros, cuánto trabajo hacemos?
 
-b)
+b) si tomamos una masa de 3 kg y caminamos 20 metros en línea recta, cuánto trabajo hacemos?
 
 ## solución ejercicio-02
 
