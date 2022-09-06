@@ -164,9 +164,11 @@ $$2 \cdot g \cdot h = \cdot v^2$$
 
 y aplicando raíz cuadrada a ambos lados para despejar la velocidad:
 
-$$ v = \sqrt(2 \cdot g \cdot h)$$
+$$ v = \sqrt{2 \cdot g \cdot h}$$
 
 y con esto podemos darnos cuenta que a mayor altura inicial o mayor gravedad, la velocidad final cuando se llega al suelo es mayor, y que no depende de la masa del cuerpo!
+
+la estrategia para
 
 ## caloría como medida de energía
 
@@ -181,6 +183,8 @@ la equivalencia entre Joule y caloría está dada por:
 $$1 \cdot cal = 4.184 \cdot J \approx 4 J$$
 
 $$1 \cdot J = 0.239 \cdot cal \approx \frac{1}{4} cal$$
+
+podemos medir la energía de cualquier fuente como un barril de petróleo, electricidad, alimentos, y usarlo para comparar entre distintos trabajos que podemos realizar, como mover cuerpos en distancias.
 
 ## referencias
 
