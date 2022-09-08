@@ -245,7 +245,7 @@ el trabajo ejercido en subir el monte Everest es aproximadamente 1700 kcal.
 
 y si una manzana tiene 100 kcal, entonces el número de manzanas es:
 
-$$manzanas = \frac{trabajo}{energía_{manzana}} = \frac{1700 kcal}\frac{100 kcal} = 17$$
+$$manzanas = \frac{trabajo}{energía_{manzana}} = \frac{1700 kcal}{\frac{100 kcal}{manzana}} = 17 manzanas$$
 
 se necesitan el equivalente a 17 manzanas para subir el monte Everest.
 
