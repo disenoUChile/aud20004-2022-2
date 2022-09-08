@@ -190,7 +190,7 @@ primero, encontremos los datos en el enunciado o internet:
 
 segundo, hagamos los supuestos:
 
-- peso de una persona promedio = 80 kilos
+- masa de una persona promedio = 80 kilos
 - energía solamente gastada en subir en línea recta con velocidad constante.
 
 con esto, podemos decir que la fuerza de subida se contrapone a nuestro peso, para así lograr subir con velocidad constante y por lo tanto aceleración cero:
