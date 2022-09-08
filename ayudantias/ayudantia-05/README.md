@@ -143,7 +143,7 @@ el cuerpo no ve trabajo ni cambios de energía en él mismo, su energía no camb
 
 convirtamos ahora estos trabajos encontrados a kilocalorías:
 
-$$trabajo_1 = 4000 \cdot J = 4000 \cdot 2.39 \cdot 10^{-4} \cdot kcal = 9.56 \cdot 10^{-1} \cdot kcal \approx 1 \cdot kcal$$
+$$trabajo_1 = 80 \cdot J = 80 \cdot 2.39 \cdot 10^{-4} \cdot kcal =  8 \cdot 2.39 \cdot 10^{-3} \cdot kcal \approx 8 \cdot \frac{10}{4} \cdot 10^{-3} \cdot kcal \approx 2 \cdot 10^{-2} \cdot kcal \approx 0.02 kcal$$
 
 $$trabajo_2 = 0 \cdot J = 0 \cdot kcal$$
 
