@@ -33,6 +33,12 @@ hasta ahora, en cinemática, dinámica, energía y trabajo, hemos utilizado los 
 
 como nuestros cuerpos ahora no son puntos, sino que son volúmenes, pueden rotar.
 
+en vez de medir su desplazamiento lineal como una distancia metros, vamos a medir su desplazamiento angular en radianes.
+
+una vuelta completa es 360 grados, lo que equivale a 2 por Pi radianes.
+
+$$360 \deg = 2 \cdot \pi \cdot radianes$$
+
 el símil de la velocidad lineal es la velocidad angular, comparemos las ecuaciones:
 
 $$v(t) = v_0 + a \cdot t$$
