@@ -153,12 +153,57 @@ lo que también confirma que a igual torque y fuerza, tenemos una relación inve
 
 ## ejercicio-03: torque en balancín (30 minutos)
 
-a)
+a) en un balancín de largo 3m, con su eje de rotación al medio, determinar el torque hecho por una fuerza de 30N de forma perpendicular, a medio metro del eje de rotación.
 
-b)
+b) determinar en qué posición al otro lado del balancín podemos usar una fuerza perpendicular de 10 N para tener el balancín en equilibrio? y si la fuerza es perpendicular y de 20N?
 
 ## solución ejercicio-03
 
 a)
 
+usamos la ecuación de torque:
+
+$$\tau_1 = r \cdot F \cdot sin(\theta)$$
+
+y sabemos los siguientes datos:
+
+- F = 30 N
+- r = 0.5 m
+- sin(90 grados) = 1
+
+podemos reemplazar:
+
+$$\tau_1 = 0.5 \cdot m \cdot 30 \cdot N \cdot sin(90)$$
+
+y despejar:
+
+$$\tau_1 = 15 \cdot N \cdot m$$
+
 b)
+
+para que el balancín esté en equilibrio, al otro lado debemos tener el mismo torque, entonces la ecuación queda:
+
+$$15 \cdot N \cdot m = X \cdot F \cdot sin(90) = X \cdot F$$
+
+entonces, para la fuerza de 10N, tenemos:
+
+$$15 \cdot N \cdot m = X_{10} \cdot 10 \cdot N$$
+
+y dividiendo por 10 N, despejamos X:
+
+$$X_{10} = \frac{15}{10} \cdot  m = 1.5 m$$
+
+para el caso de la fuerza de 20N, tenemos:
+
+$$15 \cdot N \cdot m = X_{20} \cdot 20 \cdot N$$
+
+y dividiendo por 20 N, despejamos X:
+
+$$X_{20} = \frac{15}{20} \cdot m = 0.75 m$$
+
+entonces resumiendo:
+
+para mantener al balancín en equilibrio podemos usar 1 de estas 2 fuerzas perpendiculares:
+
+- Fuerza de 10 N a 1.5 m del centro de rotación, o sea, en el extremo del balancín de 3m.
+- Fuerza de 20 N a 0.75m del centro de rotación, o sea, a la mitad del lado del balancín de 3m.
