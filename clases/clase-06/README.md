@@ -37,7 +37,7 @@ en vez de medir su desplazamiento lineal como una distancia metros, vamos a medi
 
 una vuelta completa es 360 grados, lo que equivale a 2 por Pi radianes.
 
-$$360 \deg = 2 \cdot \pi \cdot radianes$$
+$$360^{\circ} = 2 \cdot \pi \cdot radianes$$
 
 el símil de la velocidad lineal es la velocidad angular, comparemos las ecuaciones:
 
