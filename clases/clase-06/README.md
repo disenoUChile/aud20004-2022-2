@@ -41,9 +41,9 @@ $$360^{\circ} = 2 \cdot \pi \cdot radianes$$
 
 $$ángulo = \theta(t)$$
 
-similarmente a la velocidad lineal, que es la diferencia de posición en el tiempo, la velocidad angular es la diferencia de posición angular en el tiempo.
+similarmente a la velocidad lineal, que es la diferencia de posición en el tiempo, la velocidad angular es la diferencia de posición angular en el tiempo y la anotamos con la letra griega omega minúscula.
 
-$$velocidad angular = \frac{\Delta \theta}{\Delta t}$$
+$$\omega(t) = \frac{\Delta \theta}{\Delta t}$$
 
 comparemos las ecuaciones de velocidad lineal y velocidad angular:
 
@@ -52,6 +52,10 @@ $$v(t) = v_0 + a \cdot t$$
 $$\omega(t) = \omega_0 + \alpha \cdot t$$
 
 ## torque
+
+el torque lo anotamos con la letra griega tau.
+
+$$\tau = torque$$
 
 ## referencias
 
