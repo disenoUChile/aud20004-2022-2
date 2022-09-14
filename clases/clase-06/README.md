@@ -51,11 +51,48 @@ $$v(t) = v_0 + a \cdot t$$
 
 $$\omega(t) = \omega_0 + \alpha \cdot t$$
 
+notar que aceleración angular la anotamos con la letra griega alpha.
+
 ## torque
 
 el torque lo anotamos con la letra griega tau.
 
 $$\tau = torque$$
+
+el torque es el producto entre estos 3 términos:
+
+- r = radio o distancia entre el punto y su centro de rotación, medida en metros.
+- F = fuerza aplicada en el punto, medida en Newton.
+- sin(ángulo) = ángulo entre r y F.
+
+y la ecuación resulta:
+
+$$\tau = r \cdot F \cdot sin(\theta)$$
+
+la unidad en la que se mide torque es Newton por metro, lo que simboliza fuerza aplicada sobre un radio o brazo.
+
+veamos los casos extremos cuando el torque es nulo (cero).
+
+## torques nulos
+
+a partir de la ecuación de torque
+
+$$\tau = r \cdot F \cdot sin(\theta)$$
+
+distinguimos que en estos casos el torque es nulo:
+
+- r = 0: la distancia entre la aplicación de la fuerza y su centro de rotación es cero.
+- F = 0: la fuerza aplicada es nula.
+- sin(ángulo) = 0, esto ocurre cuando el ángulo es 0 o 180 grados (Pi radianes), o múltiplos.
+
+## aplicaciones de torque: puerta y manilla
+
+por qué la manilla de la puerta está en el extremo opuesto al centro de rotación?
+
+- porque así maximizamos el torque, con el radio o distancia siendo máximo.
+- si pusieramos la manilla al medio de la puerta, tendríamos que ejercer el doble de fuerza para lograr el mismo torque que en el extremo.
+- si pusieramos la manilla en el eje de rotación, el brazo sería cero, y sin importar la fuerza, no habría torque y con eso no podríamos abrir la puerta.
+- si hacemos la fuerza paralela a la distancia r, en vez de perpendicular, el ángulo entre ambos es 0 o 180 grados, y con eso sin(ángulo) es 0, y la puerta no gira en torno a su eje de rotación.
 
 ## referencias
 
