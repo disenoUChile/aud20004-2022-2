@@ -16,7 +16,16 @@ la clase anterior vimos la unidad 3: energía y cantidad de movimiento
 
 la clase de hoy es la unidad unidad unidad 4: dinámica y cinemática de cuerpo rígido
 
-## supuestos hasta el momento
+- supuestos para cuerpos puntuales
+- supuestos para cuerpos rígidos
+- movimiento angular
+- torque
+- torques nulos
+- aplicaciones de torque: puerta y manilla
+- aplicaciones de torque: palanca
+- aplicaciones de torque: balancín
+
+## supuestos para cuerpos puntuales
 
 hasta ahora, en cinemática, dinámica, energía y trabajo, hemos utilizado los siguientes supuestos:
 
@@ -27,7 +36,13 @@ hasta ahora, en cinemática, dinámica, energía y trabajo, hemos utilizado los 
 
 ## supuestos para cuerpos rígidos
 
-- definición de cuerpo rígido: un cuerpo rígido tiene una masa constante y un volumen sólido e indeformable.
+primero definamos un cuerpo rígido: definición de cuerpo rígido: un cuerpo rígido tiene una masa constante y un volumen sólido e indeformable.
+
+en la clase de hoy, veremos cuerpos rígidos por lo que los supuestos que usaremos son:
+
+- los cuerpos tienen masa distribuida en un volumen
+- aceleración de gravedad es constante en la tierra e igual a 10 metros / segundos cuadrados.
+- no hay atmósfera y por lo tanto, no hay roce.
 
 ## movimiento angular
 
