@@ -71,8 +71,6 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 
 ## ayudantías (jueves 3pm-4:30pm)
 
-evaluación: control 1, unidades 0, 1, 2
-
 | ayudantía                      | fecha      | tema                                             |
 | :----------------------------- | :--------- | :----------------------------------------------- |
 | [01](ayudantias/ayudantia-01/) | 2022-08-11 | clase de repaso y diagnóstico de matemáticas     |

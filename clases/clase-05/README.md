@@ -20,7 +20,6 @@ la clase de hoy es la unidad unidad 3: energía y cantidad de movimiento
 - definición de trabajo
 - cálculo de trabajo
 - definición de energía
-
 - definición de potencia
 - conservación de energía
 
@@ -199,4 +198,3 @@ lo que en palabras significa que podemos tomar la cantidad de energía cuatrocie
 ## referencias
 
 - https://www.cliffsnotes.com/study-guides/physics/classical-mechanics/work-and-energy
-  $$
