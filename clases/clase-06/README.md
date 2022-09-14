@@ -39,7 +39,13 @@ una vuelta completa es 360 grados, lo que equivale a 2 por Pi radianes.
 
 $$360^{\circ} = 2 \cdot \pi \cdot radianes$$
 
-el símil de la velocidad lineal es la velocidad angular, comparemos las ecuaciones:
+$$ángulo = \theta(t)$$
+
+similarmente a la velocidad lineal, que es la diferencia de posición en el tiempo, la velocidad angular es la diferencia de posición angular en el tiempo.
+
+$$velocidad angular = \frac{\Delta \theta}{\Delta t}$$
+
+comparemos las ecuaciones de velocidad lineal y velocidad angular:
 
 $$v(t) = v_0 + a \cdot t$$
 
