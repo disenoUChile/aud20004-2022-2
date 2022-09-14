@@ -27,6 +27,21 @@ hasta ahora, en cinemática, dinámica, energía y trabajo, hemos utilizado los 
 
 ## supuestos para cuerpos rígidos
 
+- definición de cuerpo rígido: un cuerpo rígido tiene una masa constante y un volumen sólido e indeformable.
+
+## movimiento angular
+
+como nuestros cuerpos ahora no son puntos, sino que son volúmenes, pueden rotar.
+
+el símil de la velocidad lineal es la velocidad angular, comparemos las ecuaciones:
+
+$$v(t) = v_0 + a \cdot t$$
+
+$$\omega(t) = \omega_0 + \alpha \cdot t$$
+
+## torque
+
 ## referencias
 
-- https://www.cliffsnotes.com/study-guides/physics/classical-mechanics/work-and-energy
+- https://www.cliffsnotes.com/study-guides/physics/classical-mechanics/rotational-motion-of-a-rigid-body
+- https://www.khanacademy.org/science/high-school-physics#torque-and-angular-momentum
