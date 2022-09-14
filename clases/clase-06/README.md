@@ -94,6 +94,76 @@ por qué la manilla de la puerta está en el extremo opuesto al centro de rotaci
 - si pusieramos la manilla en el eje de rotación, el brazo sería cero, y sin importar la fuerza, no habría torque y con eso no podríamos abrir la puerta.
 - si hacemos la fuerza paralela a la distancia r, en vez de perpendicular, el ángulo entre ambos es 0 o 180 grados, y con eso sin(ángulo) es 0, y la puerta no gira en torno a su eje de rotación.
 
+## aplicaciones de torque: palanca
+
+si tenemos una barra que usamos como palanca, y la barra mide 75 cm, y aplicamos en su extremo una fuerza de 25 N, en un ángulo de 45 grados, cuánto es el torque que aplicamos?
+
+de la ecuación de torque
+
+$$\tau = r \cdot F \cdot sin(\theta)$$
+
+podemos reemplazar
+
+$$\tau = 0.75 \cdot m \cdot 25 \cdot N \cdot sin(45^{\circ})$$
+
+y calcular
+
+$$\tau = \frac{3}{4} \cdot 25 \cdot \frac{\sqrt(2)}{2} \cdot N \cdot m $$
+
+y aproximando:
+
+$$\tau \approx 13.26 \cdot N \cdot m $$
+
+## aplicaciones de torque: balancín
+
+en un balancín, tendremos una barra de un cierto largo L, que puede girar en torno a su punto medio, y podemos hacer fuerzas a ambos lados del punto medio, para hacerlo girar, y podemos revisar hacia dónde va a girar, o si va a estar equilibrado.
+
+por ejemplo:
+
+si tenemos un balancín de largo 10m, y hacemos a su lado izquierdo una fuerza perpendicular de 4N, a una distancia de 3m del centro de rotación, cuánto torque recibe el balancín?
+
+de la ecuación de torque
+
+$$\tau_1 = r \cdot F \cdot sin(\theta)$$
+
+podemos reemplazar
+
+$$\tau_1 = 3 \cdot m \cdot 4 \cdot N \cdot sin(90^{\circ})$$
+
+y desarollando
+
+$$\tau_1 = 12 \cdot N \cdot  m$$
+
+como esta fuerza ejerce este torque sobre el balancín, va a girar. si queremos contrarrestar ese torque para que quede en equilibrio, podemos hacer una fuerza al otro lado de la barra, que la haga girar en dirección contraria.
+
+podemos preguntarnos, qué fuerza F se necesita hacer en ángulo 90 grados y a 1m del centro de rotación del otro lado del balancín para contrarrestar el torque de 12 Nm?
+
+de la ecuación de torque
+
+$$\tau_2 = r \cdot F \cdot sin(\theta)$$
+
+podemos reemplazar:
+
+$$12 \cdot N \cdot m = 1 \cdot m \cdot X \cdot N \cdot sin(90^{\circ})$$
+
+dividimos a ambos lados por Nm:
+
+$$12 = X  \cdot sin(90^{\circ})$$
+
+y como sin(90 grados) es igual a 1:
+
+$$X = 12$$
+
+con esto, necesitamos una fuerza de 12 N en 90 grados y a 1m del centro de rotación para contrarrestar el torque y que el sistema balancín quede en equilibrio y no gire.
+
+notamos que esta fuerza de 12 N es mayor que la que está al otro lado del balancín que es de 4N, ya que el torque es directamente proporcional tanto a la distancia como a la fuerza.
+
+$$\tau = r \cdot F \cdot sin(\theta)$$
+
+entonces si distancia o fuerza aumentan, el torque también aumenta.
+
+y si queremos mantener un torque constante, a mayor distancia menos fuerza, y viceversa, a menor distancia mayor fuerza.
+
 ## referencias
 
 - https://www.cliffsnotes.com/study-guides/physics/classical-mechanics/rotational-motion-of-a-rigid-body
