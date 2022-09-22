@@ -6,7 +6,11 @@ unidad 4: dinámica y cinemática de cuerpo rígido
 
 a) si tenemos una puerta, con un ancho de 1 metro, y queremos realizar un torque de 20 Nm en la manilla de la puerta, determinar la fuerza necesaria para obtener ese torque al aplicar la fuerza de forma perpendicular.
 
-b) con la misma fuerza calculada en a), cuánto es el torque si la puerta tiene el doble de masa? y si la manilla está en la mitad de la puerta? y si la manilla está al lado de la bisagra?
+b) con la misma fuerza calculada en a), calcule nuevo torques, en las siguientes situaciones:
+
+- la puerta tiene el doble de masa
+- la manilla está en la mitad del ancho de la puerta
+- la manilla está al lado de la bisagra
 
 ## solución ejercicio-01
 
@@ -20,7 +24,9 @@ tenemos que del enunciado, los valores son:
 
 - tau = 20 Nm
 - r = 1m, asumiendo que la manilla está en el lado opuesto de la bisagra de la puerta, donde rota.
-- ángulo = 90 grados.
+- ángulo = perpendicular = 90 grados.
+
+reemplazando en la ecuación:
 
 $$20 \cdot N \cdot m = 1 \cdot m \cdot F \cdot sin(90^{\circ})$$
 
@@ -153,7 +159,7 @@ lo que también confirma que a igual torque y fuerza, tenemos una relación inve
 
 ## ejercicio-03: torque en balancín (30 minutos)
 
-a) en un balancín de largo 3m, con su eje de rotación al medio, determinar el torque hecho por una fuerza de 30N de forma perpendicular, a medio metro del eje de rotación.
+a) en un balancín de largo 3m, con su eje de rotación al medio, determinar el torque hecho por una fuerza perpendicular asociada al peso de una masa de 3kg, a medio metro del eje de rotación.
 
 b) determinar en qué posición al otro lado del balancín podemos usar una fuerza perpendicular de 10 N para tener el balancín en equilibrio? y si la fuerza es perpendicular y de 20N?
 
@@ -167,11 +173,16 @@ $$\tau_1 = r \cdot F \cdot sin(\theta)$$
 
 y sabemos los siguientes datos:
 
-- F = 30 N
-- r = 0.5 m
+- masa = 3 kg
+- r = a medio metro del eje de rotación = 0.5 m
+- ángulo = perpendicular = 90 grados
 - sin(90 grados) = 1
 
-podemos reemplazar:
+para calcular el torque, aún no sabemos la fuerza, pero sabemos la masa, entonces usando la ecuación de la fuerza de peso:
+
+$$F = m \cdot g = 3 \cdot kg \cdot 10 \cdot \frac{m}{s^2} = 30N$$
+
+ahora sí podemos reemplazar en la ecuación de torque:
 
 $$\tau_1 = 0.5 \cdot m \cdot 30 \cdot N \cdot sin(90)$$
 
