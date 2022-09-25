@@ -82,12 +82,12 @@ $$a = \frac{v(t) - v(t_0)}{t}$$
 y sabemos que la velocidad inicial en el instante t=0, es una constante, que podemos llamar v sub 0, entonces:
 
 $$
-\overline{a} = \frac{v(t) - v_0}{t}
+a = \frac{v(t) - v_0}{t}
 $$
 
 y despejando la velocidad v(t), tenemos la ecuación de velocidad:
 
-$$v(t) =  v_0 + \overline{a} \cdot t$$
+$$v(t) =  v_0 + a \cdot t$$
 
 nota: velocidad se mide en metros / segundo.
 
@@ -105,7 +105,7 @@ $$
 v_{promedio} =  \frac{v(t) + v_0}{2}
 $$
 
-y a su vez, podemos escribir $v(t)$ en función de de la velocidad inicial y la acelearción:
+y a su vez, podemos escribir $v(t)$ en función de de la velocidad inicial y la aceleración:
 
 $$
 v_promedio =  \frac{(v_0 + a \cdot t) + v_0}{2} = v_0 + \frac{a \cdot t}{2}
@@ -127,7 +127,7 @@ $$
 
 con aceleración promedio a, podemos escribir las ecuaciones de posición y aceleración asi:
 
-$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \overline{a} \cdot t^2$$
+$$x(t) = x_0 + v_0 \cdot t + \frac{1}{2} \cdot a \cdot t^2$$
 
 $$v(t) = v_0 + a \cdot t$$
 

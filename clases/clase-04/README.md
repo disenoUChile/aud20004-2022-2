@@ -80,7 +80,7 @@ pero si estamos en un plano inclinado, la fuerza de gravedad sigue apuntando hac
 
 $$N = m \cdot g \cdot cos(\theta)$$
 
-si esas fueran las dos únicas fuerzas sobre un cuerpo en un plano inclinado, la sumatoria sería siempre distinta de cero para cualquier ángullo distinto de cero, y por lo tanto siempre tendría aceleración.
+si esas fueran las dos únicas fuerzas sobre un cuerpo en un plano inclinado, la sumatoria sería siempre distinta de cero para cualquier ángulo distinto de cero, y por lo tanto siempre tendría aceleración.
 
 pero por nuestra experiencia vital sabemos que podemos estar parados, sin acelerar, sobre planos inclinados! eso es porque hay otra fuerza en juego, que es la fuerza de roce.
 
