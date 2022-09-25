@@ -1,5 +1,13 @@
 # ayudantia-07
 
+control 01, jueves 29 septiembre 2022
+
+instrucciones:
+
+- responder en grupos de 2 o 3 personas
+- elegir 3 problemas y responderlos
+- para la nota se toman los mejores 2 problemas
+
 ## ejercicio-XX: segunda ley de Newton y ley de gravitación universal (3 puntos)
 
 <!-- a) cuando estamos sosteniendo un cuerpo de 2 kg a 3 metro del suelo y lo soltamos, qué fuerza le aplica la tierra a ese cuerpo, si sabemos que su aceleración es de 10 metros / segundos cuadrados? (1.5 puntos)
