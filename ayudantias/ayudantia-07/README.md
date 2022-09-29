@@ -1,4 +1,4 @@
-# ayudantia-07
+<!-- # ayudantia-07
 
 jueves 29 septiembre 2022, presencial
 
@@ -62,4 +62,4 @@ b) si el cuerpo cae en caída libre, cuál es la velocidad del cuerpo cuando lle
 
 a) en un balancín de largo 5m, con su eje de rotación al medio, determinar el torque hecho por una fuerza perpendicular asociada al peso de una masa de 12 kg, a 1 metro del eje de rotación.
 
-b) determinar las fuerzas perpendicular necesaria en el otro lado del balancín, para equilibrar el torque del balancín, en dos posicione: 2.5m y 0.5m.
+b) determinar las fuerzas perpendicular necesaria en el otro lado del balancín, para equilibrar el torque del balancín, en dos posicione: 2.5m y 0.5m. -->
