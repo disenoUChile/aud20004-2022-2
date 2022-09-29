@@ -1,6 +1,6 @@
 # clase-07
 
-martes 29 septiembre 2022, presencial
+martes 27 septiembre 2022, presencial
 
 repaso y ejercicios unidades 0, 1, 2, 3 y 4
 
