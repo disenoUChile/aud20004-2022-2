@@ -7,7 +7,7 @@ control 01
 instrucciones:
 
 - responder en papel, en grupos de 2 o 3 personas
-- poner 
+- poner todos los nombres en el papel, la fecha, y el nombre del curso
 - elegir 3 problemas y responderlos
 - para la nota se toman los mejores 2 problemas
 
@@ -60,6 +60,6 @@ b) si el cuerpo cae en caída libre, cuál es la velocidad del cuerpo cuando lle
 
 ## ejercicio-06: torque en balancín
 
-a) en un balancín de largo 5m, con su eje de rotación al medio, determinar el torque hecho por una fuerza perpendicular asociada al peso de una masa de 12 kg, a 1 metro del eje de rotación.
+a) en un balancín de largo 5m, con su eje de rotación al medio, determinar el torque hecho por una fuerza perpendicular asociada al peso de una masa de 12 kg, a 1 metro del eje de rotación. (1.5 puntos)
 
-b) determinar las fuerzas perpendicular necesaria en el otro lado del balancín, para equilibrar el torque del balancín, en dos posicione: 2.5m y 0.5m.
+b) determinar las fuerzas perpendicular necesaria en el otro lado del balancín, para equilibrar el torque del balancín, en dos posicione: 2.5m y 0.5m. (1.5 puntos)
