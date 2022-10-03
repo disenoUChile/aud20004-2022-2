@@ -16,3 +16,4 @@ unidad 6: ondas y sonido
 lambda = longitud de la onda
 
 velocidad del sonido = lambda por f
+
