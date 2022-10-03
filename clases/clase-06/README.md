@@ -14,7 +14,7 @@ la clase anterior vimos la unidad 3: energía y cantidad de movimiento
 - definición de potencia
 - conservación de energía
 
-la clase de hoy es la unidad unidad unidad 4: dinámica y cinemática de cuerpo rígido
+la clase de hoy es la unidad 4: dinámica y cinemática de cuerpo rígido
 
 - supuestos para cuerpos puntuales
 - supuestos para cuerpos rígidos
