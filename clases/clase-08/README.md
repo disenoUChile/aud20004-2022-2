@@ -18,6 +18,11 @@ la clase de hoy es la unidad 5: calor y temperatura
 
 - gases ideales
 - unidades de medida en gases ideales
+- calor
+- transferencia de calor
+- leyes de la termodinámica
+- temperatura
+- expansión térmica
 
 ## gases ideales
 
@@ -62,6 +67,29 @@ la gran diferencia entre grados Celsius y Kelvin, es dónde está el cero, orige
 en cambio, 0 grados Kelvin, equivale al cero absoluto, a la menor temperatura posible, y equivale a 273.15 grados Celsius.
 
 $$0 K = -273.15 C$$
+
+entonces podemos convertir con las siguiente fórmulas equivalentes, donde omitimos los decimales para simplificar los cálculos.
+
+$$K = C + 273$$
+
+$$C = K - 273$$
+
+la presión la medimos en 
+
+## calor
+
+## transferencia de calor
+
+$$Q = m \cdot c \cdot \Delta T$$
+
+## expansión térmica
+
+usaremos la letra alpha para definir el coeficiente de expansión lineal, entonces la ecuación queda:
+
+
+$$\Delta L = \alpha \cdot L_0 \cdot \Delta T$$
+
+
 
 ## bibliografía
 
