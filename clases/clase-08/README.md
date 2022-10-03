@@ -84,12 +84,17 @@ $$Q = m \cdot c \cdot \Delta T$$
 
 ## expansión térmica
 
-usaremos la letra alpha para definir el coeficiente de expansión lineal, entonces la ecuación queda:
-
+usaremos la letra alpha para definir el coeficiente promedio de expansión lineal, que se mide en 1 / Celsius, y nos permite expresar la expansión en una dimensión con la ecuación:
 
 $$\Delta L = \alpha \cdot L_0 \cdot \Delta T$$
 
+el coeficiente de expansión de área lo denotamos por la letra griega beta y equivale a 2 veces alpha, entonces:
 
+$$\Delta A = 2 \cdot \alpha \cdot A_0 \cdot \Delta T = \beta \cdot A_0 \cdot \Delta T$$
+
+de forma similar con el volumen, usamos la letra griega gamma,y equivale a 3 alpha
+
+$$\Delta V = 3 \cdot \alpha \cdot V_0 \cdot \Delta T = \gamma \cdot A_0 \cdot \Delta T$$
 
 ## bibliografía
 
