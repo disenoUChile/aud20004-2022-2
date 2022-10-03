@@ -82,6 +82,15 @@ la presión la medimos en
 
 $$Q = m \cdot c \cdot \Delta T$$
 
+## leyes de la termodinámica
+
+la segunda ley de la termodinámica postula que es imposible construir una máquina que absorbiendo calor de una fuente de calor, haga un trabajo que sea 100% eficiente, ya que siempre pierde calor con el ambiente.
+
+otra manera de ver la segunda ley es que el calor no fluye espontáneamente de un cuerpo a otro cuerpo con mayor temperatura.
+
+
+## temperatura
+
 ## expansión térmica
 
 usaremos la letra alpha para definir el coeficiente promedio de expansión lineal, que se mide en 1 / Celsius, y nos permite expresar la expansión en una dimensión con la ecuación:
@@ -94,7 +103,7 @@ $$\Delta A = 2 \cdot \alpha \cdot A_0 \cdot \Delta T = \beta \cdot A_0 \cdot \De
 
 de forma similar con el volumen, usamos la letra griega gamma,y equivale a 3 alpha
 
-$$\Delta V = 3 \cdot \alpha \cdot V_0 \cdot \Delta T = \gamma \cdot A_0 \cdot \Delta T$$
+$$\Delta V = 3 \cdot \alpha \cdot V_0 \cdot \Delta T = \gamma \cdot V_0 \cdot \Delta T$$
 
 ## bibliografía
 
