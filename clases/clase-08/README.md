@@ -74,7 +74,18 @@ $$K = C + 273$$
 
 $$C = K - 273$$
 
-la presión la medimos en 
+la presión la medimos en Pascales (Pa), que equivale a
+
+$$ Pa = \frac{N}{m^2}$$
+
+un valor típico de presión, es la presión atmosférica al nivel del mar:
+
+$$presión_{atmosférica} \approx 100 kPa$$
+
+eso se explica porque si tomamos una columna de aire que va desde el nivel del mar hasta el borde de la atmósfera, su masa es alrededor de un kilo, y por lo tanto, su peso, alrededor de 10 N.
+con esto, la presión es:
+
+$$presión_{atmosférica} \approx \frac{100 N}{1 cm^2} \approx \frac{100 N}{1 (\frac{m}{100})^2} \approx \frac{100^3 N}{1 m^2} = 100 kPa$$
 
 ## calor
 
@@ -87,7 +98,6 @@ $$Q = m \cdot c \cdot \Delta T$$
 la segunda ley de la termodinámica postula que es imposible construir una máquina que absorbiendo calor de una fuente de calor, haga un trabajo que sea 100% eficiente, ya que siempre pierde calor con el ambiente.
 
 otra manera de ver la segunda ley es que el calor no fluye espontáneamente de un cuerpo a otro cuerpo con mayor temperatura.
-
 
 ## temperatura
 
