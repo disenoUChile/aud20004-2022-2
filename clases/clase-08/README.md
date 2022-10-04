@@ -21,6 +21,7 @@ la clase de hoy es la unidad 5: calor y temperatura
 
 - gases ideales
 - unidades de medida en gases ideales
+- condiciones estándar en gases ideales
 - calor
 - transferencia de calor
 - leyes de la termodinámica
@@ -47,17 +48,19 @@ también sabemos que el volumen de un gas es directamente proporcional a su masa
 
 $$\frac{V}{m} = constante$$
 
-si combinamos estas tres ecuaciones, podemos escribirt
+si combinamos estas tres ecuaciones, podemos escribir:
 
 $$P \cdot V = constante \cdot m \cdot T$$
+
+Amadeo Avogadro postuló que un mol de cualquier gas a presión y temperatura estándar contiene el mismo número de moléculas. Esta cantidad se llama número de Avogradro y su fórmula es:
+
+$$número_{Avogadro} = 6.02 \cdot 10^{23} \frac{moléculas}{mol}$$
 
 esta ecuación es válida para todos los gases, y para simplificar los cálculos, podemos definir la cantidad de gas como una medida en moles, en vez de masa.
 
 el número de moles "n" de un gas es la razón entre la masa "m" y su masa atómica "M" expresada en gramos por mol.
 
 $$n = \frac{m}{M}$$
-
-el mol de una sustancia contiene una masa en gramos igual a la masa atómica o molecular de la sustencia. por ejemplo, el plomo tiene una masa molecular de 207 gramos por mol, o sea que 207 gramos de plomo es equivalente a 1 mol de plomo.
 
 con esto, la ecuación resulta
 
@@ -98,6 +101,17 @@ eso se explica porque si tomamos una columna de aire que va desde el nivel del m
 con esto, la presión es:
 
 $$presión_{atmosférica} \approx \frac{100 N}{1 cm^2} \approx \frac{100 N}{1 (\frac{m}{100})^2} \approx \frac{100^3 N}{1 m^2} = 100 kPa$$
+
+el volumen lo medimos en m^3
+
+## condiciones estándar en gases ideales
+
+diremos que las condiciones estándar para un gas ideal son:
+
+- presión = 1 atmósfera = 10 kPa
+- temperatura = 0 Celsius = 273 Kelvin
+
+con esto, podemos demostrar que el volumen de un gas en estas condiciones es aproximadamente 25 litros.
 
 ## calor
 
