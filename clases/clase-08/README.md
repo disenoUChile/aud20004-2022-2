@@ -108,7 +108,7 @@ el volumen lo medimos en m^3
 
 diremos que las condiciones estándar para un gas ideal son:
 
-- presión = 1 atmósfera = 10 kPa
+- presión = 1 atmósfera = 100 kPa
 - temperatura = 0 Celsius = 273 Kelvin
 
 con esto, podemos demostrar que el volumen de un gas en estas condiciones es aproximadamente 25 litros.
