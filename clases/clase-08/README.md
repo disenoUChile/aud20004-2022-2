@@ -6,13 +6,16 @@ unidad 5: calor y temperatura
 
 ## repaso clase anterior y programa hoy (15 min)
 
-la clase anterior vimos la unidad 3: energía y cantidad de movimiento
+la clase anterior vimos la unidad 4: dinámica y cinemática de cuerpo rígido
 
-- definición de trabajo
-- cálculo de trabajo
-- definición de energía
-- definición de potencia
-- conservación de energía
+- supuestos para cuerpos puntuales
+- supuestos para cuerpos rígidos
+- movimiento angular
+- torque
+- torques nulos
+- aplicaciones de torque: puerta y manilla
+- aplicaciones de torque: palanca
+- aplicaciones de torque: balancín
 
 la clase de hoy es la unidad 5: calor y temperatura
 
@@ -52,9 +55,17 @@ esta ecuación es válida para todos los gases, y para simplificar los cálculos
 
 el número de moles "n" de un gas es la razón entre la masa "m" y su masa atómica "M" expresada en gramos por mol.
 
-$n = \frac{m}{M}$$
+$$n = \frac{m}{M}$$
 
 el mol de una sustancia contiene una masa en gramos igual a la masa atómica o molecular de la sustencia. por ejemplo, el plomo tiene una masa molecular de 207 gramos por mol, o sea que 207 gramos de plomo es equivalente a 1 mol de plomo.
+
+con esto, la ecuación resulta
+
+$$P \cdot V = constante \cdot n \cdot T$$
+
+y la constante recibe el nombre de constante de los gases universales, la denotamos por R y tiene el valor:
+
+$$R = 9.31 \frac{J}{mol K}$$
 
 ## unidades de medida en gases ideales
 
@@ -83,6 +94,7 @@ un valor típico de presión, es la presión atmosférica al nivel del mar:
 $$presión_{atmosférica} \approx 100 kPa$$
 
 eso se explica porque si tomamos una columna de aire que va desde el nivel del mar hasta el borde de la atmósfera, su masa es alrededor de un kilo, y por lo tanto, su peso, alrededor de 10 N.
+
 con esto, la presión es:
 
 $$presión_{atmosférica} \approx \frac{100 N}{1 cm^2} \approx \frac{100 N}{1 (\frac{m}{100})^2} \approx \frac{100^3 N}{1 m^2} = 100 kPa$$
@@ -142,4 +154,3 @@ si tenemos
 ## bibliografía
 
 - https://www.cliffsnotes.com/study-guides/physics/thermodynamics/development-of-the-ideal-gas-law
-  $$
