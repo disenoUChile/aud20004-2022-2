@@ -89,6 +89,26 @@ $$presión_{atmosférica} \approx \frac{100 N}{1 cm^2} \approx \frac{100 N}{1 (\
 
 ## calor
 
+calor y temperatura son cantidades físicas distintas.
+
+si dos objetos de distintas temperaturas están en contacto con el otro, fluye calor desde el cuerpo con mayor temperatura hacia el cuerpo con menor temperatura.
+
+el calor es una medida de energía.
+
+todos los cuerpos tienen una capacidad calórica, que es la cantidad necesaria de calor necesaria para elevar la temperatura de un objeto en un grado (Celsius o Kelvin).
+
+por ejemplo, si tenemos un bloque de metal con alta temperatura, y lo depositamos en una masa de agua fría. si la temperatura final es T, cuál es el calor específico del metal?
+
+$$Q{metal} = m_{metal} \cdot c_{metal} \cdot \Delta T_{metal} = m_{metal} \cdot c_{metal} \cdot (T_{final} - T_{metal inicial})$$
+
+$$Q{agua} = m_{agua} \cdot c_{agua} \cdot \Delta T_{agua} = m_{agua} \cdot c_{agua} \cdot (T_{final} - T_{agua inicial})$$
+
+y si el sistema está aislado:
+
+$$Q_{metal} + Q_{agua} = 0$$
+
+$$m_{metal} \cdot c_{metal} \cdot (T_{final} - T_{metal inicial}) + m_{agua} \cdot c_{agua} \cdot (T_{final} - T_{agua inicial}) = 0$$
+
 ## transferencia de calor
 
 $$Q = m \cdot c \cdot \Delta T$$
@@ -115,6 +135,11 @@ de forma similar con el volumen, usamos la letra griega gamma,y equivale a 3 alp
 
 $$\Delta V = 3 \cdot \alpha \cdot V_0 \cdot \Delta T = \gamma \cdot V_0 \cdot \Delta T$$
 
+ejemplo:
+
+si tenemos
+
 ## bibliografía
 
 - https://www.cliffsnotes.com/study-guides/physics/thermodynamics/development-of-the-ideal-gas-law
+  $$
