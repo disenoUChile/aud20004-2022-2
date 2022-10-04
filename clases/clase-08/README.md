@@ -252,4 +252,4 @@ $$A_{nueva} = A_{original} + \Delta A = 10 mm^2 + 0.011 mm^2 = 10.011 mm^2$$
 ## bibliografía
 
 - https://www.cliffsnotes.com/study-guides/physics/thermodynamics/development-of-the-ideal-gas-law
-  $$
+- https://www.youtube.com/watch?v=En3bRCuLQZM
