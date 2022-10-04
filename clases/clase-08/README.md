@@ -123,7 +123,20 @@ el calor es una medida de energía.
 
 todos los cuerpos tienen una capacidad calórica, que es la cantidad necesaria de calor necesaria para elevar la temperatura de un objeto en un grado (Celsius o Kelvin).
 
-por ejemplo, si tenemos un bloque de metal con alta temperatura, y lo depositamos en una masa de agua fría. si la temperatura final es T, cuál es el calor específico del metal?
+## transferencia de calor
+
+la ecuación de transferencia de calor postula que el la transferencia de calor Q de un cuerpo está dada por el producto entre su masa, su capacidad calórica específica, y la diferencia de temperatura.
+
+$$Q = m \cdot c \cdot \Delta T$$
+
+las unidades son:
+
+- Q: calor (J)
+- m: masa, (kg)
+- c: capacidad calórica específica (J/(kg K))
+- T: temperatura (K)
+
+por ejemplo, si tenemos un bloque de metal con cierta alta temperatura, y lo depositamos en una masa de agua con menor temperatura. si la temperatura final es T, cómo se relacionan los calores específicos?
 
 $$Q{metal} = m_{metal} \cdot c_{metal} \cdot \Delta T_{metal} = m_{metal} \cdot c_{metal} \cdot (T_{final} - T_{metal inicial})$$
 
@@ -135,9 +148,7 @@ $$Q_{metal} + Q_{agua} = 0$$
 
 $$m_{metal} \cdot c_{metal} \cdot (T_{final} - T_{metal inicial}) + m_{agua} \cdot c_{agua} \cdot (T_{final} - T_{agua inicial}) = 0$$
 
-## transferencia de calor
-
-$$Q = m \cdot c \cdot \Delta T$$
+en esta ecuación tenemos datos, como la masa de los cuerpos, su calor específico, y sus temperaturas iniciales, y con eso podemos encontrar T, y es el tipo de ejercicio que veremos en ayudantía.
 
 ## leyes de la termodinámica
 
