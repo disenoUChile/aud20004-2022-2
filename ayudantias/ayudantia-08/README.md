@@ -228,6 +228,8 @@ $$\alpha_{cobre} = 16 \cdot 10^{-6} \frac{1}{K}$$
 
 b)
 
+si tenemos un cubo de cierto material desconocido, y observamos que a 50 grados Celsius su volumen es de 12 litros, y si lo enfríamos a 10 grados Celsius su volumen es de 11.85 litros, calcular su coeficiente de expansión lineal.
+
 ## solución ejercicio-03
 
 a)
@@ -246,48 +248,108 @@ $$\Delta L = 7 m \cdot 16 \cdot 10^{-6} \cdot 80$$
 
 $$\Delta L = 8960 \cdot 10^{-6} m = 0.896 \cdot 10^{-2} m = 0.896 cm$$
 
-entonces la barra cambia su largo en 0.896 cm, y su largo final es 7m + 0.896 cm
+entonces la barra cambia su largo en 0.896 cm, y su largo final es 7m + 0.896 cm.
 
 b)
 
-# clase-08
+sabemos que la ecuación de expansión para volúmenes es:
 
-## expansión térmica
+$$\Delta V = V_0 \cdot (3 \dot \alpha) \cdot \Delta T$$
 
-usaremos la letra alpha para definir el coeficiente promedio de expansión lineal, que se mide en 1 / Celsius, y nos permite expresar la expansión en una dimensión con la ecuación:
+primero calculemos la diferencia de volumen
 
-$$\Delta L = \alpha \cdot L_0 \cdot \Delta T$$
+$$\Delta V = V_f - V_i = 11.85 litros - 12 litros = -0.15 litros$$
 
-el coeficiente de expansión de área lo denotamos por la letra griega beta y equivale a 2 veces alpha, entonces:
+y si lo expresmoas en metros cúbicos
 
-$$\Delta A = 2 \cdot \alpha \cdot A_0 \cdot \Delta T = \beta \cdot A_0 \cdot \Delta T$$
+$$\Delta V = -0.15 litros = -0.15 dm^3 = -0.15 (\frac{1}{10} \cdot m)^3 = -0.15 \cdot 10^{-3} \cdot m^3$$
 
-de forma similar con el volumen, usamos la letra griega gamma,y equivale a 3 alpha
+calculemos ahora la diferencia de temperatura correspondiente:
 
-$$\Delta V = 3 \cdot \alpha \cdot V_0 \cdot \Delta T = \gamma \cdot V_0 \cdot \Delta T$$
+$$\Delta T = T_f - T_i = 10 C - 50 C = - 40 C$$
 
-ejemplo:
+y en Kelvin, la diferencia es la misma, porque la diferencia en Celsius y Kelvin mide lo mismo:
 
-si tenemos un área de 10 milímetros cuadrados en un metal con alpha de 1.1 por 10 elevado a -5. si aumentamos su temperatura de 20 Celsius a 70 Celsius, calcular la diferencia de área producida.
+$$\Delta T = - 40 K$$
 
-primero, tenemos la noción de que la temperatura cuando sube, los cuerpos se expanden.
+ahora volvamos a la fòrmula de diferencia de volumen:
 
-veamos la fórmula:
+$$\Delta V = V_0 \cdot (3 \dot \alpha) \cdot \Delta T$$
 
-$$\Delta A = 2 \cdot \alpha \cdot A_0 \cdot \Delta T$$
+y despejemos el coeficiente de expansión lineal:
 
-reemplacemos los valores:
+$$\alpha = \frac{\Delta V}{3 \cdot V_0 \cdot \Delta T}$$
 
-$$\Delta A = 2 \cdot 1.1 \cdot 10^{-5} \cdot  \frac{1}{C} \cdot 10 mm^2 \cdot (70 C - 20 C)$$
+y reemplazamos con los valores:
 
-desarollando:
+$$\alpha = \frac{-0.15 \cdot 10^{-3} \cdot m^3}{3 \cdot 12 \cdot 10^{-3} \cdot m^3 \cdot (-40 K)}$$
 
-$$\Delta A = 2 \cdot 50 \cdot 1.1 \cdot 10 \cdot 10^{-5}  mm^2$$
+y despejando:
 
-$$\Delta A = 1.1  \cdot 10^{-2}  mm^2$$
+$$\alpha = \frac{-0.15}{3 \cdot 12 \cdot (-40 K)}$$
 
-$$\Delta A = 0.011 mm^2$$
+$$\alpha = \frac{0.15}{36 \cdot (40 K)}$$
 
-esto es la diferencia de área, por lo que el área nueva será área original + Delta área, o sea:
+$$\alpha = \frac{0.15}{1440 K} \approx 0.104 \cdot 10^{-3} \frac{1}{K}$$
 
-$$A_{nueva} = A_{original} + \Delta A = 10 mm^2 + 0.011 mm^2 = 10.011 mm^2$$
+si tenemos un cubo de cierto material desconocido, y observamos que a 50 grados Celsius su volumen es de 12 litros, y si lo enfríamos a 10 grados Celsius su volumen es de 11.85 litros, calcular su coeficiente de expansión lineal.
+
+## ejercicio extra
+
+demostrar que la temperatura mínima posible es -273 Celsius.
+
+solución:
+
+usando la ecuación de gases ideales:
+
+$$P \cdot V = n \cdot R \cdot T$$
+
+si partimos de 1 mol de gas ideal en condiciones normales:
+
+$$n = 1 mol$$
+
+$$P = 100 kPa$$
+
+$$V  = 22.41 litros$$
+
+$$T = 0 C$$
+
+si mantenemos el volumen constante, y bajamos la presión al mínimo de 0 Pa, llegaremos a un estado de mínima energía, y podemos encontrar la temperatura ahí.
+
+si vemos la diferencia de presión a volumen constante, podemos plantear la ecuación:
+
+$$\Delta P = \frac{n \cdot R}{V} \cdot \Delta T$$
+
+donde n, R y V son constantes conocidas, y como estamos yendo de 100 kPa a 0 Pa, podemos calcular Delta P:
+
+$$\Delta P = 0 Pa - 100 kPa = -100 kPa$$
+
+como sabemos Delta P, podemos partir de la ecuación original y despejar Delta T:
+
+$$\Delta P = \frac{n \cdot R}{V} \cdot \Delta T$$
+
+$$\Delta T = \frac{\Delta P \cdot V}{n \cdot R}$$
+
+y reemplazando los valores:
+
+$$\Delta T = \frac{-100 kPa \cdot 22.41 litros}{1 mol \cdot 8.31 \frac{J}{mol \cdot C}}$$
+
+y despejando:
+
+$$\Delta T = \frac{-100 \cdot kPa \cdot 22.41 \cdot 10^{-3} \cdot m^3}{8.31 \frac{J}{C}}$$
+
+$$\Delta T = \frac{-100 \cdot Pa \cdot 22.41 \cdot m^3}{8.31 \frac{J}{C}}$$
+
+$$\Delta T = \frac{-100 \cdot \frac{N}{m^2} \cdot 22.41 \cdot m^3}{8.31 \frac{J}{C}}$$
+
+$$\Delta T = \frac{-100 \cdot N \cdot 22.41\cdot m}{8.31 \frac{J}{C}}$$
+
+$$\Delta T = \frac{-100 \cdot 22.41 }{8.31} \cdot C$$
+
+$$\Delta T \approx -269.67 \cdot C$$
+
+entonces vemos que si la temperatura baja a 0 Pa, la diferencia de temperatura es -269.67 C, y como la temperatura inicial era 0 C, tenemos:
+
+$$-269.67 C = T_f - T_i = T_f - 0 = T_f$$
+
+entonces este es el mínimo de temperatura, que se aproxima mucho al resultado ideal, que es -273.15 C.
