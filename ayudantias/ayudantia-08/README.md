@@ -254,7 +254,7 @@ b)
 
 sabemos que la ecuación de expansión para volúmenes es:
 
-$$\Delta V = V_0 \cdot (3 \dot \alpha) \cdot \Delta T$$
+$$\Delta V = V_0 \cdot (3 \cdot \alpha) \cdot \Delta T$$
 
 primero calculemos la diferencia de volumen
 
@@ -274,7 +274,7 @@ $$\Delta T = - 40 K$$
 
 ahora volvamos a la fòrmula de diferencia de volumen:
 
-$$\Delta V = V_0 \cdot (3 \dot \alpha) \cdot \Delta T$$
+$$\Delta V = V_0 \cdot (3 \cdot \alpha) \cdot \Delta T$$
 
 y despejemos el coeficiente de expansión lineal:
 
@@ -292,7 +292,7 @@ $$\alpha = \frac{0.15}{36 \cdot (40 K)}$$
 
 $$\alpha = \frac{0.15}{1440 K} \approx 0.104 \cdot 10^{-3} \frac{1}{K}$$
 
-si tenemos un cubo de cierto material desconocido, y observamos que a 50 grados Celsius su volumen es de 12 litros, y si lo enfríamos a 10 grados Celsius su volumen es de 11.85 litros, calcular su coeficiente de expansión lineal.
+entonces el coeficiente de expansión lineal es de 0.104 milis / Kelvin.
 
 ## ejercicio extra
 
