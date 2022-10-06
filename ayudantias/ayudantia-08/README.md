@@ -124,7 +124,7 @@ $$Q_{oro} = 5 kg \cdot 129 \frac{J}{kg \cdot K} \cdot (T_f - 3273) K$$
 
 y simplificamos
 
-$$Q_{oro} = 6450 \cdot J \cdot (T_f - 3273)$$
+$$Q_{oro} = 645 \cdot J \cdot (T_f - 3273)$$
 
 asumimos que este es un sistema aislado, y que como la energía se conserva, la transferencia de calor será de un cuerpo a otro y podemos plantear:
 
@@ -132,25 +132,25 @@ $$Q_{agua} + Q_{oro} = 0$$
 
 y reemplazando
 
-$$41820 \cdot J \cdot (T_f - 323) + 6450 \cdot J \cdot (T_f - 3273) = 0$$
+$$41820 \cdot J \cdot (T_f - 323) + 645 \cdot J \cdot (T_f - 3273) = 0$$
 
 y simplificando y desarrollando
 
-$$41820 \cdot (T_f - 323) + 6450 \cdot \Delta (T_f - 3273) = 0$$
+$$41820 \cdot (T_f - 323) + 645 \cdot \Delta (T_f - 3273) = 0$$
 
-$$41820 \cdot T_f - 41820 \cdot 323 + 6450 \cdot T_f - 6450 \cdot 3273 = 0$$
+$$41820 \cdot T_f - 41820 \cdot 323 + 645 \cdot T_f - 645 \cdot 3273 = 0$$
 
 agrupamos la temperatura final a un lado de la ecuación:
 
-$$41820 \cdot T_f + 6450 \cdot T_f = 41820 \cdot 323  + 6450 \cdot 3273$$
+$$41820 \cdot T_f + 645 \cdot T_f = 41820 \cdot 323  + 645 \cdot 3273$$
 
-$$T_f \cdot (41820 + 6450) = 41820 \cdot 323 + 6450 \cdot 3273$$
+$$T_f \cdot (41820 + 645) = 41820 \cdot 323 + 645 \cdot 3273$$
 
 y podemos despejar T_f:
 
-$$T_f = \frac{41820 \cdot 323  + 6450 \cdot 3273}{41820 + 6450}$$
+$$T_f = \frac{41820 \cdot 323 + 645 \cdot 3273}{41820 + 645}$$
 
-$$T_f = \frac{323}{6450} + \frac{3273}{41820}$$
+$$T_f = \frac{323}{645} + \frac{3273}{41820}$$
 
 y aproximadamente:
 
