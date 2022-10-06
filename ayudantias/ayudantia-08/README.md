@@ -216,11 +216,39 @@ $$T_f = 387.5 K = (387.5 - 273) C = 114.5 C$$
 
 como comentario, el agua puede llegar máximo a 100 C, antes de evaporarse, y luego la energía se usa para pasar de estado líquido a sólido.
 
+## ejercicio-03: expansión térmica (30 min)
+
+a)
+
+si tenemos una barra de cobre de largo 7 metros, a 20 grados Celsius, encontrar el largo cuando la temperatura sube a 100 grados Celsius.
+
+dato:
+
+$$\alpha_{cobre} = 16 \cdot 10^{-6} \frac{1}{K}$$
+
 b)
 
-## ejercicio-03
-
 ## solución ejercicio-03
+
+a)
+
+usamos la ecuación de expansión lineal:
+
+$$\Delta L = L_0 \cdot \alpha \Delta T$$
+
+y reemplazando los valores:
+
+$$\Delta L = 7 m \cdot 16 \cdot 10^{-6} \frac{1}{K} (100 - 20) K$$
+
+y despejando:
+
+$$\Delta L = 7 m \cdot 16 \cdot 10^{-6} \cdot 80$$
+
+$$\Delta L = 8960 \cdot 10^{-6} m = 0.896 \cdot 10^{-2} m = 0.896 cm$$
+
+entonces la barra cambia su largo en 0.896 cm, y su largo final es 7m + 0.896 cm
+
+b)
 
 # clase-08
 
