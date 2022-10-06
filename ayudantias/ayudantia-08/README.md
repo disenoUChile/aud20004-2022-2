@@ -82,7 +82,15 @@ en este caso tenemos que la presión se mantiene constante, y como la temperatur
 
 ## ejercicio-02: transferencia de calor (30 minutos)
 
-a) si tenemos una masa de agua de 10 kg a temperatura 50 grados Celsius, y sumergimos una masa de oro de 5kg a temperatura 3000 grados Celsius, cuál es la temperatura final de equilibrio?
+a) cuánta energía necesitamos para subir la temperatura de un litro de agua de 0 Celsius a 100 Celsius?
+
+datos:
+
+$$c_{agua} = 4182 \frac{J}{kg \cdot K}$$
+
+$$\rho_{agua} = 1 \cdot \frac{g}{cm^3}$$
+
+b) si tenemos una masa de agua de 10 kg a temperatura 50 grados Celsius, y sumergimos una masa de oro de 5kg a temperatura 3000 grados Celsius, cuál es la temperatura final de equilibrio?
 
 datos:
 
@@ -90,11 +98,47 @@ $$c_{agua} = 4182 \frac{J}{kg \cdot K}$$
 
 $$c_{oro} = 129 \frac{J}{kg \cdot K}$$
 
-b)
-
 ## solución ejercicio-02
 
 a)
+
+para encontrar la energía, usaremos la ecuación de transferencia de calor:
+
+$$Q = m \cdot c \cdot \Delta T$$
+
+tenemos un volumen de agua de 1 litro, pero necesitamos la masa correspondiente, tenemos la densidad del agua, así que calculemos:
+
+$$m_{agua} = \rho{agua} \cdot volumen_{agua}$$
+
+y reemplazando los valores:
+
+$$m_{agua} = 1 \cdot \frac{g}{cm^3} \cdot 1 \cdot litro$$
+
+$$m_{agua} = 1 \cdot \frac{g}{cm^3} \cdot 1 \cdot dm^3$$
+
+$$m_{agua} = 1 \cdot \frac{g}{cm^3} \cdot 1 \cdot (10 \cdot cm)^3$$
+
+$$m_{agua} = 1 \cdot \frac{g}{cm^3} \cdot 1 \cdot 10^3 cm^3$$
+
+$$m_{agua} = 1 \cdot g \cdot 10^3$$
+
+$$m_{agua} = 1 \cdot kg$$
+
+ahora podemos reemplazar en la ecuación de calor:
+
+$$Q = m \cdot c \cdot \Delta T$$
+
+podemos usar los valores en Celsius sin convertir a Kelvin, porque lo que importa es la diferencia de temperatura, y los grados Celsius y Kelvin miden lo mismo, no así los Fahrenheit!
+
+$$Q = 1 kg \cdot  4182 \frac{J}{kg \cdot K} \cdot (100 - 0) K$$
+
+simplificando
+
+$$Q = 1 \cdot  4182 J \cdot 100$$
+
+$$Q = 418200 J$$
+
+b)
 
 tenemos que para todo cuerpo, podemos usar la ecuación de calor
 
