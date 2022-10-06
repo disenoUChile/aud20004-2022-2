@@ -58,11 +58,11 @@ en esta ecuación, tenemos las siguientes condiciones iniciales:
 
 $$V_2 = 100 litros = 10^{-1} \cdot m^3$$
 
-$$T_2 = 30 Celsius = 30 + 273 K = 303 K$$
+$$T_2 = 30 C = 30 + 273 K = 303 K$$
 
 y por el enunciado nos dice que la nueva temperatura es:
 
-$$T_3 = 100 Celsius = 100 + 273 K = 373 K$$
+$$T_3 = 100 C = 100 + 273 K = 373 K$$
 
 encontremos el nuevo volumen según esta igualdad:
 
@@ -86,9 +86,9 @@ a) si tenemos una masa de agua de 10 kg a temperatura 50 grados Celsius, y sumer
 
 datos:
 
-$$c_agua = 4182 \frac{J}{kg \cdot K}$$
+$$c_{agua} = 4182 \frac{J}{kg \cdot K}$$
 
-$$c_oro = 129 \frac{J}{kg \cdot K}$$
+$$c_{oro} = 129 \frac{J}{kg \cdot K}$$
 
 b)
 
@@ -120,11 +120,11 @@ $$Q_{oro} = m_{oro} \cdot c_{oro} \cdot \Delta T_{oro}$$
 
 reemplazamos los valores
 
-$$Q_{oro} = 50 kg \cdot 129 \frac{J}{kg \cdot K} \cdot (T_f - 3273) K$$
+$$Q_{oro} = 5 kg \cdot 129 \frac{J}{kg \cdot K} \cdot (T_f - 3273) K$$
 
 y simplificamos
 
-$$Q_{oro} = 6450 \cdot J \cdot \Delta (T_f - 3273)$$
+$$Q_{oro} = 6450 \cdot J \cdot (T_f - 3273)$$
 
 asumimos que este es un sistema aislado, y que como la energía se conserva, la transferencia de calor será de un cuerpo a otro y podemos plantear:
 
