@@ -70,25 +70,97 @@ $$\frac{V_2}{T_2} = \frac{V_3}{T_3}$$
 
 despejamos V_3:
 
-$$V_3 = V_2 /cdot \frac{T_3}{T_2}$$
+$$V_3 = V_2 \cdot \frac{T_3}{T_2}$$
 
 reemplazamos los valores:
 
-$$V_3 = 10^{-1} \cdot m^3 /cdot \frac{373 K}{303 K}$$
+$$V_3 = 10^{-1} \cdot m^3 \cdot \frac{373 K}{303 K}$$
 
 $$V_3 = 1.23 \cdot 10^{-1} \cdot m^3$$
 
 en este caso tenemos que la presión se mantiene constante, y como la temperatura sube, el volumen también sube.
 
-## ejercicio-02: transferencia de calor
+## ejercicio-02: transferencia de calor (30 minutos)
 
-a)
+a) si tenemos una masa de agua de 10 kg a temperatura 50 grados Celsius, y sumergimos una masa de oro de 5kg a temperatura 3000 grados Celsius, cuál es la temperatura final de equilibrio?
 
-$$Q = m \cdot c \cdot \Delta T$$
+datos:
+
+$$c_agua = 4182 \frac{J}{kg \cdot K}$$
+
+$$c_oro = 129 \frac{J}{kg \cdot K}$$
 
 b)
 
 ## solución ejercicio-02
+
+a)
+
+tenemos que para todo cuerpo, podemos usar la ecuación de calor
+
+$$Q = m \cdot c \cdot \Delta T$$
+
+si llamamos T_f a la temperatura final de equilibrio, podemos decir
+
+planteamos la ecuación para agua
+
+$$Q_{agua} = m_{agua} \cdot c_{agua} \cdot \Delta T_{agua}$$
+
+reemplazamos los valores
+
+$$Q_{agua} = 10 \cdot kg \cdot 4182 \frac{J}{kg \cdot K} \cdot (T_f - 323) K$$
+
+y simplificamos
+
+$$Q_{agua} = 41820 \cdot J \cdot (T_f - 323)$$
+
+planteamos ahora la ecuación para oro:
+
+$$Q_{oro} = m_{oro} \cdot c_{oro} \cdot \Delta T_{oro}$$
+
+reemplazamos los valores
+
+$$Q_{oro} = 50 kg \cdot 129 \frac{J}{kg \cdot K} \cdot (T_f - 3273) K$$
+
+y simplificamos
+
+$$Q_{oro} = 6450 \cdot J \cdot \Delta (T_f - 3273)$$
+
+asumimos que este es un sistema aislado, y que como la energía se conserva, la transferencia de calor será de un cuerpo a otro y podemos plantear:
+
+$$Q_{agua} + Q_{oro} = 0$$
+
+y reemplazando
+
+$$41820 \cdot J \cdot (T_f - 323) + 6450 \cdot J \cdot (T_f - 3273) = 0$$
+
+y simplificando y desarrollando
+
+$$41820 \cdot (T_f - 323) + 6450 \cdot \Delta (T_f - 3273) = 0$$
+
+$$41820 \cdot T_f - 41820 \cdot 323 + 6450 \cdot T_f - 6450 \cdot 3273 = 0$$
+
+agrupamos la temperatura final a un lado de la ecuación:
+
+$$41820 \cdot T_f + 6450 \cdot T_f = 41820 \cdot 323  + 6450 \cdot 3273$$
+
+$$T_f \cdot (41820 + 6450) = 41820 \cdot 323 + 6450 \cdot 3273$$
+
+y podemos despejar T_f:
+
+$$T_f = \frac{41820 \cdot 323  + 6450 \cdot 3273}{41820 + 6450}$$
+
+$$T_f = \frac{323}{6450} + \frac{3273}{41820}$$
+
+y aproximadamente:
+
+$$T_f \approx 0.05 + 0.1 \approx 0.15$$
+
+entonces la temperatura final expresada en grados Kelvin y Celsius es:
+
+$$T_f = 0.15 K = 273 $$
+
+b)
 
 ## ejercicio-03
 
