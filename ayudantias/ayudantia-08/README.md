@@ -146,19 +146,31 @@ $$41820 \cdot T_f + 645 \cdot T_f = 41820 \cdot 323  + 645 \cdot 3273$$
 
 $$T_f \cdot (41820 + 645) = 41820 \cdot 323 + 645 \cdot 3273$$
 
-y podemos despejar T_f:
+y podemos despejar Tf:
 
 $$T_f = \frac{41820 \cdot 323 + 645 \cdot 3273}{41820 + 645}$$
 
-$$T_f = \frac{323}{645} + \frac{3273}{41820}$$
+y calcular:
 
-y aproximadamente:
+$$T_f = 367.8$$
 
-$$T_f \approx 0.05 + 0.1 \approx 0.15$$
+también podemos calcular de forma aproximada
 
-entonces la temperatura final expresada en grados Kelvin y Celsius es:
+$$T_f = \frac{41820 \cdot 323 + 645 \cdot 3273}{41820 + 645}$$
 
-$$T_f = 0.15 K = 273 $$
+$$T_f \approx \frac{41820 \cdot 323}{41820 + 645} + \frac{645 \cdot 3273}{41820 + 645}$$
+
+$$T_f \approx 323 + 645 \cdot 0.1 \approx 323 + 64.5 \approx 387.5$$
+
+así calculamos la temperatura en Kelvin, y para convertir a Celsius:
+
+$$T_f = 367.8 K = (367.8 - 273) C = 94.8 C$$
+
+o con el valor aproximado
+
+$$T_f = 387.5 K = (387.5 - 273) C = 114.5 C$$
+
+como comentario, el agua puede llegar máximo a 100 C, antes de evaporarse, y luego la energía se usa para pasar de estado líquido a sólido.
 
 b)
 
