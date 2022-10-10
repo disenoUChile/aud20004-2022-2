@@ -66,9 +66,26 @@ las moléculas de aire oscilan de forma paralela a la dirección del movimiento 
 
 ## velocidad del sonido
 
-lambda = longitud de la onda
+a 20 Celsius, la velocidad del sonido es de 343 metros por segundo, y es la velocidad que usaremos en este curso.
 
-velocidad del sonido = lambda por f
+$$v_{sonido} = 343 \cdot \frac{m}{s}$$
+
+como sabemos que la velocidad de una onda
+
+$$v_{sonido} = \lambda \cdot f_{sonido}$$
+
+entonces podemos calcular la longitud de onda de cualquier onda si sabemos su frecuencia.
+
+por ejemplo, la longitud de una onda 20 Hz:
+
+$$\lambda_{20Hz} = \frac{v_{sonido}}{f_{sonido}} = \frac{343 \cdot \frac{m}{s}}{20 Hz} = 17.15 \cdot m$$
+
+por ejemplo, la longitud de una onda de 20 kHz
+
+$$\lambda_{20kHz} = \frac{v_{sonido}}{f_{sonido}} = \frac{343 \cdot \frac{m}{s}}{20k Hz} = 17.15 \cdot mm$$
+
+entonces otra forma de pensar en el rango humano de escucha, en vez de pensar en frecuencias,
+podemos también pensar en longitudes de onda mínima y máxima que podemos escuchar.
 
 ## bibliografía
 
