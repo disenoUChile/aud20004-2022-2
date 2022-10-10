@@ -67,3 +67,13 @@ $$distancia_{trueno} = velocidad_{sonido} \cdot tiempo$$
 reemplazando los valores:
 
 $$distancia_{trueno} = 343 \cdot \frac{m}{s} \cdot 12 \cdot s = 4116 m$$
+
+si queremos tener un retraso menor a 1 ms, esto lo podemos plantear con la siguiente ecuación:
+
+$$distancia_{pedida} = velocidad_{sonido} \cdot tiempo_{pedido}$$
+
+si reemplazamos tiempo con 1 ms, tenemos que la distancia es:
+
+$$distancia_{pedida} = 343 \cdot \frac{m}{s} \cdot 1 \cdot ms = 343 mm$$
+
+entonces, tenemos que estar a menos de 343 mm de distancia de la fuente sonora, para un retraso menor a 1 ms.
