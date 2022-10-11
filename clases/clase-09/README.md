@@ -32,21 +32,30 @@ cuando grafiquemos ondas, vamos a tener 2 gráficos:
 
 ojo con los ejes!!
 
-## longitud de onda
+## análisis de Fourier
 
-la longitud de onda es la distancia entre repeticiones de la onda.
+Fourier postuló que toda onda se puede expresar como una suma de ondas sinusoidales.
 
-la longitud de onda es una distancia y se mide en metros.
+esto es genial, porque las sinusoides se identifican con 3 datos:
 
-la longitud de onda se simboliza con la letra griega lambda.
+1. amplitud, se mide en metros.
+2. frecuencia, se mide en Hz.
+3. fase, se mide en radianes.
 
-$$\lambda$$
+entonces, si tenemos una máquina que es capaz de crear ondas sinusoidales y sumarlas, podemos crear cualquier onda, por ejemplo, el sonido.
 
-- amplitud: distancia entre el punto de equilibrio y el desplazamiento máximo, medida en metros.
-- periodo: tiempo que demora
-- frecuencia: inverso del periodo, se mide en Hz.
+por eso, en ciencias tendemos a analizar las señales y ondas en función de las sinusoides que los conforman.
 
-la amplitud de una onda es la .
+un típico nombre que encuentran en computación es FFT, que significa Fast Fourier Transform.
+
+## parámetros de las ondas
+
+- amplitud (A): distancia entre el punto de equilibrio y el desplazamiento máximo, se mide en metros.
+- periodo (T): tiempo que demora la onda en repetirse, se mide en segundos.
+- frecuencia (f): inverso del periodo, se mide en Hz.
+- longitud de onda (lambda): distancia entre repeticiones de la onda, se mide en metros.
+
+$$lambda = \lambda$$
 
 ## definición de sonido
 
@@ -56,15 +65,27 @@ la vibración comprime y descomprime el aire alrededor, lo que genera una onda l
 
 las moléculas de aire oscilan de forma paralela a la dirección del movimiento de la onda, recibiendo energía de moléculas adyacentes.
 
+el otro tipo de onda es transversal, donde las moléculas se mueven de forma perpendicular al movimiento de la onda.
+
 ## relaciones entre mundo físico y perceptual
 
 la amplitud de una onda de sonido la percibimos como volumen.
 
 la frecuencia del sonido la percibimos como altura.
 
+la fase en sí misma no produce un cambio perceptual.
+
 ## percepción logarítmica de volumen
 
-nuestra percepción es logarítmica en cuanto a volumen.
+nuestra percepción es logarítmica en cuanto a volumen, necesitamos aproximadamente 10 veces más amplitud física para percibir una duplicación de volumen.
+
+## frecuencias, sensación de altura
+
+si tomamos un sonido a cierta frecuencia, un sonido al doble de frecuencia lo percibimos como del mismo sabor, entonces a nivel cultural el problema es cuántos pasos hay entre medio.
+
+nuestra percepción funciona como una escalera en espiral, podemos subir y descender, pero ese movimiento va en espiral y se van repitiendo las notas musicales, por ejemplo.
+
+en occidente, decidimos que entre dos repeticiones de una nota, hayan 12 notas en total.
 
 ## velocidad del sonido
 
@@ -88,27 +109,19 @@ $$\lambda_{20kHz} = \frac{v_{sonido}}{f_{sonido}} = \frac{343 \cdot \frac{m}{s}}
 
 entonces otra forma de pensar en el rango humano de escucha, en vez de pensar en frecuencias, podemos también pensar en longitudes de onda mínima y máxima.
 
-## análisis de Fourier
-
-Fourier postuló que toda onda se puede expresar como una suma de ondas sinusoidales.
-
-esto es genial, porque las sinusoides se identifican con 3 datos:
-
-1. amplitud
-2. frecuencia
-3. fase
-
-entonces, si tenemos una máquina que es capaz de crear ondas sinusoidales y sumarlas, podemos crear cualquier onda, por ejemplo, el sonido.
-
-por eso, en ciencias tendemos a analizar las señales y ondas en función de las sinusoides que los conforman.
-
-un típico nombre que encuentran en computación es FFT, que significa Fast Fourier Transform.
-
 ## primer paso para digitalizar: muestrear
 
 para grabar un sonido y pasarlo de una señal analógica a una digital, tenemos que muestrear el sonido, pasar de una onda que tiene un valor en todo momento, a tener muestras que sean muy representativas en el tiempo.
 
 para esto elegimos una frecuencia de muestreo, que significa cuán seguido tomamos una muestra.
+
+## segundo paso para digitalizar: cuantizar
+
+una vez que tenemos las muestras, estas muestras tienen un valor real, con infinitos decimales.
+
+debemos truncar ese valor a una cierta resolución, esto recibe el nombre de cuantización.
+
+para cuantizar debemos decidir cuántos bits de resolución usaremos, y eso está sujeto tanto a nuestra percepción como a la capacidad de la tecnología y su costo.
 
 ## bibliografía
 
