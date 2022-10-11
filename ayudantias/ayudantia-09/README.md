@@ -70,11 +70,11 @@ $$2 = \frac{v_{sonido}}{v_{sonido} - v_{fuente}}$$
 
 multiplicamos por el denominador
 
-$$2 \cdot v_{sonido} - 2 \cdot v_{fuente}) = v_{sonido}$$
+$$2 \cdot v_{sonido} - 2 \cdot v_{fuente} = v_{sonido}$$
 
 y si restamos la velocidad del sonido a ambos lados
 
-$$v_{sonido} - 2 \cdot v_{fuente}) = 0$$
+$$v_{sonido} - 2 \cdot v_{fuente} = 0$$
 
 y con esto despejamos la velocidad de la fuente
 
