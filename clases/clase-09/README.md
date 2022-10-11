@@ -109,6 +109,10 @@ $$\lambda_{20kHz} = \frac{v_{sonido}}{f_{sonido}} = \frac{343 \cdot \frac{m}{s}}
 
 entonces otra forma de pensar en el rango humano de escucha, en vez de pensar en frecuencias, podemos también pensar en longitudes de onda mínima y máxima.
 
+## efecto Doppler
+
+$$f = f_{original} \cdot \frac{v_{sonido} \mp v_{receptor}}{v_{sonido} \mp v_{fuente}}$$
+
 ## primer paso para digitalizar: muestrear
 
 para grabar un sonido y pasarlo de una señal analógica a una digital, tenemos que muestrear el sonido, pasar de una onda que tiene un valor en todo momento, a tener muestras que sean muy representativas en el tiempo.
