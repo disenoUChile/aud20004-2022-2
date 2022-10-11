@@ -126,11 +126,11 @@ y reemplazando el valor de la velocidad del sonido
 
 $$v_{fuente} = \frac{1}{2} \cdot 343 \frac{m}{s} = 171.5 \frac{m}{s}$$
 
-## ejercicio-03
+## ejercicio-03: digitalización de ondas
 
-a) si queremos digitalizar ondas hasta 30 kHz, cuál es la frecuencia mínima de muestreo que debemos usar?
+a) si queremos digitalizar ondas hasta 30 kHz, cuál es la frecuencia de muestreo que debemos usar? si el audio digital de calidad CD tiene una frecuencia de muestreo de 44.1 kHz, cuál es el rango de frecuencia que puede capturar?
 
-b)
+b) si tenemos un audio donde la resolución de cada muestra tiene 8 bits, cuántos posibles valores existen? si el audio digital tiene valores entre -1 y 1, cuánto mide la distancia entre estados? y cómo se diferencia esto con una resolución de 16 bits?
 
 ## solución ejercicio-03
 
@@ -148,4 +148,48 @@ llegamos al resultado
 
 $$f_{muestreo} > 60 kHz$$
 
+entonces la frecuencia de muestreo debe ser mayor a 60 kHz.
+
+para el caso de la calidad de CD, si la frecuencia de muestreo es de 44.1 kHz, podemos usar el teorema de Nyquist
+
+$$f_{muestreo} > 2 \cdot f_{maxima}$$
+
+y reemplazar la frecuencia de muestreo para encontrar la frecuencia máxima
+
+$$44.1 kHz > 2 \cdot f_{maxima}$$
+
+y diviendo por dos a ambos lados
+
+$$22.05 kHz > f_{maxima}$$
+
+con lo que sabemos ahora que la frecuencia máxima en calidad CD es menor a 22.05 kHz.
+
 b)
+
+- con 1 bit, tenemos 2 estados posibles: 0, 1.
+- con 2 bits, tenemos 4 estados posibles: 00, 01, 10, 11.
+- con 3 bits, tenemos 8 estados posibles: 000, 001, 010, 011, 100, 101, 110, 111.
+
+con cada bit adicional, tenemos el doble de estados posibles, entonces la fórmula que relaciona números de bits B con estados posibles es:
+
+$$estados = 2^B$$
+
+entonces con 8 bits tenemos que el número de estados posibles es
+
+$$estados = 2^{B} = 2^8 = 256$$
+
+estos 256 valores posibles tienen que cubrir el rango entre -1 y 1, que mide 2.
+
+entonces cada paso mide:
+
+$$paso = \frac{rango}{pasos} =  \frac{2}{256} \approx 0.0078$$
+
+veamos ahora con 16 bits.
+
+el número de estados con 16 bits es mucho mayor:
+
+$$estados = 2^{B} = 2^{16} = (2^8)^2 = 65536$$
+
+y con esto, el paso entre cada estado posible es mucho menor.
+
+$$paso = \frac{rango}{pasos} = \frac{2}{655356} \approx 0.0000305$$

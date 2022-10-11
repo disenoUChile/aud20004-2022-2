@@ -40,8 +40,6 @@ la longitud de onda es una distancia y se mide en metros.
 
 la longitud de onda se simboliza con la letra griega lambda.
 
-https://en.wikipedia.org/wiki/Wavelength
-
 $$\lambda$$
 
 - amplitud: distancia entre el punto de equilibrio y el desplazamiento máximo, medida en metros.
@@ -58,11 +56,15 @@ la vibración comprime y descomprime el aire alrededor, lo que genera una onda l
 
 las moléculas de aire oscilan de forma paralela a la dirección del movimiento de la onda, recibiendo energía de moléculas adyacentes.
 
-## intensidad y frecuencia
+## relaciones entre mundo físico y perceptual
 
-## rango de frecuencia humana
+la amplitud de una onda de sonido la percibimos como volumen.
 
-20 Hz a 20 kHz
+la frecuencia del sonido la percibimos como altura.
+
+## percepción logarítmica de volumen
+
+nuestra percepción es logarítmica en cuanto a volumen.
 
 ## velocidad del sonido
 
@@ -86,7 +88,30 @@ $$\lambda_{20kHz} = \frac{v_{sonido}}{f_{sonido}} = \frac{343 \cdot \frac{m}{s}}
 
 entonces otra forma de pensar en el rango humano de escucha, en vez de pensar en frecuencias, podemos también pensar en longitudes de onda mínima y máxima.
 
+## análisis de Fourier
+
+Fourier postuló que toda onda se puede expresar como una suma de ondas sinusoidales.
+
+esto es genial, porque las sinusoides se identifican con 3 datos:
+
+1. amplitud
+2. frecuencia
+3. fase
+
+entonces, si tenemos una máquina que es capaz de crear ondas sinusoidales y sumarlas, podemos crear cualquier onda, por ejemplo, el sonido.
+
+por eso, en ciencias tendemos a analizar las señales y ondas en función de las sinusoides que los conforman.
+
+un típico nombre que encuentran en computación es FFT, que significa Fast Fourier Transform.
+
+## primer paso para digitalizar: muestrear
+
+para grabar un sonido y pasarlo de una señal analógica a una digital, tenemos que muestrear el sonido, pasar de una onda que tiene un valor en todo momento, a tener muestras que sean muy representativas en el tiempo.
+
+para esto elegimos una frecuencia de muestreo, que significa cuán seguido tomamos una muestra.
+
 ## bibliografía
 
 - https://www.cliffsnotes.com/study-guides/physics/waves-and-sound/wave-motion
 - https://www.cliffsnotes.com/study-guides/physics/waves-and-sound/sound
+- https://en.wikipedia.org/wiki/Wavelength
