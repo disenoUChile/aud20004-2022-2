@@ -12,17 +12,43 @@ a)
 
 b)
 
-## ejercicio-02
+## ejercicio-02: efecto Doppler (30 min)
 
-a)
+a) si fuente de sonido emite una frecuencia de 2 kHz y se mueve a una velocidad de 30 km/h hacia ti que estás con velocidad 0 km/h, qué frecuencia escuchas cuándo se acerca? y cuando se aleja?
 
-b)
+b) si una fuente de sonido emite una frecuencia de 3 kHz, a qué velocidad debe moverse hacia ti con respecto a ti que estás con velocidad 0 km/h, para que cuando se acerque escuches el doble de esa frecuencia?
 
 ## solución ejercicio-02
 
 a)
 
+primero convirtamos la velocidad de 30 km/h de la fuente de sonido a metros / segundo.
+
+$$v_{fuente} = 30 \cdot \frac{km}{h} = 30 \cdot \frac{1000 \cdot m}{60 \cdot 60 \cdot s} = \frac{300}{36} \cdot \frac{m}{s} = \frac{25}{3} \cdot \frac{m}{s} \approx 8 \cdot \frac{m}{s}$$
+
+la ecuación para el efecto Doppler es:
+
+$$f = f_{original} \cdot \frac{v_{sonido} \mp v_{receptor}}{v_{sonido} \mp v_{fuente}}$$
+
+en este caso, la velocidad del receptor es 0 y podemos simplificar la ecuación a:
+
+$$f = f_{original} \cdot \frac{v_{sonido}}{v_{sonido} \mp v_{fuente}}$$
+
+y reemplazando los valores:
+
+$$f = 2 \cdot kHz \cdot \frac{343 \frac{m}{s}}{343 \cdot \frac{m}{s} \mp 8 \cdot \frac{m}{s}} = 2 \cdot kHz \cdot \frac{343}{343 \mp 8}$$
+
+cuando la fuente de sonido se acerca hacia ti, la frecuencia aumenta, por lo que:
+
+$$f_{acerca} = 2 \cdot kHz \cdot \frac{343}{343 - 8} = 2 \cdot kHz \cdot \frac{343}{335} = 2047.76 Hz$$
+
+cuando la fuente de sonido se aleja de ti, la frecuencia disminuye, por lo que:
+
+$$f_{aleja} = 2 \cdot kHz \cdot \frac{343}{343 + 8} = 2 \cdot kHz \cdot \frac{343}{351} = 1954.42 Hz$$
+
 b)
+
+si una fuente de sonido emite una frecuencia de 3 kHz, a qué velocidad debe moverse hacia ti con respecto a ti que estás con velocidad 0 km/h, para que cuando se acerque escuches el doble de esa frecuencia?
 
 ## ejercicio-03: velocidad del sonido (30 min)
 
