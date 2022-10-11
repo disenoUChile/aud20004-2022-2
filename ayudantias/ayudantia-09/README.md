@@ -128,12 +128,24 @@ $$v_{fuente} = \frac{1}{2} \cdot 343 \frac{m}{s} = 171.5 \frac{m}{s}$$
 
 ## ejercicio-03
 
-a)
+a) si queremos digitalizar ondas hasta 30 kHz, cuál es la frecuencia mínima de muestreo que debemos usar?
 
 b)
 
 ## solución ejercicio-03
 
 a)
+
+según el teorema de Nyquist, debemos muestrear a estrictamente más del doble de la frecuencia máxima, según la ecuación
+
+$$f_{muestreo} > 2 \cdot f_{maxima}$$
+
+y reemplazando los valores
+
+$$f_{muestreo} > 2 \cdot 30 kHz$$
+
+llegamos al resultado
+
+$$f_{muestreo} > 60 kHz$$
 
 b)
