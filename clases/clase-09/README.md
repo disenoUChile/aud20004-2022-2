@@ -84,8 +84,7 @@ por ejemplo, la longitud de una onda de 20 kHz
 
 $$\lambda_{20kHz} = \frac{v_{sonido}}{f_{sonido}} = \frac{343 \cdot \frac{m}{s}}{20k Hz} = 17.15 \cdot mm$$
 
-entonces otra forma de pensar en el rango humano de escucha, en vez de pensar en frecuencias,
-podemos también pensar en longitudes de onda mínima y máxima que podemos escuchar.
+entonces otra forma de pensar en el rango humano de escucha, en vez de pensar en frecuencias, podemos también pensar en longitudes de onda mínima y máxima.
 
 ## bibliografía
 
