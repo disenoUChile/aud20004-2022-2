@@ -48,7 +48,41 @@ $$f_{aleja} = 2 \cdot kHz \cdot \frac{343}{343 + 8} = 2 \cdot kHz \cdot \frac{34
 
 b)
 
-si una fuente de sonido emite una frecuencia de 3 kHz, a qué velocidad debe moverse hacia ti con respecto a ti que estás con velocidad 0 km/h, para que cuando se acerque escuches el doble de esa frecuencia?
+la ecuación para el efecto Doppler es:
+
+$$f = f_{original} \cdot \frac{v_{sonido} \mp v_{receptor}}{v_{sonido} \mp v_{fuente}}$$
+
+nuestra velocidad es 0 km/h, así que podemos reemplazar:
+
+$$f = f_{original} \cdot \frac{v_{sonido}}{v_{sonido} \mp v_{fuente}}$$
+
+reemplacemos las frecuencias, la original es 3 kHz, y queremos que la percibida sea el doble, 6 kHz.
+
+$$6 \cdot kHz = 3 \cdot kHz \cdot \frac{v_{sonido}}{v_{sonido} \mp v_{fuente}}$$
+
+si dividimos a ambos lados por 3 kHz, simplificamos
+
+$$2 = \frac{v_{sonido}}{v_{sonido} \mp v_{fuente}}$$
+
+como el sonido viene hacia ti, la frecuencia aumenta, por lo que el signo positivo o negativo del denominador es negativo.
+
+$$2 = \frac{v_{sonido}}{v_{sonido} - v_{fuente}}$$
+
+multiplicamos por el denominador
+
+$$2 \cdot v_{sonido} - 2 \cdot v_{fuente}) = v_{sonido}$$
+
+y si restamos la velocidad del sonido a ambos lados
+
+$$v_{sonido} - 2 \cdot v_{fuente}) = 0$$
+
+y con esto despejamos la velocidad de la fuente
+
+$$v_{fuente} = \frac{1}{2} \cdot v_{sonido}$$
+
+y reemplazando el valor de la velocidad del sonido
+
+$$v_{fuente} = \frac{1}{2} \cdot 343 \frac{m}{s} = 171.5 \frac{m}{s}$$
 
 ## ejercicio-03: velocidad del sonido (30 min)
 
