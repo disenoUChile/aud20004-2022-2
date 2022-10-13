@@ -24,11 +24,11 @@ $$v_{sonido} = \lambda_{1} \cdot f_1 = 1 km \cdot 0.2 Hz = 200 \cdot \frac{m}{s}
 
 en este mismo material, si tenemos una onda con otra frecuencia, podemos partir de la misma ecuación
 
-$$v_sonido = \lambda_{2} \cdot f_2$$
+$$v_{sonido} = \lambda_{2} \cdot f_2$$
 
 y despejar la longitud de onda así:
 
-$$\lambda_{2} = \frac{v_sonido}{f_2} = \frac{200 \frac{m}{s}}{ 1 \cdot kHz}$$
+$$\lambda_{2} = \frac{v_{sonido}}{f_2} = \frac{200 \frac{m}{s}}{ 1 \cdot kHz}$$
 
 y como por definición 1/s es Hz, podemos simplificarlos y seguir:
 
