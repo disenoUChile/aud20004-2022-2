@@ -130,7 +130,7 @@ $$v_{fuente} = \frac{1}{2} \cdot 343 \frac{m}{s} = 171.5 \frac{m}{s}$$
 
 a) si queremos digitalizar ondas hasta 30 kHz, cuál es la frecuencia de muestreo que debemos usar? si el audio digital de calidad CD tiene una frecuencia de muestreo de 44.1 kHz, cuál es el rango de frecuencia que puede capturar?
 
-b) si tenemos un audio donde la resolución de cada muestra tiene 8 bits, cuántos posibles valores existen? si el audio digital tiene valores entre -1 y 1, cuánto mide la distancia entre estados? y cómo se diferencia esto con una resolución de 16 bits?
+b) si tenemos un audio donde la resolución de cada muestra tiene 8 bits, cuántos posibles valores existen? y si fueran 16 bits?
 
 ## solución ejercicio-03
 
@@ -177,19 +177,3 @@ $$estados = 2^B$$
 entonces con 8 bits tenemos que el número de estados posibles es
 
 $$estados = 2^{B} = 2^8 = 256$$
-
-estos 256 valores posibles tienen que cubrir el rango entre -1 y 1, que mide 2.
-
-entonces cada paso mide:
-
-$$paso = \frac{rango}{pasos} =  \frac{2}{256} \approx 0.0078$$
-
-veamos ahora con 16 bits.
-
-el número de estados con 16 bits es mucho mayor:
-
-$$estados = 2^{B} = 2^{16} = (2^8)^2 = 65536$$
-
-y con esto, el paso entre cada estado posible es mucho menor.
-
-$$paso = \frac{rango}{pasos} = \frac{2}{655356} \approx 0.0000305$$
