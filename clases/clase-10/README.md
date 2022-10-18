@@ -2,20 +2,10 @@
 
 martes 18 octubre 2022, en línea y asíncrona
 
-unidad 5: calor y temperatura
+repaso para control 02:
 
-## repaso clase anterior y programa hoy (15 min)
-
-la clase de hoy es la unidad 5: calor y temperatura
-
-- gases ideales
-- unidades de medida en gases ideales
-- condiciones estándar en gases ideales
-- calor
-- transferencia de calor
-- leyes de la termodinámica
-- temperatura
-- expansión térmica
+- unidad 5: calor y temperatura
+- unidad 6: ondas y sonido
 
 ## gases ideales
 
@@ -110,16 +100,6 @@ una onda sinusoidal se puede definir por estas tres características:
 - longitud de onda (lambda): distancia entre repeticiones de la onda, se mide en metros.
 
 $$lambda = \lambda$$
-
-## definición de sonido
-
-el sonido es una onda producida por un cuerpo en vibración.
-
-la vibración comprime y descomprime el aire alrededor, lo que genera una onda longitudinal.
-
-las moléculas de aire oscilan de forma paralela a la dirección del movimiento de la onda, recibiendo energía de moléculas adyacentes.
-
-el otro tipo de onda es transversal, donde las moléculas se mueven de forma perpendicular al movimiento de la onda.
 
 ## relaciones entre mundo físico y perceptual
 
