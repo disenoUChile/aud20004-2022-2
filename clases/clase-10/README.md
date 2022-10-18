@@ -19,25 +19,19 @@ la clase de hoy es la unidad 5: calor y temperatura
 
 ## gases ideales
 
-un gas ideal es una abstracción, que postula que un gas consiste de partículas idénticas, infinitesimalmente pequeñas y que interactúan solamente ocasionalmente, de forma elástica.
-
-y la constante recibe el nombre de constante de los gases universales, la denotamos por R y tiene el valor:
+la constante de los gases universales, la denotamos por R y tiene el valor:
 
 $$R = 9.31 \frac{J}{mol K}$$
+
+la ecuación de los gases ideales es:
+
+$$P \cdot V =  n \cdot R \cdot T$$
 
 ## unidades de medida en gases ideales
 
 expresamos la temperatura T en Kelvin, abreviado K. una diferencia de 1 grado Celsius es igual a 1 grado Kelvin.
 
 $$\Delta T_{Celsius} = \Delta T_{Kelvin}$$
-
-la gran diferencia entre grados Celsius y Kelvin, es dónde está el cero, origen, o referencia. en grados Celsius, 0 grados equivale al punto de congelación del agua a la presión atmósferica del nivel del mar.
-
-en cambio, 0 grados Kelvin, equivale al cero absoluto, a la menor temperatura posible, y equivale a 273.15 grados Celsius.
-
-$$0 K = -273.15 C$$
-
-entonces podemos convertir con las siguiente fórmulas equivalentes, donde omitimos los decimales para simplificar los cálculos.
 
 $$K = C + 273$$
 
@@ -51,32 +45,12 @@ un valor típico de presión, es la presión atmosférica al nivel del mar:
 
 $$presión_{atmosférica} \approx 100 kPa$$
 
-eso se explica porque si tomamos una columna de aire que va desde el nivel del mar hasta el borde de la atmósfera, su masa es alrededor de un kilo, y por lo tanto, su peso, alrededor de 10 N.
-
-con esto, la presión es:
-
-$$presión_{atmosférica} \approx \frac{100 N}{1 cm^2} \approx \frac{100 N}{1 (\frac{m}{100})^2} \approx \frac{100^3 N}{1 m^2} = 100 kPa$$
-
-el volumen lo medimos en m^3
-
 ## condiciones estándar en gases ideales
 
 diremos que las condiciones estándar para un gas ideal son:
 
 - presión = 1 atmósfera = 100 kPa
 - temperatura = 0 Celsius = 273 Kelvin
-
-con esto, podemos demostrar que el volumen de un gas en estas condiciones es aproximadamente 25 litros.
-
-## calor
-
-calor y temperatura son cantidades físicas distintas.
-
-si dos objetos de distintas temperaturas están en contacto con el otro, fluye calor desde el cuerpo con mayor temperatura hacia el cuerpo con menor temperatura.
-
-el calor es una medida de energía.
-
-todos los cuerpos tienen una capacidad calórica, que es la cantidad necesaria de calor necesaria para elevar la temperatura de un objeto en un grado (Celsius o Kelvin).
 
 ## transferencia de calor
 
@@ -142,33 +116,13 @@ los cuerpos están constantemente compartiendo calor, y con eso sus temperaturas
 
 diremos que el calor es la energía total que tiene un cuerpo debido al movimiento de sus partículas, y que puede ser transferido a otro cuerpo, mientras que la temperatura es un resumen de ese movimiento promedio.
 
-existen distintas escalas para medir temperatura.
-
-la escala Celsius tiene estos dos puntos importantes:
-
-- 0 Celsius = congelamiento del agua a presión atmosférica
-- 100 Celsisus = ebullición del agua a presión atmosférica
-
-la escala Fahrenheit tiene estos hitos:
-
-- 0 Fahrenheit = temperatura de una mezcla de agua, sal y una sal
-- 96 grados Fahrenheit = temperatura corporal normal
-
-esto lleva a que:
-
 $$C = \frac{5}{9} (F - 32}$$
 
 ## expansión térmica
 
-usaremos la letra alpha para definir el coeficiente promedio de expansión lineal, que se mide en 1 / Celsius, y nos permite expresar la expansión en una dimensión con la ecuación:
-
 $$\Delta L = \alpha \cdot L_0 \cdot \Delta T$$
 
-el coeficiente de expansión de área lo denotamos por la letra griega beta y equivale a 2 veces alpha, entonces:
-
 $$\Delta A = 2 \cdot \alpha \cdot A_0 \cdot \Delta T = \beta \cdot A_0 \cdot \Delta T$$
-
-de forma similar con el volumen, usamos la letra griega gamma,y equivale a 3 alpha
 
 $$\Delta V = 3 \cdot \alpha \cdot V_0 \cdot \Delta T = \gamma \cdot V_0 \cdot \Delta T$$
 
@@ -279,8 +233,6 @@ $$f_{muestreo} > 2 \cdot f_{máxima}$$
 en palabras, para cualquier onda, la frecuencia de muestreo para digitalizar esa onda debe ser estrictamente mayor que el doble de la frecuencia máxima de la onda.
 
 ## segundo paso para digitalizar: cuantizar
-
-una vez que tenemos las muestras, estas muestras tienen un valor real, con infinitos decimales, por lo que todavía no es una onda digital.
 
 debemos truncar ese valor a una cierta resolución, esto recibe el nombre de cuantización.
 
