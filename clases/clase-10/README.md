@@ -55,19 +55,13 @@ las unidades son:
 - c: capacidad calórica específica (J/(kg K))
 - T: temperatura (K)
 
-por ejemplo, si tenemos un bloque de metal con cierta alta temperatura, y lo depositamos en una masa de agua con menor temperatura. si la temperatura final es T, cómo se relacionan los calores específicos?
+si tenemos transferencia de calor entre 2 materiales, y el sistema está aislado, la suma de los calores es igual a 0.
 
-$$Q{metal} = m_{metal} \cdot c_{metal} \cdot \Delta T_{metal} = m_{metal} \cdot c_{metal} \cdot (T_{final} - T_{metal inicial})$$
+$$Q_{1} + Q_{2} = 0$$
 
-$$Q{agua} = m_{agua} \cdot c_{agua} \cdot \Delta T_{agua} = m_{agua} \cdot c_{agua} \cdot (T_{final} - T_{agua inicial})$$
+y como la temperatura final es igual para ambos, en el equilibrio, podemos reemplazar:
 
-y si el sistema está aislado:
-
-$$Q_{metal} + Q_{agua} = 0$$
-
-$$m_{metal} \cdot c_{metal} \cdot (T_{final} - T_{metal inicial}) + m_{agua} \cdot c_{agua} \cdot (T_{final} - T_{agua inicial}) = 0$$
-
-en esta ecuación tenemos datos, como la masa de los cuerpos, su calor específico, y sus temperaturas iniciales, y con eso podemos encontrar T, y es el tipo de ejercicio que veremos en ayudantía.
+$$m_{1} \cdot c_{1} \cdot (T_{final} - T_{inicial 1}) + m_{2} \cdot c_{2} \cdot (T_{final} - T_{inicial 2}) = 0$$
 
 ## expansión térmica
 
@@ -76,16 +70,6 @@ $$\Delta L = \alpha \cdot L_0 \cdot \Delta T$$
 $$\Delta A = 2 \cdot \alpha \cdot A_0 \cdot \Delta T = \beta \cdot A_0 \cdot \Delta T$$
 
 $$\Delta V = 3 \cdot \alpha \cdot V_0 \cdot \Delta T = \gamma \cdot V_0 \cdot \Delta T$$
-
-## definición de onda
-
-cuando grafiquemos ondas, vamos a tener 2 gráficos:
-
-- gráfico de amplitud de la onda en el tiempo, lo que implica que el punto en el espacio está fijo, aquí el eje horizontal de la variable independiente es TIEMPO.
-
-- gráfico de amplitud de la onda en el espacio, lo que implica que el tiempo está fijo o detenido, aquí el eje horizontal de la variable independiente es ESPACIO.
-
-ojo con los ejes!!
 
 ## parámetros de las ondas sinusoidales
 
@@ -117,11 +101,19 @@ la ecuación que relaciona la velocidad, longitud y frecuencia de una onda es:
 
 $$v_{sonido} = \lambda \cdot f_{sonido}$$
 
-entonces podemos calcular la longitud de onda de cualquier onda si sabemos su frecuencia.
+entonces podemos calcular la longitud de onda de cualquier onda si sabemos su frecuencia, y viceversa, ya que la velocidad del sonido es una constante.
 
 ## efecto Doppler
 
 $$f = f_{original} \cdot \frac{v_{sonido} \mp v_{receptor}}{v_{sonido} \mp v_{fuente}}$$
+
+en este curso diremos que la velocidad del receptor es 0, con lo que la ecuación se simplifica así:
+
+$$f = f_{original} \cdot \frac{v_{sonido}}{v_{sonido} \mp v_{fuente}}$$
+
+y el signo del denominador, positivo o negativo, depende de si la fuente se mueve hacia el observador, o se aleja.
+
+sabemos que cuando una fuente se acerca, la frecuencia pericibida aumenta, y cuando se aleja, disminuye. esto aplicado al denominador, hace que usemos signo negativo cuando la fuente se acerca, y positivo cuando se aleja.
 
 ## primer paso para digitalizar: muestrear
 
