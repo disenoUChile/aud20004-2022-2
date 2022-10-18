@@ -140,8 +140,6 @@ los cuerpos están constantemente compartiendo calor, y con eso sus temperaturas
 
 ## temperatura
 
-la temperatura es una propiedad física que tienen los cuerpos, que mide la energía cinética promedio de sus moléculas, por lo tanto, no depende de su masa. esto es una gran diferencia con calor, que sí depende de la masa o cantidad de materia.
-
 diremos que el calor es la energía total que tiene un cuerpo debido al movimiento de sus partículas, y que puede ser transferido a otro cuerpo, mientras que la temperatura es un resumen de ese movimiento promedio.
 
 existen distintas escalas para medir temperatura.
@@ -151,7 +149,7 @@ la escala Celsius tiene estos dos puntos importantes:
 - 0 Celsius = congelamiento del agua a presión atmosférica
 - 100 Celsisus = ebullición del agua a presión atmosférica
 
-la escala Kelvin tiene estos hitos:
+la escala Fahrenheit tiene estos hitos:
 
 - 0 Fahrenheit = temperatura de una mezcla de agua, sal y una sal
 - 96 grados Fahrenheit = temperatura corporal normal
@@ -159,10 +157,6 @@ la escala Kelvin tiene estos hitos:
 esto lleva a que:
 
 $$C = \frac{5}{9} (F - 32}$$
-
-$$-40 C = -40 F$$
-
-nosotros en este curso usaremos Kelvin, cuyo grado mide lo mismo que Celsius, solamente se distinguen en su punto de referencia.
 
 ## expansión térmica
 
@@ -239,8 +233,6 @@ una onda sinusoidal se puede definir por estas tres características:
 - frecuencia (f): inverso del periodo, se mide en Hz.
 
 ## longitud de onda
-
-otro parámetro importante para el estudio de ondas, que usaremos cuando medimos su velocidad es.
 
 - longitud de onda (lambda): distancia entre repeticiones de la onda, se mide en metros.
 
