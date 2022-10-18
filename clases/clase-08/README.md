@@ -196,7 +196,7 @@ la escala Celsius tiene estos dos puntos importantes:
 - 0 Celsius = congelamiento del agua a presión atmosférica
 - 100 Celsisus = ebullición del agua a presión atmosférica
 
-la escala Kelvin tiene estos hitos:
+la escala Fahrenheit tiene estos hitos:
 
 - 0 Fahrenheit = temperatura de una mezcla de agua, sal y una sal
 - 96 grados Fahrenheit = temperatura corporal normal
