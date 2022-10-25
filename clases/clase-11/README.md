@@ -4,6 +4,10 @@ martes 25 octubre 2022, presencial
 
 ## repaso control anterior
 
+$$1 \cdot mHz = 1 \cdot \frac{1}{1000} \cdot Hz = 0.001 Hz$$
+
+$$v_{sonido} = 343 \cdot \frac{m}{s}$$
+
 ## luz
 
 la luz es un fenómeno complejo que no se puede abstraer solamente a un comportamiento de partícula o de luz.
@@ -14,11 +18,9 @@ The modern view is that light has a dual nature. To debate whether light is a pa
 
 ## espectro de luz visible
 
-entre 400 y 700 nanómetros.
+vemos ondas cuyas longitudes de onda van entre 400 y 700 nanómetros.
 
-$$1 nanómetro = 1 nm = 10^{-9} m$$
-
-## colores de la luz visible
+$$1 \cdot nanómetro = 1 \cdot nm = 10^{-9} m$$
 
 los colores del espectro visible, ordenadas de longitud de onda más corta a más larga:
 
@@ -30,9 +32,19 @@ los colores del espectro visible, ordenadas de longitud de onda más corta a má
 - naranja
 - rojo
 
+si los ordenamos por frecuencia, el orden es al revés.
+
+ondas más largas que el espectro visible son infrarrojas, ondas más cortas que el espectro visible son llamadas ultravioleta.
+
 ## velocidad de la luz
 
 $$c = 3 \cdot 10^8 \cdot \frac{m}{s}$$
+
+es la máxima velocidad posible.
+
+esto lleva al concepto de año luz, que es una unidad de distancia, que simboliza cuánta distancia es capaz de recorrer la luz en un año
+
+$$1 \cdot añoluz = velocidad_{luz} * 1 \cdot año = 3 \cdot 10^{8} \frac{m}{s} \cdot 365.25 \cdot 24 \cdot 60 \cdot 60 s = (3 \cdot 365 \cdot 24 \cdot 60 \cdot 60) \cdot 10^{8} m = (3 \cdot 365 \cdot 24 \cdot 36) \cdot 10^{10} \cdot m =  \cdot 10^{10} \cdot m = 9.46728 \cdot 10^{15} \cdot m \approx 10^{16} \cdot m$$
 
 ## reflexión de luz
 
@@ -125,3 +137,5 @@ $$colores_{pixel}= 2^{3 \cdot B}$$
 - https://en.wikipedia.org/wiki/CMYK_color_model
 - https://en.wikipedia.org/wiki/LMS_color_space
 - https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re
+  $$
+  $$
