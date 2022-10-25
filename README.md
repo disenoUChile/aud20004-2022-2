@@ -15,7 +15,6 @@
 ## repositorio
 
 - [ayudantias](./ayudantias/): una subcarpeta por cada ayudantía.
-- [borradores/](./borradores/): apuntes en preparación.
 - [clases/](./clases/): una subcarpeta por cada clase.
 - [evaluaciones](./evaluaciones/): enunciados de las evaluaciones.
 
