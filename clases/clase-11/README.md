@@ -38,6 +38,10 @@ $$c = 3 \cdot 10^8 \cdot \frac{m}{s}$$
 
 la mayoría de los objetos son visibles por la luz que reflejan.
 
+las imágenes virtuales en un espejo no se pueden proyectar.
+
+las imágenes reales
+
 ## ley de reflexión
 
 si tenemos un rayo incidente en una superficie reflectante, se refleja en el mismo ángulo.
@@ -52,7 +56,7 @@ cada uno de esos receptores se encarga de una de 3 tipos de luz:
 - M (medium): 530 nm
 - S (short): 420 nm
 
-se estima que un humano puede distinguir hasta diez millones de colores.
+se estima que un humano puede distinguir hasta 10 millones de colores.
 
 ## daltonismo
 
@@ -63,7 +67,16 @@ los más comunes son:
 - rojo/verde
 - azul/amarillo
 
+## buenas prácticas en diseño
+
+- dejar a la gente elegir los colores
+- usar señales paralelas al color, como forma y orden.
+- usar contraste en brillo además de contraste en color.
+- incluir texto, incluso cuando el texto es obvio
+
 ## percepción de movimiento
+
+hermanos Lumière
 
 ## modelo RGB
 
@@ -93,12 +106,15 @@ modelo substractivo, basado en los colores cyan, magenta, amarillo, y negro.
 
 se le llama substractivo porque la tinta resta los colores rojo, verde y azul de la luz blanca.
 
-## buenas prácticas en diseño
+## colores y computadores
 
-- dejar a la gente elegir los colores
-- usar señales paralelas al color, como forma y orden.
-- usar contraste en brillo además de contraste en color.
-- incluir texto, incluso cuando el texto es obvio
+un pixel RGB es capaz de brillar y con eso generar color.
+
+si tenemos B bits de resolución por canal de color, entonces un pixel tiene 3B bits para representar su color.
+
+entonces la cantidad de colores posibles en un pixel es:
+
+$$colores_{pixel}= 2^{3 \cdot B}$$
 
 ## bibliografía
 
@@ -108,3 +124,4 @@ se le llama substractivo porque la tinta resta los colores rojo, verde y azul de
 - https://en.wikipedia.org/wiki/HSL_and_HSV
 - https://en.wikipedia.org/wiki/CMYK_color_model
 - https://en.wikipedia.org/wiki/LMS_color_space
+- https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re

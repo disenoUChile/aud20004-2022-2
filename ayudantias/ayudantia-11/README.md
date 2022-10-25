@@ -6,6 +6,8 @@ jueves 27 octubre 2022, presencial
 
 a)
 
+si el color violeta lo definimos con longitud de onda entre 380 y 435 nm, encontrar las frecuencias equivalentes.
+
 b)
 
 ## solución ejercicio-01
@@ -16,9 +18,39 @@ la velocidad de la luz se denota por la letra c minúscula, y tiene el valor de 
 
 $$c = 3 \cdot 10^8 \cdot \frac{m}{s}$$
 
+sabemos que la velocidad de la luz es una constante, y que para toda onda, es igual al producto de la longitud de onda por la frecuencia de la onda.
+
+$$c = \lambda \cdot f$$
+
+la longitud de onda y la frecuencia son inversamente proporcionales, entonces la longitud de onda máxima define la frecuencia mínima, y viceversa.
+
+entonces reemplazando:
+
+$$3 \cdot 10^{8} \cdot \frac{m}{s} = 380 \cdot 10^{-9} m \cdot f_{max}$$
+
+multiplicamos a ambos lados por 10 elevado a 9:
+
+$$3 \cdot 10^{17} \cdot Hz = 380 \cdot f_{max}$$
+
+dividimos por 380
+
+$$\frac{3}{380} \cdot 10^{17} \cdot Hz = f_{max}$$
+
+y simplificando
+
+$$f_{max} = \frac{3}{38} \cdot 10^{16} \cdot Hz$$
+
+veamos ahora la frecuencia mínima
+
+$$3 \cdot 10^{8} \cdot \frac{m}{s} = 435 \cdot 10^{-9} m \cdot f_{min}$$
+
+despejando
+
+$$f_min = \frac{3}{435} \cdot 10^{17} \cdot Hz$$
+
 b)
 
-## ejercicio-02 (30 min)
+## ejercicio-02: información de pixeles (30 min)
 
 a)
 
