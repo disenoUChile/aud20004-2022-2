@@ -1,7 +1,9 @@
 # ayudantia-11
 
-## ejercicio-01
+jueves 27 octubre 2022, presencial
 
-## ejercicio-02
+## ejercicio-01 (30 min)
 
-## ejercicio-03
+## ejercicio-02 (30 min)
+
+## ejercicio-03 (30 min)
