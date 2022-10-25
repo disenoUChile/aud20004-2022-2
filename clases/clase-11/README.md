@@ -52,7 +52,7 @@ la mayoría de los objetos son visibles por la luz que reflejan.
 
 las imágenes virtuales en un espejo no se pueden proyectar.
 
-las imágenes reales
+las imágenes reales sí se pueden proyectar.
 
 ## ley de reflexión
 
@@ -88,7 +88,15 @@ los más comunes son:
 
 ## percepción de movimiento
 
-hermanos Lumière
+hermanos Lumière en marzo de 1895 hicieron la primera función pública y pagada de imágenes en movimiento para 40 personas, lo que se denomina el nacimiento del cine.
+
+las personas son capaces de percibir entre 10 y 12 imágenes por segundo como imágenes separadas, y tasas más grandes de refresco son percibidas como movimiento.
+
+en cine se tiende a grabar a 24 cuadros por segundo.
+
+en general se usa en computación tasas de refresco de 50 Hz hacia arriba.
+
+https://www.youtube.com/watch?v=_SzGQkI-IwM
 
 ## modelo RGB
 
@@ -124,9 +132,17 @@ un pixel RGB es capaz de brillar y con eso generar color.
 
 si tenemos B bits de resolución por canal de color, entonces un pixel tiene 3B bits para representar su color.
 
-entonces la cantidad de colores posibles en un pixel es:
+entonces la cantidad de colores posibles en 1 pixel es:
 
 $$colores_{pixel}= 2^{3 \cdot B}$$
+
+si tenemos una pantalla de resolución 1080p, con 1920 por 1080 pixeles, entonces tenemos un total de.
+
+$$pixeles = 1920 \cdot 1080 = 2,073,600$$
+
+y cada uno de esos pixeles, puede ser de un color distinto, y necesitamos 3\*B bits de información para cada uno, y así definir su color.
+
+si tenemos una tasa de refresco de 60 Hz, significa que tenemos 60 cuadros por segundo.
 
 ## bibliografía
 
@@ -137,5 +153,4 @@ $$colores_{pixel}= 2^{3 \cdot B}$$
 - https://en.wikipedia.org/wiki/CMYK_color_model
 - https://en.wikipedia.org/wiki/LMS_color_space
 - https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumi%C3%A8re
-  $$
-  $$
+- https://en.wikipedia.org/wiki/Frame_rate
