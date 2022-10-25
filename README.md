@@ -15,7 +15,7 @@
 ## repositorio
 
 - [ayudantias](./ayudantias/): una subcarpeta por cada ayudantía.
-- [clases/](./clases/): una subcarpeta por cada clase.
+- [clases](./clases/): una subcarpeta por cada clase.
 - [trabajos](./trabajos/): enunciados de trabajos.
 
 ## unidades
