@@ -4,9 +4,9 @@ jueves 27 octubre 2022, presencial
 
 ## ejercicio-01: espectro de luz visible (30 min)
 
-a) si el color violeta lo definimos con longitud de onda entre 380 y 435 nm, encontrar las frecuencias equivalentes.
+a) si el color violeta lo definimos con longitud de onda entre 380 nm y 435 nm, encontrar las frecuencias equivalentes.
 
-b)
+b) si una onda de color rojo con longitud de onda entre 625 nm y 750 nm viaja 3 años luz, cuántas veces oscila la onda en este trayecto?
 
 ## solución ejercicio-01
 
@@ -32,7 +32,7 @@ $$3 \cdot 10^{17} \cdot Hz = 380 \cdot f_{max}$$
 
 dividimos por 380:
 
-$$f_{max} = \frac{3}{380} \cdot 10^{17} \cdot Hz $$
+$$f_{max} = \frac{3}{380} \cdot 10^{17} \cdot Hz$$
 
 veamos ahora la frecuencia mínima:
 
@@ -45,6 +45,68 @@ $$f_{min} = \frac{3}{435} \cdot 10^{17} \cdot Hz$$
 entonces la respuesta es que las frecuencias del color violeta están entre los valores mínimos y máximos calculados.
 
 b)
+
+sabemos que la velocidad de la luz es igual a la longitud de onda multiplicada por su frecuencia, entonces:
+
+$$c = 3 \cdot 10^{8} \frac{m}{s} = \lambda \cdot f$$
+
+veamos la frecuencia mínima, asociada a la longitud de onda máxima:
+
+$$3 \cdot 10^{8} \cdot \frac{m}{s} = \lambda_{max} \cdot f_{min}$$
+
+y despejando f_min:
+
+$$f_{min} = \frac{3 \cdot 10^{8} \cdot \frac{m}{s}}{750 \cdot nm}$$
+
+simplificando:
+
+$$f_{min} = \frac{3 \cdot 10^{8}}{750 \cdot 10^{-9}} \cdot Hz$$
+
+$$f_{min} = \frac{3}{750} \cdot 10^{17} \cdot Hz$$
+
+veamos ahora la frecuencia máxima, asociada a la longitd de onda mínima:
+
+$$3 \cdot 10^{8} \cdot \frac{m}{s} = \lambda_{min} \cdot f_{max}$$
+
+y despejando f_max:
+
+$$f_{max} = \frac{3 \cdot 10^{8} \cdot \frac{m}{s}}{625 \cdot nm}$$
+
+simplificando:
+
+$$f_{max} = \frac{3 \cdot 10^{8}}{625 \cdot 10^{-9}} \cdot Hz$$
+
+$$f_{max} = \frac{3}{625} \cdot 10^{17} \cdot Hz$$
+
+las frecuencias mínimas y máximas nos dan el rango de cuántas oscilaciones completa esta onda en un segundo.
+
+ahora queremos ver cuántas oscilaciones ocurren mientras recorre una distancia de 3 años luz, y como es luz, la velocidad es la velocidad de la luz y se demora 3 años.
+
+entonces basta con multiplicar las frecuencias por la cantidad de tiempo de 3 años para encontrar el rango de oscilaciones.
+
+$$oscilaciones_{min} = f_{min} \cdot 3 \cdot años = \frac{3}{750} \cdot 10^{17} \cdot Hz \cdot 365.25 \cdot 24 \cdot 60 \cdot 60 segundos$$
+
+y podemos simplificar Hz con segundos, resultando en el número
+
+$$oscilaciones_{min} = \frac{3}{750} \cdot 365.25 \cdot 24 \cdot 3600 \cdot 10^{17}$$
+
+y aproximadamante:
+
+$$oscilaciones_{min} = \approx 126230 \cdot 10^{17}$$
+
+veamos ahora las oscilaciones máximas
+
+$$oscilaciones_{max} = f_{max} \cdot 3 \cdot años = \frac{3}{625} \cdot 10^{17} \cdot Hz \cdot 365.25 \cdot 24 \cdot 60 \cdot 60 segundos$$
+
+y podemos simplificar Hz con segundos, resultando en el número
+
+$$oscilaciones_{max} = \frac{3}{625} \cdot 365.25 \cdot 24 \cdot 3600 \cdot 10^{17}$$
+
+y aproximadamante:
+
+$$oscilaciones_{max} = \frac{3}{625} \cdot 365.25 \cdot 24 \cdot 3600 \cdot 10^{17} $$
+
+$$oscilaciones_{min} = \approx 151476  \cdot 10^{17}$$
 
 ## ejercicio-02: información en imágenes (30 min)
 
