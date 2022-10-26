@@ -52,7 +52,7 @@ b)
 
 ## ejercicio-02: información de pixeles (30 min)
 
-a)
+a) cuántos bits hay en una pantalla de 1920 por 1080 pixeles?
 
 b)
 
@@ -62,9 +62,14 @@ a)
 
 b)
 
-## ejercicio-03 (30 min)
+## ejercicio-03: información en video (30 min)
 
-a)
+a) cuánta información, medida en bits, hay en una transmisión de:
+
+- 1.2 minutos de duración
+- 30 cuadros por segundo
+- resolución de 1280 x 720 pixeles
+- colores RGB de 8 bits por color
 
 b)
 
@@ -72,4 +77,13 @@ b)
 
 a)
 
+primero encontremos cuántos bits hay en cada pixel
+
+$$\frac{bits}{pixel} = \frac{bits_{R} + bits_{G} + bits_{B}}{pixel} =  \frac{3 \cdot (8 \cdot bits)}{pixel} = \frac{24 \cdot bits}{pixel}$$
+
+$$cuadros = duración \cdot tasa_{cuadros} = 1.2 \cdot minutos \cdot 30 \cdot \frac{cuadros}{s}$$
+
+y simplificando
+
+$$cuadros = 1.2 \cdot 60 \cdot s \cdot 30 \cdot \frac{cuadros}{s} = 1.2 \cdot 60 \cdot 30 \cdot cuadros = 2160 cuadros$$
 b)
