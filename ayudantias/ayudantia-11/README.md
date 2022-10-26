@@ -32,11 +32,7 @@ $$3 \cdot 10^{17} \cdot Hz = 380 \cdot f_{max}$$
 
 dividimos por 380:
 
-$$\frac{3}{380} \cdot 10^{17} \cdot Hz = f_{max}$$
-
-y simplificando:
-
-$$f_{max} = \frac{3}{38} \cdot 10^{16} \cdot Hz $$
+$$f_{max} = \frac{3}{380} \cdot 10^{17} \cdot Hz $$
 
 veamos ahora la frecuencia mínima:
 
@@ -131,7 +127,7 @@ $$\frac{bits}{segundo} = \frac{bits}{cuadro} \cdot \frac{cuadros}{segundo}$$
 
 y reemplazando los valores:
 
-$$\frac{bits}{segundo} = 22,118,400 \cdot \frac{bits}{cuadro} \cdot 30 \frac{cuadros}{segundo}$$
+$$\frac{bits}{segundo} = 22,118,400 \cdot \frac{bits}{cuadro} \cdot 30 \cdot \frac{cuadros}{segundo}$$
 
 y simplificando:
 
@@ -153,7 +149,7 @@ b)
 
 en el ejercicio anterior vimos que la tasa de bits necesarias por segundo era igual a:
 
-$$\frac{bits}{segundo} = 1,585,152,000 \cdot \frac{bits}{segundo}$$
+$$\frac{bits}{segundo} = 663,552,000 \cdot \frac{bits}{segundo}$$
 
 y tenemos que el disco duro tiene una capacidad de 1 TB, que en palabras, es un tera byte.
 
@@ -165,18 +161,18 @@ $$duracion = \frac{capacidad}{tasa}$$
 
 y reemplazando los valores:
 
-$$duracion = \frac{8 \cdot 10^8 \cdot bits}{1,585,152,000 \cdot \frac{bits}{segundo}}$$
+$$duracion = \frac{8 \cdot 10^{12} \cdot bits}{663,552,000 \cdot \frac{bits}{segundo}}$$
 
 y simplificando las unidades:
 
-$$duracion = \frac{8 \cdot 10^8}{663552000} \cdot segundos$$
+$$duracion = \frac{8 \cdot 10^{12}}{663,552,000} \cdot segundos$$
 
 y simplificando las potencias de 10:
 
-$$duracion = \frac{8 \cdot 10^5}{663552} \cdot segundos$$
+$$duracion = \frac{8 \cdot 10^9}{663,552} \cdot segundos = \frac{1953125}{162} \cdot segundos$$
 
 y luego aproximando:
 
-$$duracion = \frac{3125}{2592} \cdot segundos \approx 1.2 \cdot segundos$$
+$$duracion = \frac{1953125}{162} \cdot segundos \approx 12056 \cdot segundos \approx 201 minutos$$
 
-la duración aproximada que cabe en un disco duro de 1 TB de esta resolución es 1.2 segundos.
+la duración aproximada que cabe en un disco duro de 1 TB de esta resolución es 201 minutos.
