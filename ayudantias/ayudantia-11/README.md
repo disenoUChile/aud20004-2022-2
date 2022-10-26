@@ -44,7 +44,7 @@ $$3 \cdot 10^{8} \cdot \frac{m}{s} = 435 \cdot 10^{-9} m \cdot f_{min}$$
 
 despejando:
 
-$$f_min = \frac{3}{435} \cdot 10^{17} \cdot Hz$$
+$$f_{min} = \frac{3}{435} \cdot 10^{17} \cdot Hz$$
 
 entonces la respuesta es que las frecuencias del color violeta están entre los valores mínimos y máximos calculados.
 
@@ -80,13 +80,15 @@ $$pixeles = 10 \cdot 20 = 200$$
 
 entonces, tenemos 200 pixeles, y la información por pixel es 12 bits, entonces si los multiplicamos, tenemos el total de bits necesarios para definir todos los pixeles de la pantalla.
 
-$$bits = 200 pixeles \cdot 12 \frac{bits}{pixel} = 2400 bits$$
+$$bits = 200 \cdot pixeles \cdot 12 \cdot \frac{bits}{pixel} = 2400 \cdot bits$$
 
 entonces en toda la pantalla, tenemos 2400 bits de información.
 
 la cantidad de imágenes posibles que podemos formar con estos bits es 2 elevado al número de bits.
 
 $$imágenes = 2^{B} = 2^{2400} \approx 3 \cdot 10^{722} $$
+
+con esta pequeña pantalla, de baja resolución, la cantidad de imágenes posibles es enorme!
 
 ## ejercicio-03: información en video (30 min)
 
@@ -121,7 +123,7 @@ $$\frac{bits}{cuadro} = 24 \cdot \frac{bits}{pixel} \cdot (1280 \cdot 720)\frac{
 
 y simplificando:
 
-$$\frac{bits}{cuadro} = 24 \cdot 1280 \cdot 720 \cdot \frac{bits}{cuadro} = 22118400 \cdot \frac{bits}{cuadro}$$
+$$\frac{bits}{cuadro} = 24 \cdot 1280 \cdot 720 \cdot \frac{bits}{cuadro} = 22,118,400 \cdot \frac{bits}{cuadro}$$
 
 ahora tenemos la cantidad de bits/cuadro, si multiplicamos por la cantidad de cuadros/segundo, tendremos la cantidad de bits/segundo:
 
@@ -129,11 +131,11 @@ $$\frac{bits}{segundo} = \frac{bits}{cuadro} \cdot \frac{cuadros}{segundo}$$
 
 y reemplazando los valores:
 
-$$\frac{bits}{segundo} = 22118400 \cdot \frac{bits}{cuadro} \cdot 30 \frac{cuadros}{segundo}$$
+$$\frac{bits}{segundo} = 22,118,400 \cdot \frac{bits}{cuadro} \cdot 30 \frac{cuadros}{segundo}$$
 
 y simplificando:
 
-$$\frac{bits}{segundo} = 663552000 \cdot \frac{bits}{segundo}$$
+$$\frac{bits}{segundo} = 663,552,000 \cdot \frac{bits}{segundo}$$
 
 ahora tenemos la cantidad de bits que este video necesita por cada segundo, si multiplicamos por la cantidad de tiempo que dura este video, tendremos la cantidad total de bits
 
@@ -141,17 +143,17 @@ $$ bits = \frac{bits}{segundo} \cdot segundos$$
 
 y reemplazando los valores:
 
-$$bits = 663552000 \cdot \frac{bits}{segundo} \cdot 1.2 minutos =  663552000 \cdot \frac{bits}{segundo} \cdot 1.2 \cdot 60 \cdot segundos$$
+$$bits = 663,552,000 \cdot \frac{bits}{segundo} \cdot 1.2 minutos =  663,552,000 \cdot \frac{bits}{segundo} \cdot 1.2 \cdot 60 \cdot segundos$$
 
 y simplificando:
 
-$$bits = 663552000 \cdot 1.2 \cdot 60 \cdot bits = 47775744000 \cdot bits \approx 48 \cdot 10^{9$} \cdot bits$$
+$$bits = 663,552,000 \cdot 1.2 \cdot 60 \cdot bits = 47,775,744,000 \cdot bits \approx 48 \cdot 10^{9} \cdot bits$$
 
 b)
 
 en el ejercicio anterior vimos que la tasa de bits necesarias por segundo era igual a:
 
-$$\frac{bits}{segundo} = 663552000 \cdot \frac{bits}{segundo}$$
+$$\frac{bits}{segundo} = 1,585,152,000 \cdot \frac{bits}{segundo}$$
 
 y tenemos que el disco duro tiene una capacidad de 1 TB, que en palabras, es un tera byte.
 
@@ -163,7 +165,7 @@ $$duracion = \frac{capacidad}{tasa}$$
 
 y reemplazando los valores:
 
-$$duracion = \frac{8 \cdot 10^8 \cdot bits}{663552000 \cdot \frac{bits}{segundo}}$$
+$$duracion = \frac{8 \cdot 10^8 \cdot bits}{1,585,152,000 \cdot \frac{bits}{segundo}}$$
 
 y simplificando las unidades:
 
@@ -175,6 +177,6 @@ $$duracion = \frac{8 \cdot 10^5}{663552} \cdot segundos$$
 
 y luego aproximando:
 
-$$duracion = \frac{3125}{2592} \cdot segundos \approx 1.2 segundos$$
+$$duracion = \frac{3125}{2592} \cdot segundos \approx 1.2 \cdot segundos$$
 
 la duración aproximada que cabe en un disco duro de 1 TB de esta resolución es 1.2 segundos.
