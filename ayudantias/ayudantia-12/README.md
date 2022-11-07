@@ -1,7 +1,13 @@
 # ayudantia-12
 
-## ejercicio-01
+## ejercicio-01: (30 minutos)
 
-## ejercicio-02
+## solución ejercicio-01
 
-## ejercicio-03
+## ejercicio-02: (30 minutos)
+
+## solución ejercicio-02
+
+## ejercicio-03: (30 minutos)
+
+## solución ejercicio-03
