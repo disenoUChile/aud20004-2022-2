@@ -64,8 +64,8 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 | [11](clases/clase-11/) | 2022-10-25 | unidad 7: luz                                                      |
 | feriado, no hay clase  | 2022-11-01 | [trabajo-investigacion-01](./trabajos/investigacion-01.md)         |
 | [12](clases/clase-12/) | 2022-11-08 | unidad 8: electricidad y magnetismo                                |
-| [13](clases/clase-13/) | 2022-11-15 | autónomo, sin clases, trabajo de investigación 2                   |
-| [14](clases/clase-14/) | 2022-11-22 | repaso unidades 7 y 8                                              |
+| autónomo, sin clases   | 2022-11-15 | [trabajo-investigacion-02](./trabajos/investigacion-02.md)         |
+| [13](clases/clase-13/) | 2022-11-22 | repaso unidades 7 y 8                                              |
 | cierre acta            | 2022-12-16 | plazo máximo envío actas                                           |
 
 ## ayudantías (jueves 3pm-4:30pm)
@@ -86,8 +86,8 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 | [11](ayudantias/ayudantia-11/) | 2022-10-27 | unidad 7: luz                                              |
 | no hay ayudantía               | 2022-11-03 | [trabajo-investigacion-01](./trabajos/investigacion-01.md) |
 | [12](ayudantias/ayudantia-12/) | 2022-11-10 | unidad 8: electricidad y magnetismo                        |
-| [13](ayudantias/ayudantia-13/) | 2022-11-17 | autónomo, sin clases, trabajo de investigación 2           |
-| [14](ayudantias/ayudantia-14/) | 2022-11-24 | evaluación: control 3, unidades 7, 8                       |
+| autónomo, sin clases           | 2022-11-17 | [trabajo-investigacion-02](./trabajos/investigacion-02.md) |
+| [13](ayudantias/ayudantia-13/) | 2022-11-24 | evaluación: control 3, unidades 7, 8                       |
 | cierre acta                    | 2022-12-16 | plazo máximo envío actas                                   |
 
 ## bibliografía
