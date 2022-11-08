@@ -4,17 +4,65 @@ martes 08 noviembre 2022, presencial
 
 ## repaso trabajo de investigación 01
 
-- no olvidar, agregar antecedentes sobre el tema de investigación
-- no olvidar, agregar
-- tamaño máximo del trabajo fue aumentado a 2 páginas
+no olvidar:
+
+- agregar nombre y fecha
+- agregar fuentes
+- agregar antecedentes históricos sobre el tema
+- tamaño máximo del trabajo era 1 página, próximo trabajo máximo 2
 
 ## electricidad
 
-$$V = I \cdot R$$
+la palabra electricidad viene del latín elektrum, y a su vez, del griego elektron, que significa ámbar, ya que los primeros experimentos donde se observaron características eléctricas fueron hechos al frotar ámbar con otros objetos.
+
+la electricidad describe flujo de energía y materia. con simpleza, tenemos la materia, hecha con átomos, en cuyo núcleo hay masa compuesta de protones y neutrones, que aportan carga positiva, y fuera del núcleo, orbitando, hay partículas de menor masa pero igual carga, llamadas electrones, con carga negativa.
+
+un átomo o una molécula sin carga, es aquella que tiene igual número de protones y electrones, con lo que su carga total se anula y es 0. pero los electrones, en ciertas condiciones, pueden fluir, a lo que le llamamos corriente eléctrica.
+
+## corriente eléctrica
+
+la corriente eléctrica la denotamos por I, de intensidad, y se mide en Amperes (A), que es una representación de carga eléctrica por unidad de tiempo. la unidad de carga eléctrica es Coulomb, con lo que 1 Ampere es igual a 1 Coulomb por segundo.
+
+$$1 \cdot A = 1 \cdot \frac{C}{s}$$
+
+1 Ampere es mucha carga por segundo, ya que 1 electrón posee una pequeña carga de aproximadamente
+
+$$1 \cdot electron \approx 1.6 \cdot 10^{-19} C$$
+
+## voltaje eléctrico
+
+el voltaje eléctrico es una medida de potencial eléctrico, y se mide en volts, donde 1 volt (V) es equivalente a 1 Joule dividido por Coulomb.
+
+$$1 \cdot V = 1 \frac{J}{C}$$
+
+las fuentes de poder que usamos en la vida cotidiana, como el enchufe, una batería, un puerto USB, tienen una medida de voltaje y una medida de corriente, donde ocurre lo siguiente:
+
+- el voltaje entregado es IGUAL al de la especificación. ejemplos: enchufe 220 V en Chile, puerto USB 5 V, batería 1.5 V o 9V o algún otro estándar.
+- la corriente entregada está LIMITADA por el valor de la especificación. si una fuente de poder es de 10 A, significa que lo máximo que provee es 10 A.
+
+## potencia eléctrica
+
+la potencia eléctrica se mide en watts (W), y un Watt es
+
+la relación entre potencia, voltaje y corriente viene dada por
 
 $$P = V \cdot I$$
 
 ## magnetismo
+
+los imanes tienen 2 polos: norte y sur.
+
+la tierra está polarizada, por eso tenemos brújulas que son capaces de detectar estos polos magnéticos para orientar.
+
+no se han observado en la naturaleza, polos aislados, que no se presenten de a pares.
+
+## electromagnetismo
+
+la electricidad produce magnetismo, y a su vez, el magnetismo produce electricidad, son fenómenos interrelacionados.
+
+el resumen entre cómo electricidad y magnetismo interactúan fue resumido por 4 ecuaciones por James Clerk Maxwell (1831-1879).
+
+la tríada de físicos considerados más relevantes son Newton, Maxwell y Einstein, en ese orden cronológico.
 
 ## referencias
 
