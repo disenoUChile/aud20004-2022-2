@@ -82,9 +82,17 @@ no se han observado en la naturaleza, polos aislados, que no se presenten de a p
 
 la electricidad produce magnetismo, y a su vez, el magnetismo produce electricidad, son fenómenos interrelacionados.
 
-el resumen entre cómo electricidad y magnetismo interactúan fue resumido por 4 ecuaciones por James Clerk Maxwell (1831-1879).
+el resumen entre cómo electricidad y magnetismo interactúan fue resumido en 4 ecuaciones por James Clerk Maxwell (1831-1879).
 
 la tríada de físicos considerados más relevantes son Newton, Maxwell y Einstein, en ese orden cronológico.
+
+## aplicaciones industriales de electromagnetismo
+
+los micrófonos son imanes, que al ser movidos, producen un voltaje inducido. ese voltaje puede ser amplificado, y usado para alimentar un motor, conectado a un parlante, para volver a transducir de energía eléctrica a energía mecánica.
+
+la guitarra eléctrica tiene cuerdas de metal, que al ser tocadas, vibran sobre las cápsulas, que son imanes. estos imanes tienen un campo magnético, y cuando las cuerdas vibran,se induce un pequeño voltaje en las cápsulas, que luego puede ser amplificado y hacer mover un parlante.
+
+las turbinas hidroeléctricas son imanes, que con la energía mecánica del agua, se mueven e inducen voltaje, que luego alimenta al sistema eléctrico.
 
 ## referencias
 
