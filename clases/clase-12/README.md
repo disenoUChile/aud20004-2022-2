@@ -94,6 +94,11 @@ la guitarra eléctrica tiene cuerdas de metal, que al ser tocadas, vibran sobre 
 
 las turbinas hidroeléctricas son imanes, que con la energía mecánica del agua, se mueven e inducen voltaje, que luego alimenta al sistema eléctrico.
 
+## Leo Fender
+
+Leo Fender fue un inventor estadounidense que revolucionó la música popular del siglo XX, al inventar la primera guitarra industrial sólida (Fender Telecaster, 1950 ), y luego el bajo eléctrico (Precision Bass, 1951), a pesar de nunca haber aprendido a tocar estos instrumentos.
+
 ## referencias
 
 - https://en.wikipedia.org/wiki/James_Clerk_Maxwell
+- https://en.wikipedia.org/wiki/Leo_Fender
