@@ -1,6 +1,44 @@
 # ayudantia-12
 
-## ejercicio-01: energía y potencia domiciliaria (30 minutos)
+## ejercicio-01: fuerza eléctrica (30 minutos)
+
+a) cuánta es la energía eléctrica entre un protón y un electrón, separados por 10 cm? es de atracción o repulsión?
+
+b)
+
+## solución ejercicio-01
+
+a)
+
+la fuerza eléctrica está dada por
+
+$$F_{electrica} = K \cdot \frac{q_1 \cdot q_2}{r^2}$$
+
+la constante K de Coulomb tiene el siguiente valor y unidades:
+
+$$K \approx 9 \cdot 10^9 \cdot \frac{N \cdot m^2}{C^2}$$
+
+la carga es igual entre un protón y un electrón, solamente tienen signos distintos, y tiene valor:
+
+$$1 \cdot electron \approx 1.6 \cdot 10^{-19} \cdot C$$
+
+entonces reemplazando los valores:
+
+$$F_{electrica} = (9 \cdot 10^9 \cdot \frac{N \cdot m^2}{C^2}) \cdot \frac{( 1.6 \cdot 10^{-19}  \cdot C) \cdot ( -1.6 \cdot 10^{-19} \cdot  C)}{(\frac{10}{100} \cdot m)^2}$$
+
+y ordenando números, potencias de 10 y unidades:
+
+$$F_{electrica} = -(9 \cdot 1.6^{2} \cdot 100) \cdot  (10^9 \cdot 10^{-38}) \cdot N$$
+
+y simplificando:
+
+$$F_{electrica} = -(9 \cdot 1.6^{2})\cdot 10^{-27} \cdot N$$
+
+ese es el valor de la fuerza eléctrica, y como es un electrón y un protón con cargas de signo distinto, es una fuerza de atracción.
+
+b)
+
+## ejercicio-02: energía y potencia domiciliaria (30 minutos)
 
 a) si el voltaje domiciliario en Chile es de 220 V, y la corriente máxima es de 10 A, cuánta es la potencia máxima que puede brindar un enchufe?
 
@@ -10,7 +48,7 @@ dato:
 
 $$1 \cdot kWh = 100 \cdot CLP$$
 
-## solución ejercicio-01
+## solución ejercicio-02
 
 a)
 
@@ -56,13 +94,13 @@ $$precio_{mes} = \frac{30 \cdot 6 \cdot 1000 \cdot Wh}{\frac{1 \cdot kWh}{100 \c
 
 el costo de tener este refrigerador enchufado todo el mes es de 180 CLP.
 
-## ejercicio-02: energía en una batería (30 minutos)
+## ejercicio-03: energía en una batería (30 minutos)
 
 a) si tenemos una batería de voltaje 1.5V y capacidad de 1,200 mAh, cuánta carga tiene en Coulombs?
 
 b) si la batería la usamos para alimentar un circuito con una potencia de 50 mW, cuánta corriente extrae de la batería? y cuánto se demora la batería en descargarse?
 
-## solución ejercicio-02
+## solución ejercicio-03
 
 a)
 
@@ -119,15 +157,3 @@ y despejando
 $$tiempo = \frac{120 \cdot h}{5} = 24 \cdot horas$$
 
 con esto, la batería es capaz de entregar 50 mA, durante un tiempo de 24 horas, antes de agotar su capacidad de 1,200 mAh.
-
-## ejercicio-03: magnetismo (30 minutos)
-
-a)
-
-b)
-
-## solución ejercicio-03
-
-a)
-
-b)

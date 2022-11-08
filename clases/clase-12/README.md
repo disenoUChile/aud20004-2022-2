@@ -43,7 +43,7 @@ $$1 \cdot A = 1 \cdot \frac{C}{s}$$
 
 1 Ampere es mucha carga por segundo, ya que 1 electrón posee una pequeña carga de aproximadamente
 
-$$1 \cdot electron \approx 1.6 \cdot 10^{-19} C$$
+$$1 \cdot electron \approx 1.6 \cdot 10^{-19} \cdot  C$$
 
 ## voltaje eléctrico
 
