@@ -102,3 +102,4 @@ Leo Fender fue un inventor estadounidense que revolucionó la música popular de
 
 - https://en.wikipedia.org/wiki/James_Clerk_Maxwell
 - https://en.wikipedia.org/wiki/Leo_Fender
+- https://www.twitterandteargas.org/
