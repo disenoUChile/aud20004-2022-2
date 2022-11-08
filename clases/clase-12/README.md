@@ -96,7 +96,7 @@ las turbinas hidroeléctricas son imanes, que con la energía mecánica del agua
 
 ## Leo Fender
 
-Leo Fender fue un inventor estadounidense que revolucionó la música popular del siglo XX, al inventar la primera guitarra industrial sólida (Fender Telecaster, 1950 ), y luego el bajo eléctrico (Precision Bass, 1951), a pesar de nunca haber aprendido a tocar estos instrumentos.
+Leo Fender fue un inventor estadounidense que revolucionó la música popular del siglo XX, al crear la primera guitarra eléctrica sólida de producción industrial (Fender Esquire/Telecaster, 1950), y luego inventar el bajo eléctrico (Precision Bass, 1951), a pesar de nunca haber aprendido a tocar estos instrumentos.
 
 ## referencias
 
