@@ -120,10 +120,14 @@ $$tiempo = \frac{120 \cdot h}{5} = 24 \cdot horas$$
 
 con esto, la batería es capaz de entregar 50 mA, durante un tiempo de 24 horas, antes de agotar su capacidad de 1,200 mAh.
 
-## ejercicio-03: (30 minutos)
+## ejercicio-03: magnetismo (30 minutos)
 
 a)
 
 b)
 
 ## solución ejercicio-03
+
+a)
+
+b)

@@ -19,6 +19,22 @@ la electricidad describe flujo de energía y materia. con simpleza, tenemos la m
 
 un átomo o una molécula sin carga, es aquella que tiene igual número de protones y electrones, con lo que su carga total se anula y es 0. pero los electrones, en ciertas condiciones, pueden fluir, a lo que le llamamos corriente eléctrica.
 
+## fuerza eléctrica
+
+la ecuación de fuerza eléctrica entre 2 cargas viene dada por:
+
+$$F_{electrica} = K \cdot \frac{q_1 \cdot q_2}{r^2}$$
+
+donde:
+
+- K es la constante de Coulomb
+- q_1 y q_2 son cargas eléctricas, que tienen signo
+- r es la distancia entre las cargas
+
+la constante K de Coulomb tiene el siguiente valor y unidades:
+
+$$K \approx 9 \cdot 10^9 \cdot \frac{N \cdot m^2}{C^2}$$
+
 ## corriente eléctrica
 
 la corriente eléctrica la denotamos por I, de intensidad, y se mide en Amperes (A), que es una representación de carga eléctrica por unidad de tiempo. la unidad de carga eléctrica es Coulomb, con lo que 1 Ampere es igual a 1 Coulomb por segundo.
@@ -42,11 +58,17 @@ las fuentes de poder que usamos en la vida cotidiana, como el enchufe, una bater
 
 ## potencia eléctrica
 
-la potencia eléctrica se mide en watts (W), y un Watt es
+la potencia eléctrica se mide en watts (W), y un Watt es la cantidad de energía por segundo.
 
-la relación entre potencia, voltaje y corriente viene dada por
+$$1 \cdot W = 1 \cdot {J}{s}$$
+
+la relación entre potencia, voltaje y corriente viene dada por la ecuación:
 
 $$P = V \cdot I$$
+
+y si analizamos las unidades, podemos comprobar:
+
+$$1 \cdot W = 1 \cdot V \cdot 1 \cdot A = 1 \cdot \frac{J}{C} \cdot \frac{C}{s} = 1 \cdot {J}{s}$$
 
 ## magnetismo
 
