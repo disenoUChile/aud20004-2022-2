@@ -2,13 +2,37 @@
 
 ## ejercicio-01: fuerza eléctrica (30 minutos)
 
-a) cuánta es la energía eléctrica entre un protón y un electrón, separados por 10 cm? es de atracción o repulsión?
+a) cuántos electrones equivalen a 32 Coulomb?
 
-b)
+b) cuánta es la energía eléctrica entre un protón y un electrón, separados por 10 cm? es de atracción o repulsión?
 
 ## solución ejercicio-01
 
 a)
+
+sabemos que la carga de un electron es igual a
+
+$$q_{electron} = 1.6 \cdot 10^{-19} \cdot Coulomb$$
+
+entonces queremos encontrar el múltiplo X que logra llegar a 32 Coulomb:
+
+$$32 \cdot Coulomb = X \cdot q_{electron}$$
+
+y reemplazando la carga del electron
+
+$$32 \cdot Coulomb = X \cdot  1.6 \cdot 10^{-19} \cdot Coulomb$$
+
+podemos dividir por Coulomb y por 16 y resulta en:
+
+$$2 = X \cdot  0.1 \cdot 10^{-19}$$
+
+multiplicando por 10 elevado a 20:
+
+$$2 \cdot 10^{20} = X$$
+
+entonces la cantidad de electrones necesarios para una carga de 16 C es de 2 por 10 elevado a 20.
+
+b)
 
 la fuerza eléctrica está dada por
 
@@ -35,8 +59,6 @@ y simplificando:
 $$F_{electrica} = -(9 \cdot 1.6^{2})\cdot 10^{-27} \cdot N$$
 
 ese es el valor de la fuerza eléctrica, y como es un electrón y un protón con cargas de signo distinto, es una fuerza de atracción.
-
-b)
 
 ## ejercicio-02: energía y potencia domiciliaria (30 minutos)
 
