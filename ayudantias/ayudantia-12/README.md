@@ -184,6 +184,6 @@ $$tiempo = \frac{1200 \cdot 30}{1000} \cdot h$$
 
 y simplificando
 
-$$tiempo = 12 \cdot 3 \cdot h = 36 horas$$
+$$tiempo = 12 \cdot 3 \cdot h = 36 \cdot horas$$
 
 con esto, hemos llegado al resultado de que esta pila con capacidad de 1200 mAh, cuando alimenta un circuito de 50 mW de potencia, lo puede hacer durante 36 horas.
