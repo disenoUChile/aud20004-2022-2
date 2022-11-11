@@ -106,15 +106,15 @@ en un día, es 24 veces esto, y en un mes promedio, 30 veces esto, calculemos es
 
 $$energía_{mes} = 30 \cdot 24 \cdot 250 \cdot Wh$$
 
-y si el costo es de 100 pesos chilenos por 1 kWh, calculemos el precio
+y esto en kWh, es igual a
 
-$$precio_{mes} = \frac{30 \cdot 24 \cdot 250 \cdot Wh}{\frac{1 \cdot kWh}{100 \cdot CLP}}$$
+$$energía_{mes} = 180 \cdot kWh$$
 
-y despejando
+si un kWh vale 100 pesos chilenos, entonces el precio de 180 veces esto es igual a:
 
-$$precio_{mes} = \frac{30 \cdot 6 \cdot 1000 \cdot Wh}{\frac{1 \cdot kWh}{100 \cdot CLP}} = \frac{30 \cdot 6}{\frac{1}{100 \cdot CLP}} = 180 CLP$$
+$$precio_{mes} = 180 \cdot 100 CLP = 18,000 CLP$$
 
-el costo de tener este refrigerador enchufado todo el mes es de 180 CLP.
+el costo de tener este refrigerador enchufado y funcionando a máxima potencia todo el mes es de 18 mil pesos chilenos. el costo real es menor, ya que el refrigerador no siempre está funcionando a su máxima potencia!
 
 ## ejercicio-03: energía en una batería (30 minutos)
 
@@ -156,26 +156,34 @@ y reemplazando los valores
 
 $$I = \frac{50 \cdot mW}{1.5 V}$$
 
-y simplificando
+y desarollando
 
-$$I = \frac{100 \cdot mW}{3 V}$$
+$$I = \frac{50 \cdot V \cdot A}{1000 \cdot 1.5 V}$$
 
-$$I = \frac{100}{3} \cdot mA \approx 33 \cdot mA$$
+$$I = \frac{50 \cdot A}{1500}$$
 
-con esta corriente, podemos tomar su capacidad en mAh, que significa la corriente que es capaz de entregar por hora, y plantear la ecuación
+$$I = \frac{5 \cdot A}{150}$$
+
+$$I = \frac{1}{30} \cdot A$$
+
+con esta corriente, podemos tomar su capacidad en mAh, que significa la corriente que es capaz de entregar por hora, y plantear la ecuación.
 
 $$capacidad = corriente \cdot tiempo$$
 
-despejamos el tiempo
+en esta ecuación, la capacidad es constante, y la corriente y el tiempo tienen proporcionalidad inversa. reemplacemos con la corriente que acabamos de calcular, para encontrar el tiempo correspondiente.
 
-$$tiempo = \frac{capacidad}{corriente}$$
+$$1,200 mAh = \frac{1}{30} \cdot A \cdot tiempo$$
 
-y reemplazando los valores
+dividimos por A y expandimos milis en 1/1000:
 
-$$tiempo = \frac{1,200 \cdot mAh}{50 \cdot mA}$$
+$$\frac{1200}{1000} \cdot h = \frac{1}{30} \cdot tiempo$$
 
-y despejando
+multiplicamos por 30 a ambos lados para despejar tiempo:
 
-$$tiempo = \frac{120 \cdot h}{5} = 24 \cdot horas$$
+$$tiempo = \frac{1200 \cdot 30}{1000} \cdot h$$
 
-con esto, la batería es capaz de entregar 50 mA, durante un tiempo de 24 horas, antes de agotar su capacidad de 1,200 mAh.
+y simplificando
+
+$$tiempo = 12 \cdot 3 \cdot h = 36 horas$$
+
+con esto, hemos llegado al resultado de que esta pila con capacidad de 1200 mAh, cuando alimenta un circuito de 50 mW de potencia, lo puede hacer durante 36 horas.
