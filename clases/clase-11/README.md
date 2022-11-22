@@ -14,27 +14,29 @@ la luz es un fenómeno complejo que no se puede abstraer solamente a un comporta
 
 la luz tiene una naturaleza dual. se comporta como partícula y como onda. tanto partícula como onda son modelos simplificados de la realidad y
 
-The modern view is that light has a dual nature. To debate whether light is a particle or a wave is inappropriate because in some experiments light acts like a wave and in others it acts like a particle. Perhaps it is most accurate to say that both waves and particles are simplified models of reality and that light is such a complicated phenomenon that no one model from our common experience can be devised to explain its nature.
-
 ## espectro de luz visible
 
-vemos ondas cuyas longitudes de onda van entre 400 y 700 nanómetros.
+como humanos, vemos ondas cuyas longitudes de onda van entre 400 y 700 nanómetros.
 
-$$1 \cdot nanómetro = 1 \cdot nm = 10^{-9} m$$
+$$1 \cdot nanómetro = 1 \cdot nm = 1 \cdot 10^{-9} \cdot m$$
 
 los colores del espectro visible, ordenadas de longitud de onda más corta a más larga:
 
-- violeta
-- azul
-- verde
-- rojo
-- amarillo
-- naranja
-- rojo
+| color    | longitud de onda (nm) | frecuencia (THz) |
+| :------- | :-------------------- | :--------------- |
+| violeta  | 380-450               | 670-790          |
+| azul     | 450-485               | 620-670          |
+| cyan     | 485-500               | 600-620          |
+| verde    | 500-565               | 530-600          |
+| amarillo | 565-590               | 510-530          |
+| naranja  | 590-625               | 480-510          |
+| rojo     | 625-750               | 400-480          |
 
-si los ordenamos por frecuencia, el orden es al revés.
+a cada rango de longitud de onda, podemos encontrar la frecuencia asociada, que es cómodo medirla en Tera Hertz.
 
-ondas más largas que el espectro visible son infrarrojas, ondas más cortas que el espectro visible son llamadas ultravioleta.
+$$1 \cdot THz = 1 \cdot 10^{12} \cdot Hz$$
+
+ondas de menor frecuencia que el espectro visible son infrarrojas, ondas de mayor frecuencia que el espectro visible son llamadas ultravioleta.
 
 ## velocidad de la luz
 
@@ -45,18 +47,6 @@ es la máxima velocidad posible.
 esto lleva al concepto de año luz, que es una unidad de distancia, que simboliza cuánta distancia es capaz de recorrer la luz en un año
 
 $$1 \cdot añoluz = velocidad_{luz} * 1 \cdot año = 3 \cdot 10^{8} \frac{m}{s} \cdot 365.25 \cdot 24 \cdot 60 \cdot 60 s = (3 \cdot 365 \cdot 24 \cdot 60 \cdot 60) \cdot 10^{8} m = (3 \cdot 365 \cdot 24 \cdot 36) \cdot 10^{10} \cdot m =  \cdot 10^{10} \cdot m = 9.46728 \cdot 10^{15} \cdot m \approx 10^{16} \cdot m$$
-
-## reflexión de luz
-
-la mayoría de los objetos son visibles por la luz que reflejan.
-
-las imágenes virtuales en un espejo no se pueden proyectar.
-
-las imágenes reales sí se pueden proyectar.
-
-## ley de reflexión
-
-si tenemos un rayo incidente en una superficie reflectante, se refleja en el mismo ángulo.
 
 ## percepción de color
 
