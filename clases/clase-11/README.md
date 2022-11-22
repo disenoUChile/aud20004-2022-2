@@ -16,7 +16,7 @@ la luz tiene una naturaleza dual. se comporta como partícula y como onda. tanto
 
 ## espectro de luz visible
 
-como humanos, vemos ondas cuyas longitudes de onda van entre 400 y 700 nanómetros.
+como humanos, vemos ondas cuyas longitudes de onda van entre aproximadamente 400 y 800 nanómetros.
 
 $$1 \cdot nanómetro = 1 \cdot nm = 1 \cdot 10^{-9} \cdot m$$
 
