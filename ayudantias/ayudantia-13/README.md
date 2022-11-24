@@ -10,7 +10,6 @@ instrucciones:
 - poner todos los nombres en el papel, la fecha, y el nombre del curso
 - elegir 3 problemas y responderlos
 - para la nota se toman los mejores 2 problemas
-<!--
 
 ## ejercicio-01: espectro de luz visible (3 puntos)
 
@@ -57,9 +56,9 @@ $$K \approx 9 \cdot 10^9 \cdot \frac{N \cdot m^2}{C^2}$$
 
 ## ejercicio-05: energía y potencia domiciliaria (3 puntos)
 
-a) si el voltaje domiciliario en cierto país es de 110 V, y la corriente máxima es de 25 A, cuánta es la potencia máxima que puede brindar un enchufe?
+a) si el voltaje domiciliario en cierto lugar es de 110 V, y la corriente máxima es de 25 A, cuánta es la potencia máxima que puede brindar un enchufe en ese lugar?
 
-b) en ese país, si una lavadora consume una potencia máxima de 330 W, cuánta corriente le pide al enchufe? cuánto gasta ese refrigerador en un mes funcionando a su máxima potencia?
+b) en ese lugar, si una lavadora consume una potencia máxima de 330 W, cuánta corriente le pide al enchufe? cuánto gasta ese refrigerador en un mes funcionando a la mitad de su máxima potencia?
 
 dato:
 
@@ -69,4 +68,4 @@ $$1 \cdot kWh = 100 \cdot CLP$$
 
 a) si tenemos una batería AA de voltaje 9 V y capacidad de 2,000 mAh, cuánta carga tiene en Coulombs?
 
-b) si la batería la usamos para alimentar un circuito con una potencia de 12 mW, cuánta corriente extrae de la batería? y cuánto se demora la batería en descargarse? -->
+b) si la batería la usamos para alimentar un circuito con una potencia de 12 mW, cuánta corriente extrae de la batería? y cuánto se demora la batería en descargarse?
