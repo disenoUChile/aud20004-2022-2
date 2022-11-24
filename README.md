@@ -51,7 +51,7 @@ la nota final de la clase será el promedio simple de estas evaluaciones:
 | clase                  | fecha      | tema                                                               |
 | :--------------------- | :--------- | :----------------------------------------------------------------- |
 | [01](clases/clase-01/) | 2022-08-09 | clase de repaso y diagnóstico de matemáticas                       |
-| [02](clases/clase-02/) | 2022-08-18 | unidad 0: vectores y fuerzas                                       |
+| [02](clases/clase-02/) | 2022-08-16 | unidad 0: vectores y fuerzas                                       |
 | [03](clases/clase-03/) | 2022-08-23 | unidad 1: cinemática en 1D y 2D                                    |
 | [04](clases/clase-04/) | 2022-08-30 | unidad 2: dinámica                                                 |
 | [05](clases/clase-05/) | 2022-09-06 | unidad 3: energía y cantidad de movimiento                         |
